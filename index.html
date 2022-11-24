@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="icA">
+                <img src="img/CDSAgent.ico" alt="image" width="20px">
+                ICC Agent
+            </div>
+
+            <table class="table1">
+                <tr class="tr1">
+                    <td id="td">
+                        <a href="login.html" class="td"> Login</a>
+                    </td>
+                </tr>
+
+                <tr class="tr2">
+                    <td class="border_R">
+                        <div class="cont">
+                            <img src="img/Login.png" alt="#" width="20px" height="20px">
+                            <div class="border"> Bytt rolle</div>
+                        </div>
+                    </td>
+                    <td class="border_R">
+                        <div class="cont">
+                            <img src="img/01 Klar.png" alt="#" height="20px">
+                            <div class="border"> Ready</div>
+                        </div>
+                    </td>
+                    <td class="border_R">
+                        <div class="cont">
+                            <img src="img/AgentsOnQueues.png" alt="#" height="20px">
+                            <div class="border"></div>
+                        </div>
+                    </td>
+                    <td class="border_R">
+                        <div class="cont">
+                            <img src="img/03 Nytt kall.png" alt="#" height="20px">
+                            <div class="border"> New enquiry</div>
+                        </div>
+                    </td>
+
+
+
+                    <td class="gray">
+                        <div class="cont">
+                            <img src="img/Phone.png" alt="#" height="20px">
+                            <div class="nob"> Answer</div>
+                    </td>
+                    <td class="gray">
+                        <div class="cont">
+                            <img src="" alt="#">
+                            <div>Hang up</div>
+                    </td>
+                    <td class="gray">
+                        <div class="cont">
+                            <img src="img/09 Parker.png" alt="#" height="20px">
+                            <div class="nob">Hold
+                            </div>
+                    </td>
+                    <td class="gray">
+                        <div class="cont">
+                            <img src="img/ActiveEnquiry.png" alt="#" height="20px">
+                            <div class="nob">Consultation</div>
+                    </td>
+                    <td class="gray">
+                        <div class="cont">
+                            <img src="img/08 Overfør.png" alt="#" height="20px">
+                            <div class="nob">Transfer</div>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <div class="middle"> <br>
+            <ul id="myList"></ul>
+            <!-- <ul id="myList" style="list-style-image: url(img/SignedOutVq.png);"></ul> -->
+            <script>
+                //variables
+                var cl = 'test'
+                var cl2 = 'test'
+                // Example on queues
+                let data = ["Bank", "Forsikring", "Kundeservise", "test"];
+
+                let list = document.getElementById("myList");
+
+                data.forEach((item) => {
+                    var li = document.createElement("li");
+                    li.innerText = item;
+                    list.appendChild(li);
+                    li.setAttribute("class", "disabled")
+
+
+                    li.onclick = function myfunc() {
+                        cl = li.getAttributeNode("class").value
+                        console.log(li.innerText);
+                        console.log(cl)
+                        if (cl == 'disabled') {
+                            li.removeAttribute("class", "disabled")
+                            li.setAttribute("class", "enable");
+                        } else {
+                            li.removeAttribute("class", "enable")
+                            li.setAttribute("class", "disabled");
+                        }
+
+
+
+
+                    }
+
+
+                });
+
+
+            </script>
+        </div>
+        <div class="contqg"><img src="img/Vq.png" alt="#" height="15px">
+            Queue groups
+        </div>
+        <footer class="footer">
+
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

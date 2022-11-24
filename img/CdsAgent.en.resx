@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterWork" xml:space="preserve">
+    <value>After-work</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="AnswerEnquiry" xml:space="preserve">
+    <value>Answer enquiry</value>
+  </data>
+  <data name="Call_" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="CancelConsultation" xml:space="preserve">
+    <value>Cancel consultation</value>
+  </data>
+  <data name="CDSAgent" xml:space="preserve">
+    <value>ICC Agent</value>
+  </data>
+  <data name="ClickOrSelectBreakcodeToSetNotReady" xml:space="preserve">
+    <value>Click or select break code to set yourself as not ready</value>
+  </data>
+  <data name="CompleteConference" xml:space="preserve">
+    <value>Complete conference</value>
+  </data>
+  <data name="CompleteTransfer" xml:space="preserve">
+    <value>Complete transfer</value>
+  </data>
+  <data name="Conference" xml:space="preserve">
+    <value>Conference</value>
+  </data>
+  <data name="Consultation" xml:space="preserve">
+    <value>Consultation</value>
+  </data>
+  <data name="ConsultForConference" xml:space="preserve">
+    <value>Consult for conference</value>
+  </data>
+  <data name="ConsultForConferenceWith" xml:space="preserve">
+    <value>Consult for conference with</value>
+  </data>
+  <data name="ConsultWith" xml:space="preserve">
+    <value>Consult with</value>
+  </data>
+  <data name="ConsultWithOtherPart" xml:space="preserve">
+    <value>Consult with other party</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+    <comment>As in making a call</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="EditMenu" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EnquiriesLists" xml:space="preserve">
+    <value>Enquiry lists</value>
+  </data>
+  <data name="ERR_ATTACH" xml:space="preserve">
+    <value>Error occurred during login</value>
+  </data>
+  <data name="ERR_CHANGEPASSWORD" xml:space="preserve">
+    <value>Error while changing password. Password not changed</value>
+  </data>
+  <data name="ERR_CHECKLOGOUTVQFORMAT" xml:space="preserve">
+    <value>Incorrect format of text indicating how many agents must be logged into the different queue groups. Format must be: '&lt;vqname&gt;:&lt;minimum count&gt;,&lt;vqname&gt;:&lt;minimum count&gt;,...,&lt;vqname&gt;:&lt;minimum count&gt;'</value>
+  </data>
+  <data name="ERR_DIDNOTACCEPTCALL" xml:space="preserve">
+    <value>You are now set as not ready, as you didn't accept/answer an enquiry that was transferred to you</value>
+  </data>
+  <data name="ERR_ERRORFROMCDS" xml:space="preserve">
+    <value>Error occurred</value>
+  </data>
+  <data name="ERR_HOSTISDEAD" xml:space="preserve">
+    <value>You have been logged out due to network problems</value>
+  </data>
+  <data name="ERR_INITIATECONFIG" xml:space="preserve">
+    <value>Can’t start configuration. Application will be terminated</value>
+  </data>
+  <data name="ERR_LOGINANYVQS" xml:space="preserve">
+    <value>Couldn’t log into any queue groups</value>
+  </data>
+  <data name="ERR_LOGINVQS" xml:space="preserve">
+    <value>Couldn’t log into some queue groups</value>
+  </data>
+  <data name="ERR_LOGOUTANYVQS" xml:space="preserve">
+    <value>Can’t log out of any queue groups</value>
+  </data>
+  <data name="ERR_LOGOUTVQS" xml:space="preserve">
+    <value>Can’t log out of some queue groups</value>
+  </data>
+  <data name="ERR_NOCOMMAND" xml:space="preserve">
+    <value>No command entered</value>
+  </data>
+  <data name="ERR_OLDPASSWORDWRONG" xml:space="preserve">
+    <value>Old password incorrect</value>
+  </data>
+  <data name="ERR_SCRIPTCOMMAND_NOT_FOUND" xml:space="preserve">
+    <value>Invalid command used in script</value>
+  </data>
+  <data name="ERR_TOOFEWLOGGEDIN" xml:space="preserve">
+    <value>You can’t log out of the specified queue group as there is a minimum requirement for the number logged in</value>
+  </data>
+  <data name="ERR_TRANSFERCALLFAILURE" xml:space="preserve">
+    <value>Error while transferring enquiry to you</value>
+  </data>
+  <data name="ERR_UNKNOWNWPID" xml:space="preserve">
+    <value>Can’t log in – workplace ID unavailable (probably a configuration problem)</value>
+  </data>
+  <data name="ERR_UPDATEENQUIRYLOG" xml:space="preserve">
+    <value>Error while updating enquiry log</value>
+  </data>
+  <data name="ERR_VARIABLE_HAS_UNKNOWN_TYPE" xml:space="preserve">
+    <value>Unknown variable type</value>
+  </data>
+  <data name="ERR_VARIABLE_NOT_SET" xml:space="preserve">
+    <value>Variable not set</value>
+  </data>
+  <data name="ERR_WRITINGENQUIRYLOG" xml:space="preserve">
+    <value>Can’t save enquiry</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="ShowInCatalog" xml:space="preserve">
+    <value>Show in directory</value>
+  </data>
+  <data name="Hangup" xml:space="preserve">
+    <value>Hang up</value>
+  </data>
+  <data name="HangupEnquiry" xml:space="preserve">
+    <value>Finish enquiry</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="HoldEnquiry" xml:space="preserve">
+    <value>Hold enquiry</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="MenuEditChangePassword" xml:space="preserve">
+    <value>Change &amp;password</value>
+  </data>
+  <data name="MenuEnquiry" xml:space="preserve">
+    <value>&amp;Enquiry</value>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="MenuFileExit" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="MenuFileLogin" xml:space="preserve">
+    <value>Log &amp;in</value>
+  </data>
+  <data name="MenuFileLogout" xml:space="preserve">
+    <value>Log &amp;out</value>
+  </data>
+  <data name="MenuFileRunCommand" xml:space="preserve">
+    <value>&amp;Run command</value>
+  </data>
+  <data name="MenuShow" xml:space="preserve">
+    <value>&amp;Show</value>
+  </data>
+  <data name="MenuShowTrace" xml:space="preserve">
+    <value>&amp;Trace</value>
+  </data>
+  <data name="MenuStatus" xml:space="preserve">
+    <value>&amp;Status</value>
+  </data>
+  <data name="MenuStatusSetNotReady" xml:space="preserve">
+    <value>Set &amp;not ready</value>
+  </data>
+  <data name="MenuStatusSignInAllQueues" xml:space="preserve">
+    <value>Sign in &amp;all queue groups</value>
+  </data>
+  <data name="MenuStatusSignInLastQueues" xml:space="preserve">
+    <value>Sign in &amp;last queue groups</value>
+  </data>
+  <data name="MenuStatusSignInOrOut" xml:space="preserve">
+    <value>&amp;Sign in/out</value>
+  </data>
+  <data name="MenuStatusSignOutAllQueues" xml:space="preserve">
+    <value>Sign &amp;out all queue groups</value>
+  </data>
+  <data name="MenuShowMyActiveEnquiries" xml:space="preserve">
+    <value>My &amp;active enquiries</value>
+  </data>
+  <data name="NotReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="OtherPart" xml:space="preserve">
+    <value>Other party</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="SendDirectMessageToAgent" xml:space="preserve">
+    <value>Send direct message to agent</value>
+  </data>
+  <data name="SendMailTo" xml:space="preserve">
+    <value>Send e-mail to</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="SendWebCamera" xml:space="preserve">
+    <value>Send web camera</value>
+  </data>
+  <data name="SetReadyToReceiveEnquires" xml:space="preserve">
+    <value>Set ready to receive enquiries</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Show text</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value></value>
+    <comment>As Log in queues</comment>
+  </data>
+  <data name="SignInAllQueues" xml:space="preserve">
+    <value>Sign in to all queue groups</value>
+  </data>
+  <data name="SignInLastQueues" xml:space="preserve">
+    <value>Sign in to last queue groups</value>
+  </data>
+  <data name="SignInQueues" xml:space="preserve">
+    <value>Sign in to queue groups</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value></value>
+    <comment>As Log out of queue groups</comment>
+  </data>
+  <data name="SignOutAllQueues" xml:space="preserve">
+    <value>Sign out of all queue groups</value>
+  </data>
+  <data name="SimulateCallTo" xml:space="preserve">
+    <value>Simulate call to</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="TransferDirect" xml:space="preserve">
+    <value>Transfer direct</value>
+  </data>
+  <data name="TransferTo" xml:space="preserve">
+    <value>Transfer to</value>
+  </data>
+  <data name="UnHold" xml:space="preserve">
+    <value>Resume</value>
+    <comment>(see previous commetn about resume being more common)</comment>
+  </data>
+  <data name="UnholdEnquiry" xml:space="preserve">
+    <value>Resume enquiry</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="MenuVarious" xml:space="preserve">
+    <value>&amp;Various</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Workplace</value>
+  </data>
+  <data name="YouAreNowLoggetOut" xml:space="preserve">
+    <value>You are now logged out…</value>
+  </data>
+  <data name="YouCanNotLogoutFromQueuesWhenStillReadySetNotReady" xml:space="preserve">
+    <value>You can’t log out of the queues while still set as ready. Set yourself as not ready first</value>
+  </data>
+  <data name="YourPasswordIsNowChanged" xml:space="preserve">
+    <value>Your password has now been changed</value>
+  </data>
+  <data name="MenuShowEnquiriesLists" xml:space="preserve">
+    <value>&amp;Enquiry lists</value>
+  </data>
+  <data name="MenuShowMyFinishedEnquiries" xml:space="preserve">
+    <value>&amp;My finished enquiries</value>
+  </data>
+  <data name="EnquiryLog" xml:space="preserve">
+    <value>Enquiry log</value>
+  </data>
+  <data name="ActiveEnquiries" xml:space="preserve">
+    <value>Active enquiries</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="MenuItemShowCatalog" xml:space="preserve">
+    <value>&amp;Directory</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="MenuItemShowSearch" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="MenuEditMedia" xml:space="preserve">
+    <value>&amp;Media</value>
+  </data>
+  <data name="MenuStatusShowServiceStatus" xml:space="preserve">
+    <value>&amp;Show service status</value>
+  </data>
+  <data name="AHeldCallIsDisconnected" xml:space="preserve">
+    <value>A held call has been disconnected</value>
+  </data>
+  <data name="OtherPartIs" xml:space="preserve">
+    <value>Other party is</value>
+  </data>
+  <data name="ClickOrChooseToMakeANewEnquiry" xml:space="preserve">
+    <value>Click or select to create a new outbound enquiry</value>
+  </data>
+  <data name="NewEnquiry" xml:space="preserve">
+    <value>New enquiry</value>
+  </data>
+  <data name="NoOutboundEnquiryChoises" xml:space="preserve">
+    <value>No selections available for new outbound enquiry</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="ERR_NOFREEMEDIATODOUTBOUND" xml:space="preserve">
+    <value>No available resources to establish new outbound enquiry</value>
+  </data>
+  <data name="ERR_CANNOTFINDENQUIRY" xml:space="preserve">
+    <value>Can not find enquiry</value>
+  </data>
+  <data name="CreateAnNewOutboundEnquiry" xml:space="preserve">
+    <value>Create new outbound enquiry</value>
+  </data>
+  <data name="Telephony" xml:space="preserve">
+    <value>Telephony</value>
+  </data>
+  <data name="ResetLine" xml:space="preserve">
+    <value>Reset line</value>
+  </data>
+  <data name="RestartSIP" xml:space="preserve">
+    <value>Reset SIP line</value>
+  </data>
+  <data name="MenuOptionFocusOnNewEnquiry" xml:space="preserve">
+    <value>&amp;Focus if new enquiry</value>
+  </data>
+  <data name="MenuOptions" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="MenuOptionFocusNoFocus" xml:space="preserve">
+    <value>No focus</value>
+  </data>
+  <data name="MenuOptionFocusShowMainWindow" xml:space="preserve">
+    <value>Show main window</value>
+  </data>
+  <data name="MenuOptionFocusShowMyActiveEnquiries" xml:space="preserve">
+    <value>Show my active enquiries</value>
+  </data>
+  <data name="MenuOptionFocusShowNewWindow" xml:space="preserve">
+    <value>Show new window</value>
+  </data>
+  <data name="MyActiveEnquiries" xml:space="preserve">
+    <value>My active enquiries</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navigate</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="FinishedDownloaded" xml:space="preserve">
+    <value>Download complete</value>
+  </data>
+  <data name="WebWindow" xml:space="preserve">
+    <value>Web window</value>
+  </data>
+  <data name="ERR_NOTHENAFTERIF" xml:space="preserve">
+    <value>'If' must be followed by 'then'</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Always on top</value>
+  </data>
+  <data name="ThisChoiseWillresultInCDSAgentAlwysInFront" xml:space="preserve">
+    <value>This selection means ICC Agent will always be in front</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Loggingin" xml:space="preserve">
+    <value>Login in</value>
+    <comment>As in "Connecting in 30 seconds" </comment>
+  </data>
+  <data name="seconds_" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="second_" xml:space="preserve">
+    <value>second</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LoginNow" xml:space="preserve">
+    <value>Log in now</value>
+  </data>
+  <data name="ClickToSelectDateOrChooseFromMenu" xml:space="preserve">
+    <value>Click to choose date or select from menu</value>
+  </data>
+  <data name="ShowStatisticsOfMyFinishedEnquiries" xml:space="preserve">
+    <value>Show statistics for my finished enquiries</value>
+  </data>
+  <data name="ShowListsOfMyFinishedEnquiries" xml:space="preserve">
+    <value>Show lists of my finished enquiries</value>
+  </data>
+  <data name="ShowMyFinishedEnquiriesFromToday" xml:space="preserve">
+    <value>Show my finished enquiries from today</value>
+  </data>
+  <data name="ShowMyFinishedEnquiriesFromYesterday" xml:space="preserve">
+    <value>Show my finished enquiries from yesterday</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="LoggingIn_" xml:space="preserve">
+    <value>Logging in</value>
+  </data>
+  <data name="EnquiryWith" xml:space="preserve">
+    <value>Enquiry with</value>
+    <comment>As in: Enquiry with other part</comment>
+  </data>
+  <data name="NewWindowOnEveryEnquiry" xml:space="preserve">
+    <value>New window for each enquiry</value>
+  </data>
+  <data name="CloseWindowOnFinishedEnquiry" xml:space="preserve">
+    <value>Close window when enquiry is finished</value>
+  </data>
+  <data name="ShowWindowForActiveEnquiry" xml:space="preserve">
+    <value>Show window for active enquiry</value>
+  </data>
+  <data name="ShowsOrHidesWindowWithInformationOfTheActiveEnquiryWith" xml:space="preserve">
+    <value>Shows or hides window with information on the active enquiry with</value>
+    <comment>as in '.... active enquiry with 90739669'</comment>
+  </data>
+  <data name="ShowWindowWithInformation" xml:space="preserve">
+    <value>Show window with information</value>
+  </data>
+  <data name="DoNotSetReadyBeforeConsultationCallIsFinished" xml:space="preserve">
+    <value>Don’t set yourself as ready before consultation call is finished</value>
+  </data>
+  <data name="OriginalCallIsDisconnected" xml:space="preserve">
+    <value>Original call disconnected</value>
+  </data>
+  <data name="SetReady" xml:space="preserve">
+    <value>Set ready</value>
+  </data>
+  <data name="SetAfterwork" xml:space="preserve">
+    <value>Extend after work</value>
+  </data>
+  <data name="HandleEnquiry" xml:space="preserve">
+    <value>Process enquiry</value>
+  </data>
+  <data name="TheEnquiryWillBeTransferredToYou" xml:space="preserve">
+    <value>Enquiry will be transferred to you</value>
+  </data>
+  <data name="QueueInformation" xml:space="preserve">
+    <value>Queue information</value>
+  </data>
+  <data name="ShowInformationAboutQueueCountAndNumberOfAgentsOnQueues" xml:space="preserve">
+    <value>Show information on queue lengths and number of agents on queues</value>
+  </data>
+  <data name="Agents" xml:space="preserve">
+    <value>Agents</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Queue group</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Not connected</value>
+  </data>
+  <data name="Consultations" xml:space="preserve">
+    <value>Consultations</value>
+  </data>
+  <data name="IncomingCdsEnquiries" xml:space="preserve">
+    <value>Incoming ICC enquiries</value>
+  </data>
+  <data name="IncomingDirectEnquiries" xml:space="preserve">
+    <value>Incoming direct enquiries</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Other</value>
+    <comment>as in OTHER type of calls. If word stands alone 'others', if used with plural noun it will be 'other'</comment>
+  </data>
+  <data name="OutgoingCdsEnquiries" xml:space="preserve">
+    <value>Outbound ICC enquiries</value>
+  </data>
+  <data name="OutgoingDirectEnquiries" xml:space="preserve">
+    <value>Outbound direct enquiries</value>
+  </data>
+  <data name="Moore" xml:space="preserve">
+    <value>More</value>
+    <comment>as in MORE text (The name of this is actually MORE, but this is a global key) </comment>
+  </data>
+  <data name="AverageHandlingTime" xml:space="preserve">
+    <value>Average processing time</value>
+  </data>
+  <data name="AverageWaitingTimeBeforeAnswered" xml:space="preserve">
+    <value>Average waiting time before answered</value>
+  </data>
+  <data name="HandlingTime" xml:space="preserve">
+    <value>Processing time</value>
+  </data>
+  <data name="IncomingCdsEnquiriesPrQueue" xml:space="preserve">
+    <value>Incoming ICC enquiries per queue</value>
+  </data>
+  <data name="NumberOfAnswered" xml:space="preserve">
+    <value>Number of answered</value>
+  </data>
+  <data name="NumberOfEnquiries" xml:space="preserve">
+    <value>Number of enquiries</value>
+  </data>
+  <data name="OutgoingCdsEnquiriesPrQueue" xml:space="preserve">
+    <value>Outbound ICC enquiries per queue</value>
+  </data>
+  <data name="TimeUsedToHandlingEnquiries" xml:space="preserve">
+    <value>Time used for processing enquiries</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+    <comment>As in "total result"</comment>
+  </data>
+  <data name="CannotWriteOrReceiveMessagesAtTheMoment" xml:space="preserve">
+    <value>Can’t receive or send messages at the moment</value>
+  </data>
+  <data name="CannotSendOrReceiveMessagesWhenNotConnected" xml:space="preserve">
+    <value>Can’t send or receive chat messages when not logged in</value>
+  </data>
+  <data name="chat_" xml:space="preserve">
+    <value>chat</value>
+  </data>
+  <data name="ERR_SENDCHATCOMMANDTOAGENT" xml:space="preserve">
+    <value>Can’t send message to agent (probably logged out)</value>
+  </data>
+  <data name="ShowChatHistory" xml:space="preserve">
+    <value>Show chat history</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="says_" xml:space="preserve">
+    <value>says</value>
+    <comment>small first letter </comment>
+  </data>
+  <data name="ChatWithAgent" xml:space="preserve">
+    <value>Chat withagent</value>
+    <comment>Might be like "Chat with agent" or "Chat with agent Ola Nordmann" </comment>
+  </data>
+  <data name="ChatWith" xml:space="preserve">
+    <value>Chat with</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+    <comment>As in "Clear text"</comment>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+    <comment>As in "Send message"</comment>
+  </data>
+  <data name="UseTheText" xml:space="preserve">
+    <value>Use the text</value>
+    <comment>as in "Use the text 'only testing'"</comment>
+  </data>
+  <data name="ReadyToSendMessages" xml:space="preserve">
+    <value>Ready to send messages</value>
+  </data>
+  <data name="CannotSendMooreMessages" xml:space="preserve">
+    <value>Can’t send any more messages</value>
+  </data>
+  <data name="EnquiryIsFinished" xml:space="preserve">
+    <value>Enquiry is finished</value>
+  </data>
+  <data name="ERR_CANNOTDOTHIS" xml:space="preserve">
+    <value>Can’t perform this operation (configuration problem)</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="WriteYourFullName" xml:space="preserve">
+    <value>Enter your full name</value>
+  </data>
+  <data name="ERR_CONFIGURATIONMISSING" xml:space="preserve">
+    <value>Configuration missing</value>
+  </data>
+  <data name="ERR_INFORMATIONMISSING" xml:space="preserve">
+    <value>Information missing</value>
+  </data>
+  <data name="NotLoggedInAnyQueues" xml:space="preserve">
+    <value>Not signed into any queue groups</value>
+  </data>
+  <data name="ShowMainWindow" xml:space="preserve">
+    <value>Show main window</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="TotalInQueue" xml:space="preserve">
+    <value>Total in queue</value>
+  </data>
+  <data name="TimeInQueue" xml:space="preserve">
+    <value>Time in queue</value>
+  </data>
+  <data name="ERR_LOGINSERVICEFAILURE" xml:space="preserve">
+    <value>Error occurred while logging in to service</value>
+  </data>
+  <data name="YouMustRestartToTakeEffectOfTheChanges" xml:space="preserve">
+    <value>You must restart ICC Agent for the changes to take effect.</value>
+  </data>
+  <data name="YourProfileHasBeenChanged" xml:space="preserve">
+    <value>Your user profile has been changed</value>
+  </data>
+  <data name="ERR_LOGOUTSERVICEFAILURE" xml:space="preserve">
+    <value>Error while logging out of service</value>
+  </data>
+  <data name="ERR_CALLREJECTED" xml:space="preserve">
+    <value>Call rejected by other party</value>
+  </data>
+  <data name="ERR_IVRDESTBUSYERROR" xml:space="preserve">
+    <value>Destination busy</value>
+  </data>
+  <data name="ERR_IVRERROR" xml:space="preserve">
+    <value>Error occurred</value>
+  </data>
+  <data name="ERR_DATASOURCESNOTINITIALIZED" xml:space="preserve">
+    <value>Data sources not initialised</value>
+  </data>
+  <data name="ERR_CANNOTSHOWDATAROWINCATALOG" xml:space="preserve">
+    <value>Can’t show information in directory</value>
+  </data>
+  <data name="ActiveEnquiry" xml:space="preserve">
+    <value>Active enquiry</value>
+  </data>
+  <data name="ERR_SERVICEDOESNOTEXIST" xml:space="preserve">
+    <value>Service doesn’t exist</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+    <comment>Button-title (as in "do record")</comment>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>Recording</value>
+  </data>
+  <data name="StartRecordingOfTheEnquiry" xml:space="preserve">
+    <value>Start recording enquiry</value>
+  </data>
+  <data name="TerminateRecordingOfTheEnquiry" xml:space="preserve">
+    <value>Finish recording enquiry</value>
+  </data>
+  <data name="ClickToListenToThisRecording" xml:space="preserve">
+    <value>Click to hear this recording</value>
+  </data>
+  <data name="ListenToRecording" xml:space="preserve">
+    <value>Listen to recording</value>
+  </data>
+  <data name="ThisEnquiryContainsRecording" xml:space="preserve">
+    <value>This enquiry is connected to recording</value>
+  </data>
+  <data name="MarkAsRegistered" xml:space="preserve">
+    <value>Mark as registered</value>
+  </data>
+  <data name="RegisterThatYouHaveNoticedThisLostEnquiry" xml:space="preserve">
+    <value>Register that you take responsibility for this lost enquiry</value>
+  </data>
+  <data name="MarkAsHandled" xml:space="preserve">
+    <value>Mark as processed</value>
+  </data>
+  <data name="RegisterThatYouHaveHandledTheLostEnquiry" xml:space="preserve">
+    <value>Register that you have processed the lost enquiry (contact)</value>
+  </data>
+  <data name="RemoveFromList" xml:space="preserve">
+    <value>Remove from lists</value>
+  </data>
+  <data name="TheEnquiryWillBeTemporaryRemovedFromAllLists" xml:space="preserve">
+    <value>Enquiry will be temporarily removed from all lists</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="TurnsSoundOnOrOff" xml:space="preserve">
+    <value>Turns sound on or off</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>as in Status on Enquiry</comment>
+  </data>
+  <data name="TimeFromAnswer" xml:space="preserve">
+    <value>Time from answer</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>as in Type of Enquiry</comment>
+  </data>
+  <data name="Queues" xml:space="preserve">
+    <value>Queue groups</value>
+  </data>
+  <data name="ShowWindowWithQueueButtons" xml:space="preserve">
+    <value>Show window with queue buttons</value>
+  </data>
+  <data name="NoOneInQueue" xml:space="preserve">
+    <value>No-one in queue</value>
+  </data>
+  <data name="NumberInQueue" xml:space="preserve">
+    <value>Number in queue</value>
+  </data>
+  <data name="NumberOfAgents" xml:space="preserve">
+    <value>Number of agents</value>
+  </data>
+  <data name="inQueueOn" xml:space="preserve">
+    <value>in queue on</value>
+    <comment>as in 'There is 2 in queue on TestQueue'</comment>
+  </data>
+  <data name="ThereIs" xml:space="preserve">
+    <value>There are</value>
+    <comment>as in 'There is 2 is queue'   ( 'are' if more than one)</comment>
+  </data>
+  <data name="ThereIsNoOneInQueueOn" xml:space="preserve">
+    <value>There is no-one in queue on</value>
+    <comment>as in 'There is no one in queue on TestQueue'</comment>
+  </data>
+  <data name="is_" xml:space="preserve">
+    <value>is</value>
+    <comment>as in 'Waitingtime for the queue TestQueue is 3:20'</comment>
+  </data>
+  <data name="NumberOfAgentsSignedInOn" xml:space="preserve">
+    <value>Number of agents signed in on</value>
+    <comment>as in "Number of agents signed in on TestQueue: 2"</comment>
+  </data>
+  <data name="ThereIsNoAgentsSignedInOn" xml:space="preserve">
+    <value>There are no agents signed in</value>
+    <comment>as in "There is no agents signed in on TestQueue"</comment>
+  </data>
+  <data name="ThereIsNoWaitingTimeOn" xml:space="preserve">
+    <value>There is no waiting time on</value>
+    <comment>as in 'There is no waitingtime on TestQueue'</comment>
+  </data>
+  <data name="WaitingTimeForTheQueue" xml:space="preserve">
+    <value>Waiting time for queue group</value>
+    <comment>as in 'Waitingtime for the queue TestQueue is 3:20'</comment>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="MoveToBottom" xml:space="preserve">
+    <value>Move to bottom</value>
+  </data>
+  <data name="MoveToTop" xml:space="preserve">
+    <value>Move to top</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="NumberOfReadyAgents" xml:space="preserve">
+    <value>Number of ready agents</value>
+  </data>
+  <data name="NumberOfVacantAgents" xml:space="preserve">
+    <value>Number of free agents</value>
+  </data>
+  <data name="Cancel_SelectButton" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="Ok_SelectButton" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="SelectDestination" xml:space="preserve">
+    <value>Select destination</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="IWishToSelectedSeveralContacts" xml:space="preserve">
+    <value>I want to select several contacts</value>
+  </data>
+  <data name="RemoveSelectedRows" xml:space="preserve">
+    <value>Remove selected rows</value>
+    <comment>Remove selected row(s)</comment>
+  </data>
+  <data name="SelectedContacts" xml:space="preserve">
+    <value>Selected contacts</value>
+  </data>
+  <data name="SendDirectMessageTo" xml:space="preserve">
+    <value>Send direct message to</value>
+  </data>
+  <data name="StartVideoSessionWith" xml:space="preserve">
+    <value>Start video session with</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="AddsAllDestinationsFromTheSelectedContacts" xml:space="preserve">
+    <value>Adds all destinations from selected contacts</value>
+  </data>
+  <data name="AddSelectedContacts" xml:space="preserve">
+    <value>Add selected contacts</value>
+  </data>
+  <data name="ERR_NOOUTBOUNDINFOONCONTACT" xml:space="preserve">
+    <value>Can’t find information on contact which can be used for outbound enquiry at this time</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>Not selected</value>
+  </data>
+  <data name="RemoveRow" xml:space="preserve">
+    <value>Remove row</value>
+  </data>
+  <data name="SendSameMessageToAllSelectedContacts" xml:space="preserve">
+    <value>Send same message to all selected contacts</value>
+  </data>
+  <data name="ContactSelected" xml:space="preserve">
+    <value>Contact selected</value>
+  </data>
+  <data name="ContactSelectedByGivenWay" xml:space="preserve">
+    <value>Contact selected by method specified</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="RemoveContact" xml:space="preserve">
+    <value>Remove contact</value>
+  </data>
+  <data name="RemoveselectedContacts" xml:space="preserve">
+    <value>Remove selected contacts</value>
+  </data>
+  <data name="AddContacts" xml:space="preserve">
+    <value>Add contacts</value>
+  </data>
+  <data name="RemoveFinishedContacts" xml:space="preserve">
+    <value>Remove finished contacts</value>
+  </data>
+  <data name="HasSent" xml:space="preserve">
+    <value>Has sent</value>
+  </data>
+  <data name="ERR_SENDINGMESSAGE" xml:space="preserve">
+    <value>Can’t send message to contact</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="SendMessageToContactsNotMarkedAsHasSent" xml:space="preserve">
+    <value>Send message to contacts not marked as sent</value>
+  </data>
+  <data name="CannotSendMessagesAtTheMoment" xml:space="preserve">
+    <value>Can’t send messages at the moment</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="SelectContactsToSendMessageTo" xml:space="preserve">
+    <value>Select contact(s) to send message to</value>
+  </data>
+  <data name="CloseWindowWhenMessageHasBeenSentToAllContact" xml:space="preserve">
+    <value>Close window when message has been sent to all contacts</value>
+  </data>
+  <data name="Searchtext" xml:space="preserve">
+    <value>Search text</value>
+  </data>
+  <data name="ERR_CANNOTFINDDESTINATIONONCONTACT" xml:space="preserve">
+    <value>Can’t find contact destination</value>
+  </data>
+  <data name="RemoveAllContacts" xml:space="preserve">
+    <value>Remove all contacts</value>
+  </data>
+  <data name="inQueue_" xml:space="preserve">
+    <value>in queue</value>
+    <comment>as in: 5 in queue</comment>
+  </data>
+  <data name="MaxWaitingTimeIs" xml:space="preserve">
+    <value>Maximum waiting time is</value>
+    <comment>as in: Maximum waiting time is 4:34</comment>
+  </data>
+  <data name="QueueStatusBar" xml:space="preserve">
+    <value>Queue status bar</value>
+  </data>
+  <data name="ShowToolbarWithQueueStatus" xml:space="preserve">
+    <value>Show toolbar with queue status</value>
+  </data>
+  <data name="NotLoggedIn" xml:space="preserve">
+    <value>Not logged in</value>
+  </data>
+  <data name="CloseQueueStatusBar" xml:space="preserve">
+    <value>Close queue status bar</value>
+  </data>
+  <data name="ShowOrHideCdsAgent" xml:space="preserve">
+    <value>Show or hide ICC Agent</value>
+  </data>
+  <data name="HideCdsAgent" xml:space="preserve">
+    <value>Hide ICC Agent</value>
+  </data>
+  <data name="ShowCdsAgent" xml:space="preserve">
+    <value>Show ICC Agent</value>
+  </data>
+  <data name="Autohide" xml:space="preserve">
+    <value>Autohide</value>
+  </data>
+  <data name="HideQueueStatusBarAutomaticlyWhenPorbablyNotInUse" xml:space="preserve">
+    <value>Automatically hide queue status bar when it appears not to be in use</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SettingsForQueueStatusBar" xml:space="preserve">
+    <value>Settings for queue status bar</value>
+  </data>
+  <data name="ShowsHowLongEnquiryHasBeenActive" xml:space="preserve">
+    <value>Shows how long call has been active</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="DoYouReallyWantToCloseWindoWithoutSaving" xml:space="preserve">
+    <value>Do you really want to close window without saving?</value>
+  </data>
+  <data name="InformationIsNotSaved" xml:space="preserve">
+    <value>Information not saved</value>
+  </data>
+  <data name="ERR_CANNOTSENDMESSAGE" xml:space="preserve">
+    <value>Can’t send message</value>
+  </data>
+  <data name="TurnOfSound" xml:space="preserve">
+    <value>Turn off sound</value>
+  </data>
+  <data name="SipSetup" xml:space="preserve">
+    <value>SIP setup</value>
+  </data>
+  <data name="ClickToChangeSetup" xml:space="preserve">
+    <value>Click to change setup</value>
+  </data>
+  <data name="Microphone" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="Speaker" xml:space="preserve">
+    <value>Speaker</value>
+  </data>
+  <data name="ChangeSoundLevel" xml:space="preserve">
+    <value>Change sound level</value>
+  </data>
+  <data name="ShowsSoundIntensity" xml:space="preserve">
+    <value>Shows sound level</value>
+  </data>
+  <data name="MarkToSetInSilentMode" xml:space="preserve">
+    <value>Mark as set to silent mode</value>
+  </data>
+  <data name="ChatText" xml:space="preserve">
+    <value>Chat text</value>
+  </data>
+  <data name="Simulated" xml:space="preserve">
+    <value>Simulated</value>
+  </data>
+  <data name="Ipaddress" xml:space="preserve">
+    <value>IP address</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Server name</value>
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>User address</value>
+  </data>
+  <data name="AgentsOnQueues" xml:space="preserve">
+    <value>Agents on queue groups</value>
+  </data>
+  <data name="UpdatingIn" xml:space="preserve">
+    <value>Updating in</value>
+    <comment>As in: "Updating in 3 seconds"</comment>
+  </data>
+  <data name="FailedToInitiate" xml:space="preserve">
+    <value>Failed to initiate</value>
+  </data>
+  <data name="SignedInQueue" xml:space="preserve">
+    <value>Signed in to queue group</value>
+  </data>
+  <data name="SignedOutOfQueue" xml:space="preserve">
+    <value>Signed out of queue group</value>
+  </data>
+  <data name="ERR_CANNOTUSEIP" xml:space="preserve">
+    <value>Workplace is not set up to use IP</value>
+  </data>
+  <data name="ERR_IPNOTCONNECTED" xml:space="preserve">
+    <value>IP not available at the moment</value>
+  </data>
+  <data name="ERR_IPSESSIONNOTFOUND" xml:space="preserve">
+    <value>Can’t find IP enquiry</value>
+  </data>
+  <data name="ERR_MISSINGREPLACEPATH" xml:space="preserve">
+    <value>A setting needed to show e-mail is missing. Path must be replaced by a network path</value>
+  </data>
+  <data name="ERR_MAILFILENOTFOUND" xml:space="preserve">
+    <value>Can’t find e-mail. Please contact system administrator</value>
+  </data>
+  <data name="ERR_ATTCHMENTREMOVEDANDNOTAVAILABLE" xml:space="preserve">
+    <value>E-mail probably contained one or more attachments. These can’t be shown</value>
+  </data>
+  <data name="ERR_ATTCHMENTREMOVEDAVAILABLEININBOX" xml:space="preserve">
+    <value>E-mail contains one or more large attachments which can’t be shown here. To view them, use your inbox</value>
+  </data>
+  <data name="ERR_TOOLARGEMAIL" xml:space="preserve">
+    <value>E-mail too large to show</value>
+  </data>
+  <data name="ERR_ERRORSHOWINGMAIL" xml:space="preserve">
+    <value>Can’t show e-mail. It will not be put back in queue, and must be processed manually</value>
+  </data>
+  <data name="OpeningMail" xml:space="preserve">
+    <value>Opening e-mail</value>
+  </data>
+  <data name="ThisMayTakeAWhileBecauseTheMailIsLarge" xml:space="preserve">
+    <value>This may take a while due to size of e-mail</value>
+  </data>
+  <data name="OpenMailFromInbox" xml:space="preserve">
+    <value>Opening e-mail from inbox</value>
+  </data>
+  <data name="FindingMailInInbox" xml:space="preserve">
+    <value>Finding e-mail in inbox</value>
+  </data>
+  <data name="ERR_ANSWERMAILTOOKTOOLONG" xml:space="preserve">
+    <value>Can’t answer enquiry (e-mail) - operation timed out</value>
+  </data>
+  <data name="ERR_MAPINOTINITIATED" xml:space="preserve">
+    <value>E-mail system not started</value>
+  </data>
+  <data name="ERR_ERRORINITIATINGMAPI" xml:space="preserve">
+    <value>Can’t start e-mail system</value>
+  </data>
+  <data name="ERR_MAILOPERATIONTIMEDOUT" xml:space="preserve">
+    <value>E-mail operation timed out</value>
+  </data>
+  <data name="ERR_MAPISIGNINERROR" xml:space="preserve">
+    <value>Can’t connect to e-mail system</value>
+  </data>
+  <data name="ERR_FETCHINGMAPIMESSAGES" xml:space="preserve">
+    <value>Can’t get inbox e-mails</value>
+  </data>
+  <data name="ERR_GETTINGADDRESSES" xml:space="preserve">
+    <value>Error while processing addressees</value>
+  </data>
+  <data name="ERR_REPLYING" xml:space="preserve">
+    <value>Can’t set preferred reply mode for e-mail</value>
+  </data>
+  <data name="ERR_SETTINGADDRESSES" xml:space="preserve">
+    <value>Can’t insert addresses into e-mail</value>
+  </data>
+  <data name="ERR_SHOWDIALOG" xml:space="preserve">
+    <value>Error showing e-mail</value>
+  </data>
+  <data name="ERR_CANNOTFINDWINDOW" xml:space="preserve">
+    <value>Can’t find e-mail window. Finish enquiry yourself by clicking 'Hang up'</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_MAILANSWEREDBUTNOTSHOWED" xml:space="preserve">
+    <value>E-mail registered as answered but can’t be shown</value>
+  </data>
+  <data name="ERR_MAILCANNOTBESHOWEDISRETRIEVING" xml:space="preserve">
+    <value>Can’t show e-mail. It will be retrieved and treated as an exception. Please wait</value>
+  </data>
+  <data name="ShowsOrHidesEjournal" xml:space="preserve">
+    <value>Shows or hides Ejournal window</value>
+  </data>
+  <data name="ERR_COMPOSEMAIL" xml:space="preserve">
+    <value>Can’t create new e-mail</value>
+  </data>
+  <data name="ERR_EJOURNALURLMISSING" xml:space="preserve">
+    <value>Some configuration needed to perform operation is missing</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Logged in</value>
+  </data>
+  <data name="SignedInAndReady" xml:space="preserve">
+    <value>Signed in and ready</value>
+  </data>
+  <data name="SignedInAndNotReady" xml:space="preserve">
+    <value>Signed in and not ready</value>
+  </data>
+  <data name="Agentstatistics" xml:space="preserve">
+    <value>Agent statistics</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="SignedIn" xml:space="preserve">
+    <value>Signed in</value>
+  </data>
+  <data name="SignedOut" xml:space="preserve">
+    <value>Signed out</value>
+  </data>
+  <data name="Date_" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Select date</value>
+  </data>
+  <data name="Breakcodes" xml:space="preserve">
+    <value>Break codes</value>
+  </data>
+  <data name="GeneralInformation" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="TimeSignedInQueue" xml:space="preserve">
+    <value>Time signed in queue group</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NotUpdated" xml:space="preserve">
+    <value>Not updated</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="TransferToService" xml:space="preserve">
+    <value>Transfer to service</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="MessageFrom" xml:space="preserve">
+    <value>Message from</value>
+  </data>
+  <data name="SendAnswer" xml:space="preserve">
+    <value>Send answer</value>
+  </data>
+  <data name="ERR_WRONGUSERORPASSWORD" xml:space="preserve">
+    <value>Wrong username and/or password (acc. to external sources)</value>
+  </data>
+  <data name="ERR_PASSWORDISREQUIRED">
+    <value>The user is required to set a password.</value>
+  </data>
+  <data name="ClickToEdit" xml:space="preserve">
+    <value>Click to change</value>
+  </data>
+  <data name="DefaultWindowSettings" xml:space="preserve">
+    <value>Default window settings</value>
+  </data>
+  <data name="SaveDefaultWindowSettings" xml:space="preserve">
+    <value>Save default window settings</value>
+  </data>
+  <data name="ERR_CREATINGNEWMAIL" xml:space="preserve">
+    <value>Can’t create new e-mail</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Run script</value>
+  </data>
+  <data name="ERR_AGENTHASNOTSELECTEDDESTINATION" xml:space="preserve">
+    <value>Agent doesn’t have destination that matches selections</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="LoginSettings" xml:space="preserve">
+    <value>Log in settings</value>
+  </data>
+  <data name="LogIntoCallcenter" xml:space="preserve">
+    <value>Log into call centre</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="LogoutOfCallcenter" xml:space="preserve">
+    <value>Log out of call centre</value>
+  </data>
+  <data name="DoYouReallyWantToLogout" xml:space="preserve">
+    <value>Do you want to log out of call centre?</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>Time remaining</value>
+  </data>
+  <data name="InAfterwork" xml:space="preserve">
+    <value>In after-work</value>
+  </data>
+  <data name="ERR_TIMEOUTGETTINGLOSTCALLS" xml:space="preserve">
+    <value>Operation to get lost enquiries timed out</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>H&amp;elp</value>
+  </data>
+  <data name="ERR_LOGGEDOUT" xml:space="preserve">
+    <value>You were logged out</value>
+  </data>
+  <data name="ERR_UPDATEENQUIRYLOGFORMATERROR" xml:space="preserve">
+    <value>Error while updating enquiry log - ICC Agent probably being updated. You won’t be able to see previous enquiries in enquiry log</value>
+  </data>
+  <data name="AddBuddy" xml:space="preserve">
+    <value>Add buddy</value>
+  </data>
+  <data name="Buddies" xml:space="preserve">
+    <value>Buddies</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="CdsEnquiry" xml:space="preserve">
+    <value>Icc-enquiry</value>
+  </data>
+  <data name="DeselectAll" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="DoYouReallyWantToRemoveTheseBuddies" xml:space="preserve">
+    <value>Do you really want to remove these buddies</value>
+  </data>
+  <data name="DoYouReallyWantToRemoveThisBuddy" xml:space="preserve">
+    <value>Do you really want to remove this buddy</value>
+  </data>
+  <data name="EnquiryStatus" xml:space="preserve">
+    <value>Enquirystatus</value>
+  </data>
+  <data name="ERR_BUDDIESNOTINITIATED" xml:space="preserve">
+    <value>Buddies is not initialized</value>
+  </data>
+  <data name="ERR_BUDDYALREADYEXIST" xml:space="preserve">
+    <value>Buddy already exists</value>
+  </data>
+  <data name="ERR_BUDDYDOESNOTEXIST" xml:space="preserve">
+    <value>Buddy does not exist</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="EnquiriesInQueue" xml:space="preserve">
+    <value>Enquiries in queue</value>
+  </data>
+  <data name="Keypad" xml:space="preserve">
+    <value>Keypad</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="RemoveBuddies" xml:space="preserve">
+    <value>Remove buddies</value>
+  </data>
+  <data name="RemoveBuddiesFromList" xml:space="preserve">
+    <value>Remove buddies from list</value>
+  </data>
+  <data name="RemoveBuddy" xml:space="preserve">
+    <value>Remove buddy</value>
+  </data>
+  <data name="RemoveBuddyFromList" xml:space="preserve">
+    <value>Remove buddy from list</value>
+  </data>
+  <data name="Select_" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectUsers" xml:space="preserve">
+    <value>Select users</value>
+  </data>
+  <data name="WaitingTime" xml:space="preserve">
+    <value>Waitingtime</value>
+  </data>
+  <data name="ERR_VQNOTFOUND" xml:space="preserve">
+    <value>Can not find the queue</value>
+  </data>
+  <data name="YouMustProvideMoreSearchText" xml:space="preserve">
+    <value>You must write more text to be able to start search</value>
+  </data>
+  <data name="SearchForUser" xml:space="preserve">
+    <value>Søk etter bruker</value>
+  </data>
+  <data name="ERR_EXTERNCONTROLISWRONGTYPE" xml:space="preserve">
+    <value>The extern control is not of specified type</value>
+  </data>
+  <data name="ERR_EXTERNCONTROLCANNOTBECREATED" xml:space="preserve">
+    <value>The external control cannot be created</value>
+  </data>
+  <data name="SendSmsToChosen" xml:space="preserve">
+    <value>Send sms to chosen</value>
+  </data>
+  <data name="AddToCatalog" xml:space="preserve">
+    <value>Add to catalog</value>
+  </data>
+  <data name="NextScreen" xml:space="preserve">
+    <value>Next screen</value>
+  </data>
+  <data name="ERR_NOAXBRIDGE" xml:space="preserve">
+    <value>The ICC AxBridge Compenent is not installed on the computer</value>
+  </data>
+  <data name="ERR_NOJRE" xml:space="preserve">
+    <value>Java Runtime Environment (JRE) must be installed on the computer before you can run this progrtam</value>
+  </data>
+  <data name="ERR_WRONGAXBRIDGE" xml:space="preserve">
+    <value>The ICC AxBridge Component installed on the computer, does not meet the requirements of the application</value>
+  </data>
+  <data name="ERR_WRONGJRE" xml:space="preserve">
+    <value>The Java Runtime Environment (JRE) version installed on the computer, does not meet the requiremnts of the application</value>
+  </data>
+  <data name="Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="Requires" xml:space="preserve">
+    <value>Requires</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ERR_MAXALLOWEDCALLS" xml:space="preserve">
+    <value>Internal memory usage indicates that you should terminate the application and start again</value>
+  </data>
+  <data name="ERR_ALREADYRUNNING" xml:space="preserve">
+    <value>ICC Agent already started. Kill previous instance?</value>
+  </data>
+  <data name="ERR_SESSIONLOCKED" xml:space="preserve">
+    <value>Session is locked</value>
+  </data>
+  <data name="ERR_HTTPSERVERSTART" xml:space="preserve">
+    <value>Cannot start HTTP-server</value>
+  </data>
+  <data name="ShowAsATabInMainWIndow" xml:space="preserve">
+    <value>Show as tab in main window</value>
+  </data>
+  <data name="ShowAsDockedInMainWindow" xml:space="preserve">
+    <value>Show as integrated in main window</value>
+  </data>
+  <data name="ShowAsStandaloneWindow" xml:space="preserve">
+    <value>Show as stand-alone window</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="ChangeSize" xml:space="preserve">
+    <value>Change size</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="UniqueId" xml:space="preserve">
+    <value>Unique ID</value>
+  </data>
+  <data name="UniqueIndicationOfTime" xml:space="preserve">
+    <value>Unique time indication</value>
+  </data>
+  <data name="ApplicationData" xml:space="preserve">
+    <value>Application data</value>
+  </data>
+  <data name="ArrivaltimeInContactcenter" xml:space="preserve">
+    <value>Arrival time in call centre</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="ThisPart" xml:space="preserve">
+    <value>This party</value>
+  </data>
+  <data name="TimeInTransfer" xml:space="preserve">
+    <value>Time in transfer</value>
+  </data>
+  <data name="OtherPart" xml:space="preserve">
+    <value>Other party</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="Identification" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="Devicename" xml:space="preserve">
+    <value>Name of destination</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="ArrivalTimeInQueue" xml:space="preserve">
+    <value>Arrival time in queue</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="WaitingTimeInQueue" xml:space="preserve">
+    <value>Waiting time in queue</value>
+  </data>
+  <data name="TimeInCallcenter" xml:space="preserve">
+    <value>Time in call centre</value>
+  </data>
+  <data name="TimeFromAgentTransfer" xml:space="preserve">
+    <value>Time from transfer to agent</value>
+  </data>
+  <data name="PriorityOnAgentTranfer" xml:space="preserve">
+    <value>Priority on agent transfer</value>
+  </data>
+  <data name="AgentsWorkplaceId" xml:space="preserve">
+    <value>Agent’s workplace ID</value>
+  </data>
+  <data name="AgentsUserId" xml:space="preserve">
+    <value>Agent’s user ID</value>
+  </data>
+  <data name="AgentsDeviceName" xml:space="preserve">
+    <value>Description of agent’s destination</value>
+  </data>
+  <data name="FeedbackFromAgent" xml:space="preserve">
+    <value>Feedback from agent (only lost enquiries)</value>
+  </data>
+  <data name="FeedbackDirection" xml:space="preserve">
+    <value>Feedback direction (only lost enquiries)</value>
+  </data>
+  <data name="UniqueIdFromFeedback" xml:space="preserve">
+    <value>Unique ID of feedback (only lost enquiries)</value>
+  </data>
+  <data name="ResponsibleWorkplace" xml:space="preserve">
+    <value>Responsible workplace (only lost enquiries)</value>
+  </data>
+  <data name="TimeForCallback" xml:space="preserve">
+    <value>Time of call back (only lost enquiries)</value>
+  </data>
+  <data name="TimeForResponsibleAgentRegistration" xml:space="preserve">
+    <value>Time of registration of responsible agent (only lost enquiries)</value>
+  </data>
+  <data name="TimeForFeedback" xml:space="preserve">
+    <value>Time of feedback (only lost enquiries)</value>
+  </data>
+  <data name="TimeForAnswerCall" xml:space="preserve">
+    <value>Time when enquiry answered</value>
+  </data>
+  <data name="TimeForHangupCall" xml:space="preserve">
+    <value>Time when enquiry finished</value>
+  </data>
+  <data name="TimeFromAnswerCall" xml:space="preserve">
+    <value>Time from answering of enquiry</value>
+  </data>
+  <data name="TimePeriodForActiveCall" xml:space="preserve">
+    <value>Length of time enquiry was active</value>
+  </data>
+  <data name="SubjectInMail" xml:space="preserve">
+    <value>E-mail subject (only for e-mail)</value>
+  </data>
+  <data name="SmsMessageForSmsCalls" xml:space="preserve">
+    <value>SMS message (only for SMS enquiries)</value>
+  </data>
+  <data name="WaitingTimeBeforeLost" xml:space="preserve">
+    <value>Waiting time before lost</value>
+  </data>
+  <data name="ActivePeriodInSeconds" xml:space="preserve">
+    <value>Active period in seconds</value>
+  </data>
+  <data name="TypeOfCall" xml:space="preserve">
+    <value>Type of enquiry</value>
+  </data>
+  <data name="TerminateStatusOnCall" xml:space="preserve">
+    <value>Finishing status of enquiry</value>
+  </data>
+  <data name="SubjectInMailWithoutPrefix" xml:space="preserve">
+    <value>E-mail subject (without prefix)</value>
+  </data>
+  <data name="Direct" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Incoming</value>
+  </data>
+  <data name="Outgoing" xml:space="preserve">
+    <value>Outbound</value>
+  </data>
+  <data name="_queue" xml:space="preserve">
+    <value>queue</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="Transferred" xml:space="preserve">
+    <value>Transferred</value>
+  </data>
+  <data name="Answered" xml:space="preserve">
+    <value>Answered</value>
+  </data>
+  <data name="Unanswered" xml:space="preserve">
+    <value>Unanswered</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="NotReady" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="ActiveInquiries" xml:space="preserve">
+    <value>Active enquiries</value>
+  </data>
+  <data name="GeneralError" xml:space="preserve">
+    <value>General error</value>
+  </data>
+  <data name="LoginInProgress" xml:space="preserve">
+    <value>Login in progress</value>
+  </data>
+  <data name="LogoutInProgress" xml:space="preserve">
+    <value>Logout in progress</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Logged in</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Logged out</value>
+  </data>
+  <data name="MissingTool" xml:space="preserve">
+    <value>Missing tool</value>
+  </data>
+  <data name="NotActive" xml:space="preserve">
+    <value>Not active</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Login failed</value>
+  </data>
+  <data name="NoStatus" xml:space="preserve">
+    <value>No status</value>
+  </data>
+  <data name="MissingMediaConnection" xml:space="preserve">
+    <value>Missing media connection</value>
+  </data>
+  <data name="MissingSkill" xml:space="preserve">
+    <value>Missing skill</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DifferentMedia" xml:space="preserve">
+    <value>Other media</value>
+  </data>
+  <data name="ActiveEnquiry" xml:space="preserve">
+    <value>Active enquiry</value>
+  </data>
+  <data name="InternalReason" xml:space="preserve">
+    <value>Internal reason</value>
+  </data>
+  <data name="NoStatusOnMedia" xml:space="preserve">
+    <value>No status for media</value>
+  </data>
+  <data name="NoDestinationForMedia" xml:space="preserve">
+    <value>No destination for media</value>
+  </data>
+  <data name="NotConnectedToMedia" xml:space="preserve">
+    <value>Not connected to media</value>
+  </data>
+  <data name="NoReason" xml:space="preserve">
+    <value>No reason</value>
+  </data>
+  <data name="IncomingConference" xml:space="preserve">
+    <value>Incoming conference</value>
+  </data>
+  <data name="TemporaryBusy" xml:space="preserve">
+    <value>Temporarily busy</value>
+  </data>
+  <data name="WaitingForCall" xml:space="preserve">
+    <value>Waiting to receive enquiry</value>
+  </data>
+  <data name="ThisPartIsOnHold" xml:space="preserve">
+    <value>This party is on hold</value>
+  </data>
+  <data name="Consultation" xml:space="preserve">
+    <value>Consultation</value>
+  </data>
+  <data name="OtherPartIsOnHold" xml:space="preserve">
+    <value>Other party is on hold</value>
+  </data>
+  <data name="Ringing" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Not implemented</value>
+  </data>
+  <data name="Conference" xml:space="preserve">
+    <value>Conference</value>
+  </data>
+  <data name="fromConference" xml:space="preserve">
+    <value>from conference</value>
+  </data>
+  <data name="Transfering" xml:space="preserve">
+    <value>Transferring</value>
+  </data>
+  <data name="TotalyUnknown" xml:space="preserve">
+    <value>Totally unknown</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Breakcode" xml:space="preserve">
+    <value>Break code</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="Communication" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="SelectSetup" xml:space="preserve">
+    <value>Select setup</value>
+  </data>
+  <data name="JmsInfo" xml:space="preserve">
+    <value>JMS info</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Server name</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Workplace</value>
+  </data>
+  <data name="WorkplaceId" xml:space="preserve">
+    <value>Workplace ID</value>
+  </data>
+  <data name="JmsInfoNotValid" xml:space="preserve">
+    <value>Invalid JMS info</value>
+  </data>
+  <data name="ServerNameIdNotValid" xml:space="preserve">
+    <value>Invalid server name</value>
+  </data>
+  <data name="WorkplaceIdIsNotValid" xml:space="preserve">
+    <value>Invalid workplace ID</value>
+  </data>
+  <data name="CommunicationProperties" xml:space="preserve">
+    <value>Communication properties</value>
+  </data>
+  <data name="PasswordFieldIsDifferentFromConfirmPassword" xml:space="preserve">
+    <value>'Password' field is different from 'Confirm password' field</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="PasswordIsBlankDoYouWantToChange" xml:space="preserve">
+    <value>Password is blank. Do you want to change?</value>
+  </data>
+  <data name="Telephony" xml:space="preserve">
+    <value>Telephony</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="Callback" xml:space="preserve">
+    <value>Call back</value>
+  </data>
+  <data name="Simulated" xml:space="preserve">
+    <value>Simulated</value>
+  </data>
+  <data name="ScriptIVR" xml:space="preserve">
+    <value>ScriptIVR</value>
+  </data>
+  <data name="Dialer" xml:space="preserve">
+    <value>Dialler</value>
+  </data>
+  <data name="CoBrowser" xml:space="preserve">
+    <value>Co-browser</value>
+  </data>
+  <data name="IPTelephony" xml:space="preserve">
+    <value>IP telephony</value>
+  </data>
+  <data name="SIPTelephony" xml:space="preserve">
+    <value>SIP telephony</value>
+  </data>
+  <data name="IVR" xml:space="preserve">
+    <value>IVR</value>
+  </data>
+  <data name="AwAlarm" xml:space="preserve">
+    <value>AwAlarm</value>
+  </data>
+  <data name="INType" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Initiated" xml:space="preserve">
+    <value>Initiated</value>
+  </data>
+  <data name="_reserved" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="WaitForAccept" xml:space="preserve">
+    <value>Waiting for accept</value>
+  </data>
+  <data name="OnHold" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="RingingOut" xml:space="preserve">
+    <value>Ringing out</value>
+  </data>
+  <data name="HoldWaitOnAnswer" xml:space="preserve">
+    <value>Hold/Wait for answer</value>
+  </data>
+  <data name="Offhook" xml:space="preserve">
+    <value>Off hook</value>
+  </data>
+  <data name="RingingOnOwnLine" xml:space="preserve">
+    <value>Ringing on own line</value>
+  </data>
+  <data name="RingingOnOtherPart" xml:space="preserve">
+    <value>Ringing at other party’s end</value>
+  </data>
+  <data name="UnknownStatus" xml:space="preserve">
+    <value>Unknown status</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>Reserved</value>
+  </data>
+  <data name="ERR_DIFFERENT_BEAN_VERSIONS" xml:space="preserve">
+    <value>Server and client have different versions of Java components</value>
+  </data>
+  <data name="UserNameIsInvalid" xml:space="preserve">
+    <value>Invalid username</value>
+  </data>
+  <data name="InvalidUserOrPassword" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="ErrorCheckingUserFields" xml:space="preserve">
+    <value>Error checking user fields</value>
+  </data>
+  <data name="ErrorCheckingCommunicationFields" xml:space="preserve">
+    <value>Error checking communication fields</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>No connection</value>
+  </data>
+  <data name="NotLoggedInQueue" xml:space="preserve">
+    <value>Not logged into queue group</value>
+  </data>
+  <data name="Arrivaltime" xml:space="preserve">
+    <value>Arrival time</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="NumberOfEnquiriesInList" xml:space="preserve">
+    <value>Number of enquiries in list</value>
+  </data>
+  <data name="TotalUsedTime" xml:space="preserve">
+    <value>Total time used</value>
+  </data>
+  <data name="AverageUsedTime" xml:space="preserve">
+    <value>Average time used</value>
+  </data>
+  <data name="IncomingEnquiries" xml:space="preserve">
+    <value>Incoming enquiries</value>
+  </data>
+  <data name="OutgoingEnquiries" xml:space="preserve">
+    <value>Outbound enquiries</value>
+  </data>
+  <data name="DirectIncoming" xml:space="preserve">
+    <value>Direct incoming</value>
+  </data>
+  <data name="DirectOutgoing" xml:space="preserve">
+    <value>Direct outbound</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="ERR_AGENTALREADYLOGGEDIN" xml:space="preserve">
+    <value>Workplace ID already being used by another agent</value>
+  </data>
+  <data name="ERR_SETDEVICENAME" xml:space="preserve">
+    <value>Can’t set 'name of destination' (device) for user media (during setDeviceName)</value>
+  </data>
+  <data name="ERR_GETDEVICENAME" xml:space="preserve">
+    <value>Can’t find 'name of destination' (device) for user media (during getDeviceName)</value>
+  </data>
+  <data name="ERR_CREATEUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t create user media profile object (during createUserMediaProfile)</value>
+  </data>
+  <data name="ERR_SETMEDIAPROFILENAME" xml:space="preserve">
+    <value>Can’t set media name (during setMediaProfileName)</value>
+  </data>
+  <data name="ERR_SETTRANSFERDESTINATION" xml:space="preserve">
+    <value>Can’t set media destination (during setMediaProfileName)</value>
+  </data>
+  <data name="ERR_SETUSERMEDIADESCRIPTION" xml:space="preserve">
+    <value>Can’t set media description (during setDescription)</value>
+  </data>
+  <data name="ERR_GETTRANSFERDESTINATION" xml:space="preserve">
+    <value>Can’t find transfer destination for media (during getTransferDestination)</value>
+  </data>
+  <data name="ERR_SETINUSE" xml:space="preserve">
+    <value>Can’t set whether user media is in use (during setInUse)</value>
+  </data>
+  <data name="ERR_SETWORKPLACEID" xml:space="preserve">
+    <value>Can’t set workplace ID (during setWorkplaceId)</value>
+  </data>
+  <data name="ERR_GETINUSE" xml:space="preserve">
+    <value>Can’t find information on standard use of media (during getInUse)</value>
+  </data>
+  <data name="ERR_GETWORKPLACEID" xml:space="preserve">
+    <value>Can’t find agent’s workplace group ID (during getWpId)</value>
+  </data>
+  <data name="ERR_LISTVQNAMES" xml:space="preserve">
+    <value>Can’t find list of queues (during listVQNames)</value>
+  </data>
+  <data name="ERR_GETMEDIAPROFILENAME" xml:space="preserve">
+    <value>Can’t find media name (during getMediaProfileName)</value>
+  </data>
+  <data name="ERR_GETMEDIADESCRIPTION" xml:space="preserve">
+    <value>Can’t find media description (during getMediaDescription)</value>
+  </data>
+  <data name="ERR_GETDEFAULTUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t find default user media profile (during getDefaultUserMediaProfile)</value>
+  </data>
+  <data name="ERR_LISTUSERMEDIAPROFILES" xml:space="preserve">
+    <value>Can’t find list of user active media (during listUserMediaProfiles)</value>
+  </data>
+  <data name="ERR_CREATE_OBJECT" xml:space="preserve">
+    <value>Can’t create object (during CreateObject)</value>
+  </data>
+  <data name="ERR_STARTUP" xml:space="preserve">
+    <value>Can’t start communication</value>
+  </data>
+  <data name="ERR_NOSTARTUP" xml:space="preserve">
+    <value>Can’t communicate with server (during startup)</value>
+  </data>
+  <data name="ERR_LOGINVQ" xml:space="preserve">
+    <value>Can’t sign into queue group (during LoginVQ)</value>
+  </data>
+  <data name="ERR_LOGOUTVQ" xml:space="preserve">
+    <value>Can’t sign out of queue group (during LogoutVQ)</value>
+  </data>
+  <data name="ERR_CONNECTMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t connect to media (during connectMediaProfile)</value>
+  </data>
+  <data name="ERR_DISCONNECTMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t delete connection to media (during disconnectMediaProfile)</value>
+  </data>
+  <data name="ERR_LISTAGENTS" xml:space="preserve">
+    <value>Can’t find list of agents (during listAgents)</value>
+  </data>
+  <data name="ERR_LISTAGENTSINQUEUE" xml:space="preserve">
+    <value>Can’t find list of agents in queue (during listAgentsInQueue)</value>
+  </data>
+  <data name="ERR_GETUSERID" xml:space="preserve">
+    <value>Can’t find user ID (during getUserId)</value>
+  </data>
+  <data name="ERR_GETAGENT" xml:space="preserve">
+    <value>Can’t find agent (during getAgent)</value>
+  </data>
+  <data name="ERR_GETMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t find media (during getMediaProfile)</value>
+  </data>
+  <data name="ERR_LISTSERVICEPROFILENAMES" xml:space="preserve">
+    <value>Can’t find list of service profiles (during listServiceProfileNames)</value>
+  </data>
+  <data name="ERR_GETUSERPROFILE" xml:space="preserve">
+    <value>Can’t find user profile (during getUserProfile)</value>
+  </data>
+  <data name="ERR_TERMINATE" xml:space="preserve">
+    <value>Can’t terminate communication to server (during terminate)</value>
+  </data>
+  <data name="ERR_GETOLDESTCALLTIME" xml:space="preserve">
+    <value>Can’t find time of oldest enquiry in specified queue (during getOldestCallTime)</value>
+  </data>
+  <data name="ERR_GETAPPLICATIONPARAMETER" xml:space="preserve">
+    <value>Can’t find application data parameter in application data information (during getParameter)</value>
+  </data>
+  <data name="ERR_GETCALLCENTERARRIVALTIME" xml:space="preserve">
+    <value>Can’t find time of enquiry arrival in call centre (during getCallcenterArrivalTime)</value>
+  </data>
+  <data name="ERR_GETCALLID" xml:space="preserve">
+    <value>Can’t find identification object for enquiry (during getCallId)</value>
+  </data>
+  <data name="ERR_GETQUEUEARRIVALTIME" xml:space="preserve">
+    <value>Can’t find queue arrival time for enquiry (during getQueueArrivalTime)</value>
+  </data>
+  <data name="ERR_LISTVQSLOGGEDINTOBYAGENT" xml:space="preserve">
+    <value>Can’t find list of queue groups agent is logged into (during listVQsLoggedIntoByAgent)</value>
+  </data>
+  <data name="ERR_GETCALLBYUNIQUEID" xml:space="preserve">
+    <value>Can’t find information on enquiry (during getCall)</value>
+  </data>
+  <data name="ERR_GETFIRSTNAME" xml:space="preserve">
+    <value>Can’t find user’s first name (during getFirstName)</value>
+  </data>
+  <data name="ERR_GETLASTNAME" xml:space="preserve">
+    <value>Can’t find user’s last name (during getLastName)</value>
+  </data>
+  <data name="ERR_GETDEPARTMENT" xml:space="preserve">
+    <value>Can’t find user’s department (during getDepartment)</value>
+  </data>
+  <data name="ERR_GETMEDIAISENABLED" xml:space="preserve">
+    <value>Can’t find out whether media is available (during getIsEnabled)</value>
+  </data>
+  <data name="ERR_GETMEDIATYPE" xml:space="preserve">
+    <value>Can’t find media type for media (during getMediaType)</value>
+  </data>
+  <data name="ERR_LISTALLUSERPROFILENAMES" xml:space="preserve">
+    <value>Can’t find list of user profiles (during listAllUserProfileNames)</value>
+  </data>
+  <data name="ERR_LISTCALLS" xml:space="preserve">
+    <value>Can’t find list of enquiries (during listCalls)</value>
+  </data>
+  <data name="ERR_PICKUPCALL" xml:space="preserve">
+    <value>Can’t make 'pick up' call (during pickupCall)</value>
+  </data>
+  <data name="ERR_GETWORKPLACEPROFILE" xml:space="preserve">
+    <value>Can’t find workplace profile (during getWorkplaceProfile)</value>
+  </data>
+  <data name="ERR_LISTACTIVESERVICENAMES" xml:space="preserve">
+    <value>Can’t list active services (during listActiveServiceNames)</value>
+  </data>
+  <data name="ERR_SETMODE" xml:space="preserve">
+    <value>Can’t set agent status (during setMode)</value>
+  </data>
+  <data name="ERR_GETNUMBEROFBUSYAGENTS" xml:space="preserve">
+    <value>Can’t find number of busy agents in queue statistics (during getNumberOfBusyAgents)</value>
+  </data>
+  <data name="ERR_GETNUMBEROFVACANTAGENTS" xml:space="preserve">
+    <value>Can’t find number of free agents in queue statistics (during getNumberOfVacantAgents)</value>
+  </data>
+  <data name="ERR_GETNUMBEROFAGENTS" xml:space="preserve">
+    <value>Can’t find number of agents in queue statistics (during getNumberOfAgents)</value>
+  </data>
+  <data name="ERR_GETSTATUS" xml:space="preserve">
+    <value>Can’t get service status for agent (during getStatus)</value>
+  </data>
+  <data name="ERR_GETSITEID" xml:space="preserve">
+    <value>Can’t find site name (during getSiteId)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMES" xml:space="preserve">
+    <value>Can’t list workplace IDs (during listWorkplaceProfileNames)</value>
+  </data>
+  <data name="ERR_LOADDEFAULTS" xml:space="preserve">
+    <value>Can’t make default setting (during loadDefaults)</value>
+  </data>
+  <data name="ERR_GETBREAKCODENAME" xml:space="preserve">
+    <value>Can’t find break code name (during getBreakcodeName)</value>
+  </data>
+  <data name="ERR_GETBREAKCODE" xml:space="preserve">
+    <value>Can’t find break code (during getBreakCode)</value>
+  </data>
+  <data name="ERR_LISTBREAKCODES" xml:space="preserve">
+    <value>Can’t list break codes (during listBreakCodes)</value>
+  </data>
+  <data name="ERR_LISTACTIVECALLS" xml:space="preserve">
+    <value>Can’t list active enquiries for queue (during listActiveCalls)</value>
+  </data>
+  <data name="ERR_GETAGENTMODE" xml:space="preserve">
+    <value>Can’t find agent status (during getAgentMode)</value>
+  </data>
+  <data name="ERR_LISTACTIVEAGENTSONSERVICE" xml:space="preserve">
+    <value>Can’t list active agents for specified service (during listActiveAgentsOnService)</value>
+  </data>
+  <data name="ERR_LISTAGENTSCONNECTEDTOSERVICE" xml:space="preserve">
+    <value>Can’t list agents connected to specified service (during listAgentsConnectedToService)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMESATSITE" xml:space="preserve">
+    <value>Can’t list workplaces linked to a site (during listWorkplaceProfileNamesAtSite)</value>
+  </data>
+  <data name="ERR_LISTALLUSERPROFILES" xml:space="preserve">
+    <value>Can’t list users (during listAllUserProfiles)</value>
+  </data>
+  <data name="ERR_SENDTRANSFERINFORMATION" xml:space="preserve">
+    <value>Can’t send transfer information to system (during sendTransferInformation)</value>
+  </data>
+  <data name="ERR_SETAPPLICATIONPARAMETER" xml:space="preserve">
+    <value>Can’t set application data (during setParameter)</value>
+  </data>
+  <data name="ERR_SETAPPLICATIONDATA" xml:space="preserve">
+    <value>Can’t set application data for enquiry (during setApplicationData)</value>
+  </data>
+  <data name="ERR_GETPARAMETER" xml:space="preserve">
+    <value>Can’t find parameter value (during getParameter)</value>
+  </data>
+  <data name="ERR_SETPARAMETER" xml:space="preserve">
+    <value>Can’t set parameter value (during setParameter)</value>
+  </data>
+  <data name="ERR_CLONE" xml:space="preserve">
+    <value>Can’t copy object (during clone)</value>
+  </data>
+  <data name="ERR_LISTAGENTSONSITE" xml:space="preserve">
+    <value>Can’t list agents linked to specified site (during listAgentsOnSite)</value>
+  </data>
+  <data name="ERR_LISTSERVICEPROFILES" xml:space="preserve">
+    <value>Can’t list services (during listServiceProfiles)</value>
+  </data>
+  <data name="ERR_GETLASTALARMLEVEL" xml:space="preserve">
+    <value>Can’t find last alarm level (during getLastAlarmLevel)</value>
+  </data>
+  <data name="ERR_GETACTIVEMEDIA" xml:space="preserve">
+    <value>Can’t find specified active 'media' (during getActiveMedia)</value>
+  </data>
+  <data name="ERR_GETAGENTFROMUSERID" xml:space="preserve">
+    <value>Can’t find agent from user ID (during getAgentFromUserId)</value>
+  </data>
+  <data name="ERR_GETVACANTSTATUS" xml:space="preserve">
+    <value>Can’t find ready/not ready status for service (during getVacantStatus)</value>
+  </data>
+  <data name="ERR_GETREASONFORNOTVACANT" xml:space="preserve">
+    <value>Can’t find reason why agent is not ready (during getReasonForNotVacant)</value>
+  </data>
+  <data name="ERR_LISTSERVICESTATUS" xml:space="preserve">
+    <value>Can’t list service status for agent (during listServiceStatus)</value>
+  </data>
+  <data name="ERR_GETTRANSFERTIME" xml:space="preserve">
+    <value>Can’t find transfer time for enquiry (during getTransferTime)</value>
+  </data>
+  <data name="ERR_SETJMSBROKER" xml:space="preserve">
+    <value>Can’t set JmsBroker for object (during setJmsBroker)</value>
+  </data>
+  <data name="ERR_SETCDSHOSTNAME" xml:space="preserve">
+    <value>Can’t set server name for object (during setCDSHostName)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILESATSITE" xml:space="preserve">
+    <value>Can’t find workplaces linked to specified site (during listWorkplaceProfilesAtSite)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILES" xml:space="preserve">
+    <value>Can’t list workplaces (during listWorkplaceProfiles)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEGROUPNAMES" xml:space="preserve">
+    <value>Can’t list workplace group names (during listWorkplaceGroupNames)</value>
+  </data>
+  <data name="ERR_GETWORKPLACEGROUP" xml:space="preserve">
+    <value>Can’t find workplace group (during getWorkplaceGroup)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEGROUPS" xml:space="preserve">
+    <value>Can’t list workplace groups (during listWorkplaceGroups)</value>
+  </data>
+  <data name="ERR_LOGINSERVICEFAILURE" xml:space="preserve">
+    <value>Error occurred while logging in to specified service</value>
+  </data>
+  <data name="ERR_LOGOUTSERVICEFAILURE" xml:space="preserve">
+    <value>Error occurred while logging out of specified service</value>
+  </data>
+  <data name="ERR_LOSTEVENTS" xml:space="preserve">
+    <value>Events have been lost due to overload – this may affect displayed information. Close windows that require a lot of resources</value>
+  </data>
+  <data name="ERR_ADDAPPLDATA" xml:space="preserve">
+    <value>Can’t add application data to enquiry (during addApplData)</value>
+    <comment>(I considered putting 'for' enquiry, - could you see which is more correct?)</comment>
+  </data>
+  <data name="ERR_LISTACTIVEMEDIANAMES" xml:space="preserve">
+    <value>Can’t list active media (during listActiveMediaNames)</value>
+  </data>
+  <data name="ERR_GETANYCALLBYUNIQUEID" xml:space="preserve">
+    <value>Can’t find enquiry with specified ID (during getAnyCallByUniqueId)</value>
+  </data>
+  <data name="ERR_GETCALLTYPE" xml:space="preserve">
+    <value>Can’t find enquiry type from enquiry identification object (during getCallType)</value>
+  </data>
+  <data name="ERR_GETBEANTRACE" xml:space="preserve">
+    <value>Can’t get Java client trace (during getBeanTrace)</value>
+  </data>
+  <data name="ERR_GETUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Can’t get user media profile (during getUserMediProfile)</value>
+  </data>
+  <data name="ERR_GETOTHERPARTY" xml:space="preserve">
+    <value>Can’t find customer/originator of enquiry (during getOtherParty)</value>
+  </data>
+  <data name="ERR_GETSERVERTIME" xml:space="preserve">
+    <value>Can’t find server time (during getServerTime)</value>
+  </data>
+  <data name="ERR_ADDMEDIAPARAMETER" xml:space="preserve">
+    <value>Can’t add extra media parameter (during addMediaParameter)</value>
+  </data>
+  <data name="ERR_LISTUSERPROFILES" xml:space="preserve">
+    <value>Can’t list users in specified user group (during listUserProfiles)</value>
+  </data>
+  <data name="ERR_LISTDEVICESTATUS" xml:space="preserve">
+    <value>Can’t list status of destinations from 'media' information (during listDeviceStatus)</value>
+  </data>
+  <data name="ERR_GETCALLDIRECTION" xml:space="preserve">
+    <value>Can’t find enquiry direction (during getCallDirection)</value>
+  </data>
+  <data name="ERR_GETARRIVALTIME" xml:space="preserve">
+    <value>Can’t find enquiry arrival time (during getArrivalTime)</value>
+  </data>
+  <data name="ERR_GETTEMPORARYCALLID" xml:space="preserve">
+    <value>Can’t find enquiry ID for direct enquiry (during getTemporaryCallId)</value>
+  </data>
+  <data name="ERR_LISTMEDIASTATUS" xml:space="preserve">
+    <value>Can’t find list of media status (during listMediaStatus)</value>
+  </data>
+  <data name="ERR_SETUSERID" xml:space="preserve">
+    <value>Can’t set user information to EJB system (during setUserId)</value>
+  </data>
+  <data name="ERR_SETPASSWORD" xml:space="preserve">
+    <value>Can’t set password (during setPassword)</value>
+  </data>
+  <data name="ERR_LISTAGENTSINUSERGROUP" xml:space="preserve">
+    <value>Can’t get agents in user group (during listAgentsInUserGroup)</value>
+  </data>
+  <data name="ERR_SETALIVETIMEOUT" xml:space="preserve">
+    <value>Can’t set live time-out (during setAliveTimeout)</value>
+    <comment>(kan ikke sette timeout på å si i fra at applikasjonen er i live) I wasn't sure how you wanted this to be worded and there wasn't time to ask. I have put the English as in the column to the far left. Can you let me know if you want another suggestion)</comment>
+  </data>
+  <data name="ERR_LISTUSERPROFILENAMES" xml:space="preserve">
+    <value>Can’t list user names in specified user group (during listUserProfileNames)</value>
+  </data>
+  <data name="ERR_GETANSWERCALLTIME" xml:space="preserve">
+    <value>Can’t find answer call time (during getAnswerCallTime)</value>
+  </data>
+  <data name="ERR_GETDISCONNECTCALLTIME" xml:space="preserve">
+    <value>Can’t find enquiry disconnection time (during getDisconnectCallTime)</value>
+  </data>
+  <data name="ERR_SETINCLUDEHOSTNAMEINTOPIC" xml:space="preserve">
+    <value>Can’t set whether server name is to be included in subject (during setIncludeHostNameInTopic)</value>
+  </data>
+  <data name="ERR_GETMEDIASTATUS" xml:space="preserve">
+    <value>Can’t find 'media status' for agent for specified media (during getMediaStatus)</value>
+  </data>
+  <data name="ERR_TRANSFERCALL" xml:space="preserve">
+    <value>Can’t transfer call (during transferCall)</value>
+  </data>
+  <data name="ERR_GETMEDIASTATE" xml:space="preserve">
+    <value>Can’t find media status (during getMediaState)</value>
+  </data>
+  <data name="ERR_SETTRACE" xml:space="preserve">
+    <value>Can’t initiate trace in bean (during setTrace)</value>
+  </data>
+  <data name="ERR_GETISAGENTDEVICE" xml:space="preserve">
+    <value>Can’t get information on whether device status is agent’s (during getIsAgentDevice)</value>
+  </data>
+  <data name="ERR_GETMEDIASTATUSWITHDEVICENAME" xml:space="preserve">
+    <value>Can’t find media status (during getMediaStatusWithDeviceName)</value>
+  </data>
+  <data name="ERR_GETLOGINSTATUS" xml:space="preserve">
+    <value>Can’t find login status for media (during getLoginStatus)</value>
+  </data>
+  <data name="ERR_GETBREAKCODETYPE" xml:space="preserve">
+    <value>Can’t find break code type (during getBreakcodeType)</value>
+  </data>
+  <data name="ERR_GETWORKPLACEPROFILEWITHALIAS" xml:space="preserve">
+    <value>Can’t find workplace with specified alias (during getWorkplaceProfileWithAlias)</value>
+  </data>
+  <data name="ERR_LISTACTIVECALLSATAGENT" xml:space="preserve">
+    <value>Can’t find list of agent’s active enquiries (during listActiveCallsAtAgent)</value>
+  </data>
+  <data name="ERR_SENDCOMMANDTOAGENT" xml:space="preserve">
+    <value>Can’t send command to agent (during sendCommandToAgentout)</value>
+  </data>
+  <data name="ERR_LISTAGENTSINWORKPLACEGROUP" xml:space="preserve">
+    <value>Can’t list agents in workplace group (during listAgentsInWorkplaceGroup)</value>
+  </data>
+  <data name="ERR_GETCONNECTTOVQ" xml:space="preserve">
+    <value>Can’t find queue group to which queue is connected (during getConnectToVq)</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMESINWORKPLACEGROUP" xml:space="preserve">
+    <value>Can’t list workplace IDs in specified workplace group (during listWorkplaceProfileNamesInWorkplaceGroup)</value>
+  </data>
+  <data name="ERR_GETAGENTLOGINSTATS" xml:space="preserve">
+    <value>Can’t get internal statistics for agent (during getAgentLoginStats)</value>
+  </data>
+  <data name="ERR_GETLASTAGENTAFTERWORKTIME" xml:space="preserve">
+    <value>Can’t get time of last status change for after-work (during getLastAgentAfterWorkTime)</value>
+  </data>
+  <data name="ERR_GETLASTAGENTNOTREADYTIME" xml:space="preserve">
+    <value>Can’t get time of last status change for not ready(during getLastAgentNotReadyTime)</value>
+  </data>
+  <data name="ERR_GETLASTAGENTREADYTIME" xml:space="preserve">
+    <value>Can’t get time of last status change for ready (during getLastAgentReadyTime)</value>
+  </data>
+  <data name="ERR_GETTYPEFROMMEDIATYPE" xml:space="preserve">
+    <value>Can’t get media type (during getMediaType)</value>
+  </data>
+  <data name="ERR_GETENTERPRISENAME" xml:space="preserve">
+    <value>Can’t get company name (during getEnterpriseName)</value>
+  </data>
+  <data name="ERR_BEANNOTSET" xml:space="preserve">
+    <value>Java communication not correctly set up</value>
+  </data>
+  <data name="ERR_EXECUTETOSTRING" xml:space="preserve">
+    <value>Can’t get description of object (during executeToString)</value>
+  </data>
+  <data name="ERR_LISTVQS" xml:space="preserve">
+    <value>Can’t create object list (during ListVQS)</value>
+  </data>
+  <data name="ERR_LISTMP" xml:space="preserve">
+    <value>Can’t create object list (during ListMediaProfileNames)</value>
+  </data>
+  <data name="ERR_NOSUCHAGENT" xml:space="preserve">
+    <value>Error occurred (can’t find agent)</value>
+  </data>
+  <data name="ERR_NOSUCHCALL" xml:space="preserve">
+    <value>Can’t find enquiry. This may be because the enquiry status has been changed - an attempt to transfer to an agent for example</value>
+  </data>
+  <data name="ERR_TIMEOUT" xml:space="preserve">
+    <value>Can’t perform operation within specified period</value>
+  </data>
+  <data name="ERR_SECURITY" xml:space="preserve">
+    <value>A permission problem has occurred</value>
+  </data>
+  <data name="ERR_SERVICEDISABLED" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ERR_IVRERROR" xml:space="preserve">
+    <value>Error occurred in IVR media.</value>
+  </data>
+  <data name="ERR_IVRDESTBUSYERROR" xml:space="preserve">
+    <value>Destination busy</value>
+  </data>
+  <data name="ERR_DESTINVALID" xml:space="preserve">
+    <value>Destination invalid</value>
+  </data>
+  <data name="ERR_DISABLEDMEDIA" xml:space="preserve">
+    <value>Media not available</value>
+  </data>
+  <data name="ERR_LINEBUSY" xml:space="preserve">
+    <value>Line busy</value>
+  </data>
+  <data name="ERR_MISSINGSKILL" xml:space="preserve">
+    <value>Missing skill</value>
+  </data>
+  <data name="ERR_NOANSWER" xml:space="preserve">
+    <value>No answer</value>
+  </data>
+  <data name="ERR_NOCONNECTION" xml:space="preserve">
+    <value>Error occurred (no connection)</value>
+  </data>
+  <data name="ERR_NOTACTIVE" xml:space="preserve">
+    <value>Error occurred (not active)</value>
+  </data>
+  <data name="ERR_NOTATTACHED" xml:space="preserve">
+    <value>Session (user) must be connected (during attach)</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ERR_GETACTIVEHISTORYELMFORAGENT" xml:space="preserve">
+    <value>Can’t get active enquiry history for agent</value>
+  </data>
+  <data name="ERR_GETACTIVEHISTORYELMWITHOUTAGENT" xml:space="preserve">
+    <value>Can’t get active enquiry history - without agent</value>
+  </data>
+  <data name="ERR_GETCALLHISTORY" xml:space="preserve">
+    <value>Can’t get enquiry history</value>
+  </data>
+  <data name="ERR_GETLASTHISTORYELM" xml:space="preserve">
+    <value>Can’t get last history component for enquiry</value>
+  </data>
+  <data name="ERR_GETTOTALAGENTTALKTIME" xml:space="preserve">
+    <value>Can’t get total time enquiry has been active with agents</value>
+  </data>
+  <data name="Enterprise" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="EnterpriseName" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="ERR_CDSCALLFIELDNOTVALID" xml:space="preserve">
+    <value>Invalid information field</value>
+  </data>
+  <data name="In1" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="Out1" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="ActiveConferenceConsultation" xml:space="preserve">
+    <value>Active conference consultation</value>
+  </data>
+  <data name="ActiveConsultation" xml:space="preserve">
+    <value>Active consultation</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Active_" xml:space="preserve">
+    <value>Active</value>
+    <comment>More than one activ</comment>
+  </data>
+  <data name="ActivePeriod" xml:space="preserve">
+    <value>Active period</value>
+  </data>
+  <data name="EnquiryType" xml:space="preserve">
+    <value>Enquiry type</value>
+    <comment>Like calltype ?</comment>
+  </data>
+  <data name="Finished_" xml:space="preserve">
+    <value>Finished</value>
+    <comment>L</comment>
+  </data>
+  <data name="StatusOnEnquiry" xml:space="preserve">
+    <value>Enquiry status</value>
+  </data>
+  <data name="ConsultationOnConference" xml:space="preserve">
+    <value>Consultation on conference</value>
+  </data>
+  <data name="DirectTransfer" xml:space="preserve">
+    <value>Direct transfer</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="InQueue" xml:space="preserve">
+    <value>In queue</value>
+  </data>
+  <data name="Lost" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Not connected</value>
+  </data>
+  <data name="WaitingToBeAnswered" xml:space="preserve">
+    <value>Waiting to be answered</value>
+  </data>
+  <data name="Mediatype" xml:space="preserve">
+    <value>Media type</value>
+  </data>
+  <data name="IfEnquiryIsDirectOrThruCds" xml:space="preserve">
+    <value>If enquiry is direct or via ICC</value>
+  </data>
+  <data name="QueueEnquiry" xml:space="preserve">
+    <value>Queue enquiry</value>
+    <comment>Opposite to "Direct"</comment>
+  </data>
+  <data name="Agents" xml:space="preserve">
+    <value>Agents</value>
+  </data>
+  <data name="CallRejectBecauseOfAbuse" xml:space="preserve">
+    <value>Call rejected because of abuse</value>
+  </data>
+  <data name="CallRejected" xml:space="preserve">
+    <value>Call rejected</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+    <comment>(Or 'no'?)</comment>
+  </data>
+  <data name="RedirectedToCallback" xml:space="preserve">
+    <value>Redirected to call back</value>
+  </data>
+  <data name="RedirectedToFallbackSolution" xml:space="preserve">
+    <value>Redirected to fall-back solution</value>
+  </data>
+  <data name="HideFilter" xml:space="preserve">
+    <value>Hide filter</value>
+  </data>
+  <data name="ShowFilter" xml:space="preserve">
+    <value>Show filter</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="ShowOrHideFilter" xml:space="preserve">
+    <value>Show/Hide filter</value>
+  </data>
+  <data name="_of" xml:space="preserve">
+    <value>of</value>
+    <comment>In english: of</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Select_" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ERR_CONNECTINGTOSERVER" xml:space="preserve">
+    <value>Can’t contact ICC system (network problem?)</value>
+  </data>
+  <data name="ERR_ATTACHAGENT" xml:space="preserve">
+    <value>Can’t connect agent with specified workplace ID and user ID (during attachAgent)</value>
+  </data>
+  <data name="ERR_DETACHAGENT" xml:space="preserve">
+    <value>Can’t remove agent from connection (during detachAgent)</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Medias" xml:space="preserve">
+    <value>Media</value>
+    <comment>as in more media (plural is same)</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Usergroup" xml:space="preserve">
+    <value>User group</value>
+  </data>
+  <data name="Answering" xml:space="preserve">
+    <value>Answering</value>
+  </data>
+  <data name="StatusIsWaitingActiveOrFinished" xml:space="preserve">
+    <value>Status is waiting, active or finished</value>
+  </data>
+  <data name="ExtraFields" xml:space="preserve">
+    <value>Extra fields</value>
+  </data>
+  <data name="Lost_" xml:space="preserve">
+    <value>Lost</value>
+    <comment>More than one lost enquiry</comment>
+  </data>
+  <data name="WaitingTime" xml:space="preserve">
+    <value>Waiting time</value>
+  </data>
+  <data name="ERR_NODEVICES" xml:space="preserve">
+    <value>Can’t find right direction</value>
+  </data>
+  <data name="ERR_SETTINGCOLOR" xml:space="preserve">
+    <value>Can’t set colour</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="UpdatingFailed" xml:space="preserve">
+    <value>Updating failed</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Use</value>
+  </data>
+  <data name="InUse" xml:space="preserve">
+    <value>In use</value>
+  </data>
+  <data name="SelectMedia" xml:space="preserve">
+    <value>Select media</value>
+  </data>
+  <data name="CountFound" xml:space="preserve">
+    <value>Number found</value>
+  </data>
+  <data name="SelectService" xml:space="preserve">
+    <value>Select service</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="StatusOnMediaAndServicesFor" xml:space="preserve">
+    <value>Status of media (and services) for</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="EnquiryStatus" xml:space="preserve">
+    <value>Enquiry status</value>
+  </data>
+  <data name="ERR_AGENTNOTALLOWED" xml:space="preserve">
+    <value>Agent logged on with invalid information? Error during listing.</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Role">
+    <value>Role</value>
+  </data>
+  <data name="StatusInCallcenter" xml:space="preserve">
+    <value>Status in call centre</value>
+  </data>
+  <data name="StatusOnMedia" xml:space="preserve">
+    <value>Media status</value>
+  </data>
+  <data name="BusyWithEnquiry" xml:space="preserve">
+    <value>Busy with enquiry</value>
+  </data>
+  <data name="MissingConfiguration" xml:space="preserve">
+    <value>Missing configuration</value>
+  </data>
+  <data name="ERR_GETENQUIRYVALUE" xml:space="preserve">
+    <value>Can’t get enquiry value</value>
+  </data>
+  <data name="RingANewCall" xml:space="preserve">
+    <value>Make new call</value>
+  </data>
+  <data name="SendANewMail" xml:space="preserve">
+    <value>Send new e-mail</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+    <comment>As in IP-telephony</comment>
+  </data>
+  <data name="ERR_GETMEDIASTATEEXTENDED" xml:space="preserve">
+    <value>Can’t get extended status</value>
+  </data>
+  <data name="InstantMessaging" xml:space="preserve">
+    <value>Instant Messaging</value>
+  </data>
+  <data name="TellsIfEnquiryIsConsultation" xml:space="preserve">
+    <value>Indicates whether enquiry is a consultation</value>
+  </data>
+  <data name="TimeWhenTransferredToAgent" xml:space="preserve">
+    <value>Time of transfer to agent</value>
+  </data>
+  <data name="TimeFromTransferredToAnswered" xml:space="preserve">
+    <value>Time from transfer to answering</value>
+  </data>
+  <data name="ChatHistory" xml:space="preserve">
+    <value>Chat history</value>
+  </data>
+  <data name="ERR_CDSNOTCONFIGURED" xml:space="preserve">
+    <value>Can’t connect to ICC at the moment as it is being set up</value>
+  </data>
+  <data name="ERR_GETACTIVEUSERFROMWPID" xml:space="preserve">
+    <value>Can’t get user information from workplace ID (during GetActiveUserFromWpId)</value>
+  </data>
+  <data name="AgentChat" xml:space="preserve">
+    <value>Agent chat</value>
+  </data>
+  <data name="ChatWithAgent" xml:space="preserve">
+    <value>Chat med annen agent</value>
+  </data>
+  <data name="ERR_GETSPECIALSPTRING2" xml:space="preserve">
+    <value>Can’t get information from event (during getSpecialString2)</value>
+  </data>
+  <data name="IdConnectedToChatSession" xml:space="preserve">
+    <value>Identifier for chat session</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="ERR_SENDCOMMANDTOGROUPOFAGENTS" xml:space="preserve">
+    <value>Can’t send message/information to group of agents (during sendCommandToGroupOfAgents)</value>
+  </data>
+  <data name="ERR_CREATEMOVEMENTINFOOBJECT" xml:space="preserve">
+    <value>Can’t create transfer information (during CreateCallMovementInfo)</value>
+  </data>
+  <data name="ERR_SETCDSCALL" xml:space="preserve">
+    <value>Can’t set information on enquiry (during SetCdsCall)</value>
+  </data>
+  <data name="ERR_SETMOVEMENTTYPE" xml:space="preserve">
+    <value>Can’t set transfer type (during SetMovementType)</value>
+  </data>
+  <data name="ERR_ADDOTHERPARTY" xml:space="preserve">
+    <value>Can’t add information on other party (during AddOtherParty)</value>
+  </data>
+  <data name="ERR_CREATEMOVEMENTINFOOTHERPARTY" xml:space="preserve">
+    <value>Can’t create transfer information on other party (during createMovementInfoOtherPart)</value>
+  </data>
+  <data name="ERR_SETAGENTCALLMOVEMENTINFORMATION" xml:space="preserve">
+    <value>Can’t send transfer information (during SetAgentCallMovementInformation)</value>
+  </data>
+  <data name="ERR_SETSERVICENAME" xml:space="preserve">
+    <value>Can’t set service name (during SetServiceName)</value>
+  </data>
+  <data name="ERR_SETTASKID" xml:space="preserve">
+    <value>Can’t set task ID (during SetTaskId)</value>
+  </data>
+  <data name="WhoEnquiryMayBeIsTransferedTo" xml:space="preserve">
+    <value>Who enquiry may have been transferred to</value>
+  </data>
+  <data name="ERR_HOLD" xml:space="preserve">
+    <value>Can’t put enquiry on hold</value>
+  </data>
+  <data name="ERR_SETACCEPTOUTGOINGCALL" xml:space="preserve">
+    <value>Can’t accept or reject enquiry (during setAcceptOutgoingCall)</value>
+  </data>
+  <data name="TimeFromArrivalToAgentTransfer" xml:space="preserve">
+    <value>Time from arrival to transfer to agent</value>
+  </data>
+  <data name="ERR_LOGOUTALLVQS" xml:space="preserve">
+    <value>Can’t sign out of queue groups (during logoutAllVqs)</value>
+  </data>
+  <data name="InformationAboutLostEnquiryThatIsHandled" xml:space="preserve">
+    <value>Information on lost enquiry that has been processed</value>
+  </data>
+  <data name="InformationAboutResponsibleAgentForLostEnquiry" xml:space="preserve">
+    <value>Information on responsible agent for lost enquiry</value>
+  </data>
+  <data name="ERR_GETISCONFERENCEDRESERVED" xml:space="preserve">
+    <value>Can't find out if device is in conference</value>
+  </data>
+  <data name="Handled" xml:space="preserve">
+    <value>Processed</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="ERR_GETNUMBEROFREADYAGENTS" xml:space="preserve">
+    <value>Can’t get number of ready agents (during getNumberOfReadyAgents)</value>
+  </data>
+  <data name="AgentMessage" xml:space="preserve">
+    <value>Agent message</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="SendWebCamera" xml:space="preserve">
+    <value>Send web camera</value>
+  </data>
+  <data name="StartChat" xml:space="preserve">
+    <value>Start chat</value>
+  </data>
+  <data name="StartVideoSession" xml:space="preserve">
+    <value>Start video session</value>
+  </data>
+  <data name="WebCamera" xml:space="preserve">
+    <value>Web camera</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>Power</value>
+    <comment>as in Dialer (Power)</comment>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+    <comment>as in Dialer (Preview)</comment>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Virtual" xml:space="preserve">
+    <value>Virtual</value>
+    <comment>as in Dialer (Virtual)</comment>
+  </data>
+  <data name="Call_" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="ChatWith" xml:space="preserve">
+    <value>Chat with</value>
+  </data>
+  <data name="SendDirectMessageTo" xml:space="preserve">
+    <value>Send direct message to</value>
+  </data>
+  <data name="SendMailTo" xml:space="preserve">
+    <value>Send e-mail to</value>
+  </data>
+  <data name="ShowMyWebCameraTo" xml:space="preserve">
+    <value>Show my web camera to</value>
+  </data>
+  <data name="SimulateCallTo" xml:space="preserve">
+    <value>Simulate enquiry to</value>
+  </data>
+  <data name="StartVideoSessionWith" xml:space="preserve">
+    <value>Start video session with</value>
+  </data>
+  <data name="SendADirectMessage" xml:space="preserve">
+    <value>Send direct message</value>
+  </data>
+  <data name="StartSimulatedCall" xml:space="preserve">
+    <value>Start simulated enquiry</value>
+  </data>
+  <data name="LocalDestination" xml:space="preserve">
+    <value>Local destination</value>
+  </data>
+  <data name="Stop_" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ActiveOtherPart" xml:space="preserve">
+    <value>Active parties</value>
+  </data>
+  <data name="NamesAndIdsOnOtherParts" xml:space="preserve">
+    <value>Name and ID of other parties</value>
+  </data>
+  <data name="Error_" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="TerminatingEnquiry" xml:space="preserve">
+    <value>Finishing enquiry</value>
+  </data>
+  <data name="TimeFromFinished" xml:space="preserve">
+    <value>Time from finishing</value>
+  </data>
+  <data name="HasBeenConsultation" xml:space="preserve">
+    <value>Has been consultation</value>
+  </data>
+  <data name="TimeFromArrivalToFinished" xml:space="preserve">
+    <value>Time from arrival to finishing</value>
+  </data>
+  <data name="InformationAboutTransfering" xml:space="preserve">
+    <value>Information on transfer</value>
+  </data>
+  <data name="ERR_LISTWPIDSINQUEUE" xml:space="preserve">
+    <value>Can’t list agents signed into queue group</value>
+  </data>
+  <data name="ERR_ADDAPPLDATAONUNIQUEID" xml:space="preserve">
+    <value>Can’t add application data to specified ID</value>
+    <comment>(ditto)</comment>
+  </data>
+  <data name="Pob" xml:space="preserve">
+    <value>POB</value>
+  </data>
+  <data name="Crm" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="ERR_ADDPRESENCEBUDDY" xml:space="preserve">
+    <value>Can't add buddy (by AddPresenceBuddy)</value>
+  </data>
+  <data name="ERR_ATTACHALLPRESENCEUSERS" xml:space="preserve">
+    <value>Can't listen to information about buddies (by attachAllPresenceUsers)</value>
+  </data>
+  <data name="ERR_GETISBUSYONCDSCALL" xml:space="preserve">
+    <value>Can't find out if agent is busy with icc-enquiry (by isBusyOncdsCall)</value>
+  </data>
+  <data name="ERR_LISTPRESENCEBUDDYLIST" xml:space="preserve">
+    <value>Can't list buddies (by ListPresenceBuddyList)</value>
+  </data>
+  <data name="ERR_REMOVEPRESENCEBUDDY" xml:space="preserve">
+    <value>Can't remove buddy (by RemovePresenceBuddy)</value>
+  </data>
+  <data name="ERR_SETPRESENCEUSERBUSYONCALL" xml:space="preserve">
+    <value>Can't inform that agent is vacant/busy (by SetPresenceUserBusyOnCall)</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ERR_LISTUSERPROFILESELECTION" xml:space="preserve">
+    <value>Cannot list users by search-text (using ListUserProfileSelection)</value>
+  </data>
+  <data name="GlobalId" xml:space="preserve">
+    <value>Global id</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Time before expiration</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="NewContact" xml:space="preserve">
+    <value>New contact</value>
+  </data>
+  <data name="DeleteContact" xml:space="preserve">
+    <value>Delete contact</value>
+  </data>
+  <data name="CardDisplay" xml:space="preserve">
+    <value>Card display</value>
+  </data>
+  <data name="ShowFilter" xml:space="preserve">
+    <value>Show filter</value>
+  </data>
+  <data name="NoContacts" xml:space="preserve">
+    <value>No contacts</value>
+  </data>
+  <data name="DropColumnHereToGroup" xml:space="preserve">
+    <value>Drop column here to group</value>
+  </data>
+  <data name="NoHit" xml:space="preserve">
+    <value>No hit</value>
+  </data>
+  <data name="PassedBeginning" xml:space="preserve">
+    <value>Passed beginning</value>
+  </data>
+  <data name="PassedEnd" xml:space="preserve">
+    <value>Passed end</value>
+  </data>
+  <data name="SearchingColumn" xml:space="preserve">
+    <value>Search in column</value>
+    <comment>Searching column .....</comment>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>Search for</value>
+  </data>
+  <data name="DoYouReallyWantToDeleteSelectedRow" xml:space="preserve">
+    <value>Do you really want to delete selected/active row?</value>
+  </data>
+  <data name="DoYouWantToPrintThisList" xml:space="preserve">
+    <value>Do you want to print this list?</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="WriteTextAndSearchUseSpecialSign" xml:space="preserve">
+    <value>Enter text and click search. Use * in front of text to search for content (not 'begins with')</value>
+  </data>
+  <data name="contact_" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="contacts_" xml:space="preserve">
+    <value>contacts</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ChangeSize" xml:space="preserve">
+    <value>Change size</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ShowAsATabInMainWIndow" xml:space="preserve">
+    <value>Show as tab in main window</value>
+  </data>
+  <data name="ShowAsDockedInMainWindow" xml:space="preserve">
+    <value>Show as integrated in main window</value>
+  </data>
+  <data name="ShowAsStandaloneWindow" xml:space="preserve">
+    <value>Show as stand-alone window</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="FindContact" xml:space="preserve">
+    <value>Find contact</value>
+  </data>
+  <data name="DataGridClearButtonText" xml:space="preserve">
+    <value>&amp;Clear</value>
+  </data>
+  <data name="DataGridSearchButtonText" xml:space="preserve">
+    <value>&amp;Search</value>
+  </data>
+  <data name="DeleteContacts" xml:space="preserve">
+    <value>Delete contacts</value>
+  </data>
+  <data name="EditValue" xml:space="preserve">
+    <value>Change value</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="Skype4Business" xml:space="preserve">
+    <value>Skype for Business</value>
+  </data>
+  <data name="ClickToViewMoore" xml:space="preserve">
+    <value>Click to see more information</value>
+  </data>
+  <data name="HereIsAllPreviousMessagesDisplayed" xml:space="preserve">
+    <value>Here are all previous messages displayed</value>
+  </data>
+  <data name="S4BAndUserIdMismatch" xml:space="preserve">
+    <value>Skype for business sign in address does not match ICC user ID.</value>
+  </data>
+  <data name="S4BNotSignedIn" xml:space="preserve">
+    <value>User not signed in to Skype for business.</value>
+  </data>
+  <data name="S4BSkypeForBusinessCredentials" xml:space="preserve">
+    <value>Skype for business Credentials</value>
+  </data>
+  <data name="S4BDomainAndUsername" xml:space="preserve">
+    <value>Domain and username</value>
+  </data>
+  <data name="S4BSavePassword" xml:space="preserve">
+    <value>Save password</value>
+  </data>
+  <data name="S4BCouldNotBeFound" xml:space="preserve">
+    <value>Skype for Business could not be found. Please start Skype for Business.</value>
+  </data>
+  <data name="S4BNotFound" xml:space="preserve">
+    <value>Skype for Business not found</value>
+  </data>
+  <data name="ERR_GETSIPURI" xml:space="preserve">
+    <value>Can't get SIP URI</value>
+  </data>
+  <data name="ERR_GETSTREAMOBJECT" xml:space="preserve">
+    <value>Can't get stream object</value>
+  </data>
+  <data name="ERR_NOSUCHCOMMAND" xml:space="preserve">
+    <value>No such command on server</value>
+  </data>
+  <data name="ERR_NOTIFYERROR" xml:space="preserve">
+    <value>Internal server error</value>
+  </data>
+  <data name="ERR_ISSUEREQUESTTIMEOUT" xml:space="preserve">
+    <value>Timeout on server command</value>
+  </data>
+  <data name="ERR_GETCONSTANTS" xml:space="preserve">
+    <value>Could not get system constants</value>
+  </data>
+  <data name="ERR_CUSTOMERHUNGUP" xml:space="preserve">
+    <value>Customer hung up</value>
+  </data>
+  <data name="ConferenceToServiceNotSupported" xml:space="preserve">
+    <value>Conference to service is not supported</value>
+  </data>
+  <data name="TransferDirectCallToServiceNotSupported" xml:space="preserve">
+    <value>Transfer direct call to service is not supported.</value>
+  </data>
+  <data name="ERR_SAVELOGGEDENQUIRY" xml:space="preserve">
+    <value>Could not save enquiry.</value>
+  </data>
+  <data name="ERR_LISTLOGGEDENQUIRIES" xml:space="preserve">
+    <value>Could not load enquiries.</value>
+  </data>
+  <data name="ERR_DELETELOGGEDENQUIRIES" xml:space="preserve">
+    <value>Could not delete enquiries.</value>
+  </data>
+  <data name="ERR_GETSHORTLIST" xml:space="preserve">
+    <value>Could not load shortlist.</value>
+  </data>
+  <data name="ERR_ICCLOGIN" xml:space="preserve">
+    <value>Could not login to ICC. Wrong user name or password.</value>
+  </data>
+  <data name="ERR_SSHCONNECTION" xml:space="preserve">
+    <value>Could not create secure connection.</value>
+  </data>
+  <data name="ERR_USERALREADYLOGGEDIN" xml:space="preserve">
+    <value>This user-ID is already logged in as an agent.</value>
+  </data>
+  <data name="SIP_ERR_NOT_ALLOWED_WHEN_CONNECTED" xml:space="preserve">
+    <value>Can’t update registration when connected to server</value>
+  </data>
+  <data name="SIP_ERR_MEDIA_FAILED" xml:space="preserve">
+    <value>Can’t set media - failed</value>
+  </data>
+  <data name="SIP_ERR_MISSING_INFO" xml:space="preserve">
+    <value>Information missing for starting IP</value>
+  </data>
+  <data name="SIP_ERR_REGISTRATION_ERROR" xml:space="preserve">
+    <value>IP registration error</value>
+  </data>
+  <data name="SIP_ERR_REGISTRATION_REJECTED" xml:space="preserve">
+    <value>IP registration rejected</value>
+  </data>
+  <data name="SIP_ERR_CREATE_SESSION" xml:space="preserve">
+    <value>Can’t create new session</value>
+  </data>
+  <data name="SIP_ERR_ANSWER" xml:space="preserve">
+    <value>Can’t answer enquiry</value>
+  </data>
+  <data name="SIP_ERR_TERMINATE" xml:space="preserve">
+    <value>Can’t finish enquiry</value>
+  </data>
+  <data name="SIP_ERR_FORWARD_CALL" xml:space="preserve">
+    <value>Can’t transfer enquiry</value>
+  </data>
+  <data name="SIP_ERR_HOLD" xml:space="preserve">
+    <value>Can’t put enquiry on hold</value>
+  </data>
+  <data name="SIP_ERR_SEND_DTMF" xml:space="preserve">
+    <value>Can’t send key signal</value>
+  </data>
+  <data name="SIP_ERR_CANNOT_FING_SESSION" xml:space="preserve">
+    <value>Can’t find SipCall session enquiry</value>
+  </data>
+  <data name="SIP_ERR_ILLEGAL_STATE_OPERATION" xml:space="preserve">
+    <value>Can’t perform operation with enquiry’s current status</value>
+  </data>
+  <data name="SIP_ERR_NOT_IMPLEMENTED" xml:space="preserve">
+    <value>Not implemented</value>
+  </data>
+  <data name="SIP_ERR_TIMEOUT" xml:space="preserve">
+    <value>Operation timed out – an event took too long</value>
+  </data>
+  <data name="ERR_CTCSTARTMONITORING" xml:space="preserve">
+    <value>Can’t monitor line</value>
+  </data>
+  <data name="ERR_CTCHOLDCALL" xml:space="preserve">
+    <value>Can’t put call on hold</value>
+  </data>
+  <data name="ERR_CTCRECONNECTHELDCALL" xml:space="preserve">
+    <value>Can’t resume held call</value>
+  </data>
+  <data name="ERR_CTCMAKECALL" xml:space="preserve">
+    <value>Can’t make outbound call</value>
+  </data>
+  <data name="ERR_CTCHANGUPCALL" xml:space="preserve">
+    <value>Can’t hang up active call</value>
+  </data>
+  <data name="ERR_CTCCONSULTATIONCALL" xml:space="preserve">
+    <value>Can’t make consultation call</value>
+  </data>
+  <data name="ERR_CTCTRANSFERCALL" xml:space="preserve">
+    <value>Can’t transfer call</value>
+  </data>
+  <data name="ERR_CTCMONITOROFF" xml:space="preserve">
+    <value>Line not monitored</value>
+  </data>
+  <data name="ERR_CTCANSWERCALL" xml:space="preserve">
+    <value>Can’t answer call</value>
+  </data>
+  <data name="ERR_CTCCONFERENCEJOIN" xml:space="preserve">
+    <value>Can’t place call in conference</value>
+  </data>
+  <data name="ERR_CTCRETRIEVEHELDCALL" xml:space="preserve">
+    <value>Can’t retrieve held call</value>
+  </data>
+  <data name="ERR_CTCDESTBUSY" xml:space="preserve">
+    <value>Destination busy</value>
+  </data>
+  <data name="ERR_CTCDESTNOTOBTAINABLE" xml:space="preserve">
+    <value>Destination unobtainable</value>
+  </data>
+  <data name="ERR_CTCERROR" xml:space="preserve">
+    <value>Unknown telephone line error occurred</value>
+  </data>
+  <data name="ERR_CTCGENERALERROR" xml:space="preserve">
+    <value>Unknown telephony error occurred</value>
+  </data>
+  <data name="ERR_CTCDESTINVALID" xml:space="preserve">
+    <value>Destination invalid</value>
+  </data>
+  <data name="ERR_CTCGENERALTIMEOUT" xml:space="preserve">
+    <value>Error occurred. Can't execute command due to timeout</value>
+  </data>
+  <data name="ERR_CTCCALLNOTFOUND" xml:space="preserve">
+    <value>Can’t find call</value>
+  </data>
+  <data name="ERR_CTCLINENOTFOUND" xml:space="preserve">
+    <value>Can’t find telephone line</value>
+  </data>
+  <data name="ERR_CTCEVENTNOTFOUND" xml:space="preserve">
+    <value>Event not found</value>
+  </data>
+  <data name="ERR_CANNOTSEARCHCOLUMN" xml:space="preserve">
+    <value>Can’t search in this column. Unknown format</value>
+  </data>
+  <data name="ERR_WORKINGONDATABASE" xml:space="preserve">
+    <value>Error while processing database</value>
+  </data>
+  <data name="ERR_CUSTOMMENUFORMAT">
+    <value>Wrong format on custom menu.</value>
+  </data>
+  <data name="SIP_ERR_ALREADY_STARTED">
+    <value>Already started.</value>
+  </data>
+  <data name="SIP_ERR_REFER_FAIL">
+    <value>SIP refer fail</value>
+  </data>
+  <data name="ERR_BREAKCODENOTLEGAL">
+    <value>Break code not legal.</value>
+  </data>
+  <data name="ERR_LISTDEFAULTUSERMEDIAPROFILES">
+    <value>Error while listing default user media profiles</value>
+  </data>
+  <data name="ERR_GETVQSTATISTICS">
+    <value>Error getting queue statistics.</value>
+  </data>
+  <data name="ERR_GETAPPLICATIONDATAOBJECT">
+    <value>Error getting application data.</value>
+  </data>
+  <data name="ERR_IVR_TRANSFER_ONE_STEP">
+    <value>An error occured during transfer of a call.</value>
+  </data>
+  <data name="ERR_IVR_CONSULTATION">
+    <value>An error occured during consultation.</value>
+  </data>
+  <data name="ERR_IVR_CONSULTATIONCONFERENCE">
+    <value>An error occured during consultation conference.</value>
+  </data>
+  <data name="ERR_IVR_CONFERENCE">
+    <value>An error occured during conference.</value>
+  </data>
+  <data name="ERR_IVR_MAKECALL">
+    <value>An error occured during the setup of an outgoing call.</value>
+  </data>
+  <data name="ERR_IVR_HOLD">
+    <value>An error occured while handling a parked call.</value>
+  </data>
+  <data name="ERR_IVR_ACTIVE">
+    <value>An error occured while handling an phone call.</value>
+  </data>
+  <data name="DialPad">
+    <value>Dialpad</value>
+  </data>
+  <data name="SelectRole">
+    <value>Select Role</value>
+  </data>
+  <data name="SelectARole">
+    <value>Select a role from the list</value>
+  </data>
+  <data name="Continue">
+    <value>Continue</value>
+  </data>
+  <data name="ERR_GETICCOBJECT">
+    <value>Could not get an object from ICC.</value>
+  </data>
+  <data name="InAPhoneCall">
+    <value>In a phonecall</value>
+  </data>
+  <data name="Working">
+    <value>Working</value>
+  </data>
+  <data name="Disabled">
+    <value>Disabled</value>
+  </data>
+  <data name="ERR_INVALIDHOTKEY">
+    <value>Invalid hotkey. Must contain at least one modifier: ALT, CTRL or LWIN, or be an F-key.</value>
+  </data>
+  <data name="ChooseRole_">
+    <value>Choose role...</value>
+  </data>
+  <data name="ChooseARoleFromTheList_">
+    <value>Choose a role from the list...</value>
+  </data>
+  <data name="Asupervisoriscurrentlylisteningtoyourcalls">
+    <value>A supervisor ({0}) is currently listening to your calls.</value>
+  </data>
+  <data name="Asupervisorislisteningtothiscall">
+    <value>A supervisor is listening to this call ({0}).</value>
+  </data>
+  <data name="Youarenolongerbeingmonitoredbyasupervisor">
+    <value>You are no longer being monitored by a supervisor.</value>
+  </data>
+  <data name="Asupervisorrequeststolistentoyourcalls">
+    <value>A supervisor ({0}) requests to listen to your calls.
+Do you accept?</value>
+  </data>
+  <data name="WebSocketInfoNotValid">
+    <value>Invalid WebSocket info.</value>
+  </data>
+  <data name="ERR_DECODECONSTANTS">
+    <value>Failed to decode system constants. 
+Your ICC Agent version might be incompatible with the server version trying to connect to.</value>
+  </data>
+</root>

@@ -1,0 +1,3332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterWork" xml:space="preserve">
+    <value>Efterarbete</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Svara</value>
+  </data>
+  <data name="AnswerEnquiry" xml:space="preserve">
+    <value>Besvara samtal</value>
+  </data>
+  <data name="Call_" xml:space="preserve">
+    <value>Ring upp</value>
+  </data>
+  <data name="CancelConsultation" xml:space="preserve">
+    <value>Avbryt konsultation.</value>
+  </data>
+  <data name="CDSAgent" xml:space="preserve">
+    <value>ICC Agent</value>
+  </data>
+  <data name="ClickOrSelectBreakcodeToSetNotReady" xml:space="preserve">
+    <value>Klicka eller välj frånvarokod för att visa dig som ej klar</value>
+  </data>
+  <data name="CompleteConference" xml:space="preserve">
+    <value>Avsluta konferens</value>
+  </data>
+  <data name="CompleteTransfer" xml:space="preserve">
+    <value>Avsluta överföring</value>
+  </data>
+  <data name="Conference" xml:space="preserve">
+    <value>Konferens</value>
+  </data>
+  <data name="Consultation" xml:space="preserve">
+    <value>Konsultation</value>
+  </data>
+  <data name="ConsultForConference" xml:space="preserve">
+    <value>Konsultera innan konferens</value>
+  </data>
+  <data name="ConsultForConferenceWith" xml:space="preserve">
+    <value>Konsultera innan konferens med</value>
+  </data>
+  <data name="ConsultWith" xml:space="preserve">
+    <value>Konsultera med</value>
+  </data>
+  <data name="ConsultWithOtherPart" xml:space="preserve">
+    <value>Konsultera med annan deltagare</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakta</value>
+    <comment>As in making a call</comment>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="EditMenu" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="EnquiriesLists" xml:space="preserve">
+    <value>Samtalslistor</value>
+  </data>
+  <data name="ERR_ATTACH" xml:space="preserve">
+    <value>Ett fel uppstod under inloggning.</value>
+  </data>
+  <data name="ERR_CHANGEPASSWORD" xml:space="preserve">
+    <value>Ett fel uppstod vid lösenordsbyte. Lösenord ej ändrat.</value>
+  </data>
+  <data name="ERR_CHECKLOGOUTVQFORMAT" xml:space="preserve">
+    <value>Felaktigt format på text som indikerar hur många agenter som måste vara inloggade i de olika kögrupperna. Format måste vara: &apos;&lt;vqnamn&gt;:&lt;minsta antal&gt;,&lt;vqnamm&gt;:&lt;minsta antal&gt;,...,&lt;vqnamn&gt;:&lt;minsta antal&gt;&apos;</value>
+  </data>
+  <data name="ERR_DIDNOTACCEPTCALL" xml:space="preserve">
+    <value>Eftersom du inte accepterade/besvarade ett ärende som överfördes till dig sätts du nu som ej klar.</value>
+  </data>
+  <data name="ERR_ERRORFROMCDS" xml:space="preserve">
+    <value>Ett fel uppstod.</value>
+  </data>
+  <data name="ERR_HOSTISDEAD" xml:space="preserve">
+    <value>Du har loggats ut på grund av nätverksproblem</value>
+  </data>
+  <data name="ERR_INITIATECONFIG" xml:space="preserve">
+    <value>Kan ej påbörja konfiguration. Applikation kommer att avslutas och stängas.</value>
+  </data>
+  <data name="ERR_LOGINANYVQS" xml:space="preserve">
+    <value>Kunde ej checka in i någon kögrupp.</value>
+  </data>
+  <data name="ERR_LOGINVQS" xml:space="preserve">
+    <value>Kunde ej checka in i vissa kögrupper.</value>
+  </data>
+  <data name="ERR_LOGOUTANYVQS" xml:space="preserve">
+    <value>Kan ej checka ut ur någon kögrupp.</value>
+  </data>
+  <data name="ERR_LOGOUTVQS" xml:space="preserve">
+    <value>Kan ej checka ut ur vissa kögrupper.</value>
+  </data>
+  <data name="ERR_NOCOMMAND" xml:space="preserve">
+    <value>Inget kommando har angetts.</value>
+  </data>
+  <data name="ERR_OLDPASSWORDWRONG" xml:space="preserve">
+    <value>Gammalt lösenord felaktigt.</value>
+  </data>
+  <data name="ERR_SCRIPTCOMMAND_NOT_FOUND" xml:space="preserve">
+    <value>Ogiltigt kommando använt i skript. </value>
+  </data>
+  <data name="ERR_TOOFEWLOGGEDIN" xml:space="preserve">
+    <value>Eftersom det krävs ett minsta antal incheckade kan du just nu ej checka ut ur den angivna kögruppen.</value>
+  </data>
+  <data name="ERR_TRANSFERCALLFAILURE" xml:space="preserve">
+    <value>Ett fel uppstod under överföring av samtal till dig.</value>
+  </data>
+  <data name="ERR_UNKNOWNWPID" xml:space="preserve">
+    <value>Kan ej logga in. Arbetsplats-ID otillgängligt (troligtvis ett konfigurationsproblem).</value>
+  </data>
+  <data name="ERR_UPDATEENQUIRYLOG" xml:space="preserve">
+    <value>Ett fel uppstod under uppdatering av ärendelogg.</value>
+  </data>
+  <data name="ERR_VARIABLE_HAS_UNKNOWN_TYPE" xml:space="preserve">
+    <value>Variabeltyp okänd.</value>
+  </data>
+  <data name="ERR_VARIABLE_NOT_SET" xml:space="preserve">
+    <value>Variabel ej inställd.</value>
+  </data>
+  <data name="ERR_WRITINGENQUIRYLOG" xml:space="preserve">
+    <value>Ärende kan ej sparas.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Misslyckades.</value>
+  </data>
+  <data name="ShowInCatalog" xml:space="preserve">
+    <value>Visa i kundregister</value>
+  </data>
+  <data name="Hangup" xml:space="preserve">
+    <value>Lägg på</value>
+  </data>
+  <data name="HangupEnquiry" xml:space="preserve">
+    <value>Avsluta samtal</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Parkera</value>
+  </data>
+  <data name="HoldEnquiry" xml:space="preserve">
+    <value>Parkera samtal</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Utloggad</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="MenuEditChangePassword" xml:space="preserve">
+    <value>Ändra &amp;lösenord</value>
+  </data>
+  <data name="MenuEnquiry" xml:space="preserve">
+    <value>&amp;Samtal</value>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>&amp;Arkiv</value>
+  </data>
+  <data name="MenuFileExit" xml:space="preserve">
+    <value>&amp;Avsluta</value>
+  </data>
+  <data name="MenuFileLogin" xml:space="preserve">
+    <value>Logga &amp;in</value>
+  </data>
+  <data name="MenuFileLogout" xml:space="preserve">
+    <value>Logga &amp;ut</value>
+  </data>
+  <data name="MenuFileRunCommand" xml:space="preserve">
+    <value>&amp;Kör kommando</value>
+  </data>
+  <data name="MenuShow" xml:space="preserve">
+    <value>&amp;Visa</value>
+  </data>
+  <data name="MenuShowTrace" xml:space="preserve">
+    <value>&amp;Trace</value>
+  </data>
+  <data name="MenuStatus" xml:space="preserve">
+    <value>&amp;Status</value>
+  </data>
+  <data name="MenuStatusSetNotReady" xml:space="preserve">
+    <value>Sätt som &amp;ej klar</value>
+  </data>
+  <data name="MenuStatusSignInAllQueues" xml:space="preserve">
+    <value>Checka in i &amp;alla kögrupper</value>
+  </data>
+  <data name="MenuStatusSignInLastQueues" xml:space="preserve">
+    <value>Checka in i &amp;senaste kögrupper</value>
+  </data>
+  <data name="MenuStatusSignInOrOut" xml:space="preserve">
+    <value>&amp;Checka in/ut</value>
+  </data>
+  <data name="MenuStatusSignOutAllQueues" xml:space="preserve">
+    <value>Checka &amp;ut ur alla kögrupper</value>
+  </data>
+  <data name="MenuShowMyActiveEnquiries" xml:space="preserve">
+    <value>Mina &amp;aktiva ärenden</value>
+  </data>
+  <data name="NotReady" xml:space="preserve">
+    <value>Ej klar</value>
+  </data>
+  <data name="OtherPart" xml:space="preserve">
+    <value>Annan deltagare</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="SendDirectMessageToAgent" xml:space="preserve">
+    <value>Skicka direktmeddelande till agent</value>
+  </data>
+  <data name="SendMailTo" xml:space="preserve">
+    <value>Skicka e-post till</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Skicka meddelande</value>
+  </data>
+  <data name="SendWebCamera" xml:space="preserve">
+    <value>Skicka webbkamera</value>
+  </data>
+  <data name="SetReadyToReceiveEnquires" xml:space="preserve">
+    <value>Sätt som klar att ta emot ärenden</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Visa text</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value></value>
+    <comment>As Log in queues</comment>
+  </data>
+  <data name="SignInAllQueues" xml:space="preserve">
+    <value>Checka in i alla kögrupper</value>
+  </data>
+  <data name="SignInLastQueues" xml:space="preserve">
+    <value>Checka in i senaste kögrupper</value>
+  </data>
+  <data name="SignInQueues" xml:space="preserve">
+    <value>Checka in i kögrupper</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value></value>
+    <comment>As Log out of queues</comment>
+  </data>
+  <data name="SignOutAllQueues" xml:space="preserve">
+    <value>Checka ut ur alla kögrupper</value>
+  </data>
+  <data name="SimulateCallTo" xml:space="preserve">
+    <value>Simulera samtal till</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Överför</value>
+  </data>
+  <data name="TransferDirect" xml:space="preserve">
+    <value>Överför direkt</value>
+  </data>
+  <data name="TransferTo" xml:space="preserve">
+    <value>Överför till</value>
+  </data>
+  <data name="UnHold" xml:space="preserve">
+    <value>Återuppta</value>
+    <comment>(see previous commetn about resume being more common)</comment>
+  </data>
+  <data name="UnholdEnquiry" xml:space="preserve">
+    <value>Återuppta ärende</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Uppdaterar</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="MenuVarious" xml:space="preserve">
+    <value>&amp;Diverse</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Arbetsplats</value>
+  </data>
+  <data name="YouAreNowLoggetOut" xml:space="preserve">
+    <value>Du är nu utloggad...</value>
+  </data>
+  <data name="YouCanNotLogoutFromQueuesWhenStillReadySetNotReady" xml:space="preserve">
+    <value>Du kan inte logga ut ur kögrupperna samtidigt som du är satt som klar. Sätt dig som ej klar först.</value>
+  </data>
+  <data name="YourPasswordIsNowChanged" xml:space="preserve">
+    <value>Ditt lösenord har nu ändrats</value>
+  </data>
+  <data name="MenuShowEnquiriesLists" xml:space="preserve">
+    <value>&amp;Ärendelistor</value>
+  </data>
+  <data name="MenuShowMyFinishedEnquiries" xml:space="preserve">
+    <value>&amp;Mina avslutade ärenden</value>
+  </data>
+  <data name="EnquiryLog" xml:space="preserve">
+    <value>Ärendelogg</value>
+  </data>
+  <data name="ActiveEnquiries" xml:space="preserve">
+    <value>Aktiva ärenden</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>Kundregister</value>
+  </data>
+  <data name="MenuItemShowCatalog" xml:space="preserve">
+    <value>&amp;Kundregister</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="MenuItemShowSearch" xml:space="preserve">
+    <value>&amp;Sök</value>
+  </data>
+  <data name="MenuEditMedia" xml:space="preserve">
+    <value>&amp;Trafikingång</value>
+  </data>
+  <data name="MenuStatusShowServiceStatus" xml:space="preserve">
+    <value>&amp;Visa tjänststatus</value>
+  </data>
+  <data name="AHeldCallIsDisconnected" xml:space="preserve">
+    <value>Ett parkerat samtal har blivit bortkopplat.</value>
+  </data>
+  <data name="OtherPartIs" xml:space="preserve">
+    <value>Annan deltagare är</value>
+  </data>
+  <data name="ClickOrChooseToMakeANewEnquiry" xml:space="preserve">
+    <value>Klicka eller välj för att skapa nytt utgående ärende.</value>
+  </data>
+  <data name="NewEnquiry" xml:space="preserve">
+    <value>Nytt ärende</value>
+  </data>
+  <data name="NoOutboundEnquiryChoises" xml:space="preserve">
+    <value>Inga val för nya utgående ärenden är tillgängliga.</value>
+  </data>
+  <data name="Use" xml:space="preserve">
+    <value>Använd</value>
+  </data>
+  <data name="ERR_NOFREEMEDIATODOUTBOUND" xml:space="preserve">
+    <value>Det finns inga tillgängliga resurser för att skapa ett nytt utgående ärende.</value>
+  </data>
+  <data name="ERR_CANNOTFINDENQUIRY" xml:space="preserve">
+    <value>Ärende kan ej hittas.</value>
+  </data>
+  <data name="CreateAnNewOutboundEnquiry" xml:space="preserve">
+    <value>Skapa nytt utgående ärende.</value>
+  </data>
+  <data name="Telephony" xml:space="preserve">
+    <value>Telefoni</value>
+  </data>
+  <data name="ResetLine" xml:space="preserve">
+    <value>Nollställ linje</value>
+  </data>
+  <data name="RestartSIP" xml:space="preserve">
+    <value>Nollställ SIP-linje</value>
+  </data>
+  <data name="MenuOptionFocusOnNewEnquiry" xml:space="preserve">
+    <value>&amp;Fokus vid nytt samtal</value>
+  </data>
+  <data name="MenuOptions" xml:space="preserve">
+    <value>&amp;Inställningar</value>
+  </data>
+  <data name="MenuOptionFocusNoFocus" xml:space="preserve">
+    <value>Inget fokus</value>
+  </data>
+  <data name="MenuOptionFocusShowMainWindow" xml:space="preserve">
+    <value>Visa huvudfönster</value>
+  </data>
+  <data name="MenuOptionFocusShowMyActiveEnquiries" xml:space="preserve">
+    <value>Visa mina aktiva ärenden</value>
+  </data>
+  <data name="MenuOptionFocusShowNewWindow" xml:space="preserve">
+    <value>Visa nytt fönster</value>
+  </data>
+  <data name="MyActiveEnquiries" xml:space="preserve">
+    <value>Mina aktiva ärenden</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Framåt</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navigera</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="FinishedDownloaded" xml:space="preserve">
+    <value>Nedladdning komplett.</value>
+  </data>
+  <data name="WebWindow" xml:space="preserve">
+    <value>Webbfönster</value>
+  </data>
+  <data name="ERR_NOTHENAFTERIF" xml:space="preserve">
+    <value>"If" måste följas av "then"</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Alltid överst</value>
+  </data>
+  <data name="ThisChoiseWillresultInCDSAgentAlwysInFront" xml:space="preserve">
+    <value>Detta val innebär att ICC Agent alltid är längst fram.</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="Loggingin" xml:space="preserve">
+    <value>Loggar in om</value>
+    <comment>As in &quot;Connecting in 30 seconds&quot; </comment>
+  </data>
+  <data name="seconds_" xml:space="preserve">
+    <value>sekunder</value>
+  </data>
+  <data name="second_" xml:space="preserve">
+    <value>sekund</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="LoginNow" xml:space="preserve">
+    <value>Logga in nu</value>
+  </data>
+  <data name="ClickToSelectDateOrChooseFromMenu" xml:space="preserve">
+    <value>För att välja datum: Klicka eller välj från menyn</value>
+  </data>
+  <data name="ShowStatisticsOfMyFinishedEnquiries" xml:space="preserve">
+    <value>Visa statistik över mina avslutade ärenden</value>
+  </data>
+  <data name="ShowListsOfMyFinishedEnquiries" xml:space="preserve">
+    <value>Visa listor över mina avslutade ärenden</value>
+  </data>
+  <data name="ShowMyFinishedEnquiriesFromToday" xml:space="preserve">
+    <value>Visa mina avslutade ärenden från idag</value>
+  </data>
+  <data name="ShowMyFinishedEnquiriesFromYesterday" xml:space="preserve">
+    <value>Visa mina avslutade ärenden från igår</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>Igår</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Ansluter</value>
+  </data>
+  <data name="LoggingIn_" xml:space="preserve">
+    <value>Loggar in</value>
+  </data>
+  <data name="EnquiryWith" xml:space="preserve">
+    <value>Samtal med</value>
+    <comment>As in: Enquiry with other part</comment>
+  </data>
+  <data name="NewWindowOnEveryEnquiry" xml:space="preserve">
+    <value>Nytt fönster för varje ärende</value>
+  </data>
+  <data name="CloseWindowOnFinishedEnquiry" xml:space="preserve">
+    <value>Stäng fönster när ärende är avslutat</value>
+  </data>
+  <data name="ShowWindowForActiveEnquiry" xml:space="preserve">
+    <value>Visa fönster för aktivt ärende</value>
+  </data>
+  <data name="ShowsOrHidesWindowWithInformationOfTheActiveEnquiryWith" xml:space="preserve">
+    <value>Visar eller döljer fönster med information om aktivt ärende med</value>
+    <comment>as in &apos;.... active enquiry with 90739669&apos;</comment>
+  </data>
+  <data name="ShowWindowWithInformation" xml:space="preserve">
+    <value>Visa informationsfönster</value>
+  </data>
+  <data name="DoNotSetReadyBeforeConsultationCallIsFinished" xml:space="preserve">
+    <value>Visa dig inte som klar innan konsultationssamtalet är avslutat</value>
+  </data>
+  <data name="OriginalCallIsDisconnected" xml:space="preserve">
+    <value>Ursprungligt samtal bortkopplat</value>
+  </data>
+  <data name="SetReady" xml:space="preserve">
+    <value>Sätt som klar</value>
+  </data>
+  <data name="SetAfterwork" xml:space="preserve">
+    <value>Utöka efterarbete</value>
+  </data>
+  <data name="HandleEnquiry" xml:space="preserve">
+    <value>Behandla ärende</value>
+  </data>
+  <data name="TheEnquiryWillBeTransferredToYou" xml:space="preserve">
+    <value>Ärende kommer att överföras till dig</value>
+  </data>
+  <data name="QueueInformation" xml:space="preserve">
+    <value>Köinformation</value>
+  </data>
+  <data name="ShowInformationAboutQueueCountAndNumberOfAgentsOnQueues" xml:space="preserve">
+    <value>Visa information om kölängd och antal agenter fördelad på köerna</value>
+  </data>
+  <data name="Agents" xml:space="preserve">
+    <value>Agenter</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Ledig</value>
+  </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Kögrupp</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Ej ansluten</value>
+  </data>
+  <data name="Consultations" xml:space="preserve">
+    <value>Konsultationer</value>
+  </data>
+  <data name="IncomingCdsEnquiries" xml:space="preserve">
+    <value>Inkommande ICC-ärende</value>
+  </data>
+  <data name="IncomingDirectEnquiries" xml:space="preserve">
+    <value>Inkommande direktärenden</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Annan</value>
+    <comment>as in OTHER type of calls. If word stands alone &apos;others&apos;, if used with plural noun it will be &apos;other&apos;</comment>
+  </data>
+  <data name="OutgoingCdsEnquiries" xml:space="preserve">
+    <value>Utgående ICC-ärenden</value>
+  </data>
+  <data name="OutgoingDirectEnquiries" xml:space="preserve">
+    <value>Utgående direktärenden</value>
+  </data>
+  <data name="Moore" xml:space="preserve">
+    <value>Mer</value>
+    <comment>as in MORE text (The name of this is actually MORE, but this is a global key) </comment>
+  </data>
+  <data name="AverageHandlingTime" xml:space="preserve">
+    <value>Genomsnittlig behandlingstid</value>
+  </data>
+  <data name="AverageWaitingTimeBeforeAnswered" xml:space="preserve">
+    <value>Genomsnittlig väntetid innan ärende besvaras</value>
+  </data>
+  <data name="HandlingTime" xml:space="preserve">
+    <value>Behandlingstid</value>
+  </data>
+  <data name="IncomingCdsEnquiriesPrQueue" xml:space="preserve">
+    <value>Inkommande ICC-ärenden per kö</value>
+  </data>
+  <data name="NumberOfAnswered" xml:space="preserve">
+    <value>Antal besvarade</value>
+  </data>
+  <data name="NumberOfEnquiries" xml:space="preserve">
+    <value>Antal ärenden</value>
+  </data>
+  <data name="OutgoingCdsEnquiriesPrQueue" xml:space="preserve">
+    <value>Utgående ICC-ärenden per kö</value>
+  </data>
+  <data name="TimeUsedToHandlingEnquiries" xml:space="preserve">
+    <value>Tid använd för att behandla ärenden</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totalt</value>
+    <comment>As in &quot;total result&quot;</comment>
+  </data>
+  <data name="CannotWriteOrReceiveMessagesAtTheMoment" xml:space="preserve">
+    <value>Kan för tillfället ej ta emot eller skicka meddelanden.</value>
+  </data>
+  <data name="CannotSendOrReceiveMessagesWhenNotConnected" xml:space="preserve">
+    <value>Du måste vara inloggad för att skicka eller ta emot chattmeddelanden.</value>
+  </data>
+  <data name="chat_" xml:space="preserve">
+    <value>chatt</value>
+  </data>
+  <data name="ERR_SENDCHATCOMMANDTOAGENT" xml:space="preserve">
+    <value>Kan ej skicka meddelande till agent (troligtvis utloggad).</value>
+  </data>
+  <data name="ShowChatHistory" xml:space="preserve">
+    <value>Visa chatthistorik</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Okänd</value>
+  </data>
+  <data name="says_" xml:space="preserve">
+    <value>säger</value>
+    <comment>small first letter </comment>
+  </data>
+  <data name="ChatWithAgent" xml:space="preserve">
+    <value>Chatta med agent</value>
+    <comment>Might be like &quot;Chat with agent&quot; or &quot;Chat with agent Ola Nordmann&quot; </comment>
+  </data>
+  <data name="ChatWith" xml:space="preserve">
+    <value>Chatta med</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Rensa</value>
+    <comment>As in &quot;Clear text&quot;</comment>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Skicka</value>
+    <comment>As in &quot;Send message&quot;</comment>
+  </data>
+  <data name="UseTheText" xml:space="preserve">
+    <value>Använd texten</value>
+    <comment>as in &quot;Use the text &apos;only testing&apos;&quot;</comment>
+  </data>
+  <data name="ReadyToSendMessages" xml:space="preserve">
+    <value>Klar att skicka meddelanden</value>
+  </data>
+  <data name="CannotSendMooreMessages" xml:space="preserve">
+    <value>Kan ej skicka fler meddelanden</value>
+  </data>
+  <data name="EnquiryIsFinished" xml:space="preserve">
+    <value>Ärendet är avslutat</value>
+  </data>
+  <data name="ERR_CANNOTDOTHIS" xml:space="preserve">
+    <value>Kan ej utföra detta moment (konfigurationsproblem).</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="WriteYourFullName" xml:space="preserve">
+    <value>Fyll i ditt fullständiga namn</value>
+  </data>
+  <data name="ERR_CONFIGURATIONMISSING" xml:space="preserve">
+    <value>Konfiguration saknas.</value>
+  </data>
+  <data name="ERR_INFORMATIONMISSING" xml:space="preserve">
+    <value>Information saknas.</value>
+  </data>
+  <data name="NotLoggedInAnyQueues" xml:space="preserve">
+    <value>Ej inloggad i några kögrupper.</value>
+  </data>
+  <data name="ShowMainWindow" xml:space="preserve">
+    <value>Visa huvudfönster</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Dölj</value>
+  </data>
+  <data name="TotalInQueue" xml:space="preserve">
+    <value>Totalt i kö</value>
+  </data>
+  <data name="TimeInQueue" xml:space="preserve">
+    <value>Tid i kö</value>
+  </data>
+  <data name="ERR_LOGINSERVICEFAILURE" xml:space="preserve">
+    <value>Ett fel uppstod under inloggning i tjänst.</value>
+  </data>
+  <data name="YouMustRestartToTakeEffectOfTheChanges" xml:space="preserve">
+    <value>ICC Agent måste startas om för att förändringarna ska träda i kraft.</value>
+  </data>
+  <data name="YourProfileHasBeenChanged" xml:space="preserve">
+    <value>Din användarprofil har ändrats.</value>
+  </data>
+  <data name="ERR_LOGOUTSERVICEFAILURE" xml:space="preserve">
+    <value>Ett fel uppstod under utloggningen från tjänst.</value>
+  </data>
+  <data name="ERR_CALLREJECTED" xml:space="preserve">
+    <value>Samtal avvisat av annan deltagare.</value>
+  </data>
+  <data name="ERR_IVRDESTBUSYERROR" xml:space="preserve">
+    <value>Destination upptagen.</value>
+  </data>
+  <data name="ERR_IVRERROR" xml:space="preserve">
+    <value>Ett fel uppstod på IVR-media.</value>
+  </data>
+  <data name="ERR_DATASOURCESNOTINITIALIZED" xml:space="preserve">
+    <value>Datakällor ej återställda.</value>
+  </data>
+  <data name="ERR_CANNOTSHOWDATAROWINCATALOG" xml:space="preserve">
+    <value>Kan ej visa information i kundregister.</value>
+  </data>
+  <data name="ActiveEnquiry" xml:space="preserve">
+    <value>Aktivt ärende</value>
+  </data>
+  <data name="ERR_SERVICEDOESNOTEXIST" xml:space="preserve">
+    <value>Tjänst existerar inte.</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Spela in</value>
+    <comment>Button-title (as in &quot;do record&quot;)</comment>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>Spelar in</value>
+  </data>
+  <data name="StartRecordingOfTheEnquiry" xml:space="preserve">
+    <value>Påbörja samtalsinspelning</value>
+  </data>
+  <data name="TerminateRecordingOfTheEnquiry" xml:space="preserve">
+    <value>Avsluta samtalsinspelning</value>
+  </data>
+  <data name="ClickToListenToThisRecording" xml:space="preserve">
+    <value>Klicka för att höra den här inspelningen</value>
+  </data>
+  <data name="ListenToRecording" xml:space="preserve">
+    <value>Lyssna på inspelning</value>
+  </data>
+  <data name="ThisEnquiryContainsRecording" xml:space="preserve">
+    <value>Det här samtalet är uppkopplat för inspelning</value>
+  </data>
+  <data name="MarkAsRegistered" xml:space="preserve">
+    <value>Visa som markerat</value>
+  </data>
+  <data name="RegisterThatYouHaveNoticedThisLostEnquiry" xml:space="preserve">
+    <value>Markera att du tar ansvar för det här borttappade samtalet</value>
+  </data>
+  <data name="MarkAsHandled" xml:space="preserve">
+    <value>Markera som behandlat</value>
+  </data>
+  <data name="RegisterThatYouHaveHandledTheLostEnquiry" xml:space="preserve">
+    <value>Markera att du har behandlat det borttappade samtalet (kontakt)</value>
+  </data>
+  <data name="RemoveFromList" xml:space="preserve">
+    <value>Ta bort från listor</value>
+  </data>
+  <data name="TheEnquiryWillBeTemporaryRemovedFromAllLists" xml:space="preserve">
+    <value>Ärendet kommer tillfälligt att tas bort från alla listor</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Ljud</value>
+  </data>
+  <data name="TurnsSoundOnOrOff" xml:space="preserve">
+    <value>Slår på och stänger av ljud</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>as in Status on Enquiry</comment>
+  </data>
+  <data name="TimeFromAnswer" xml:space="preserve">
+    <value>Tid från svar</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Samtalstyp</value>
+    <comment>as in Type of Enquiry</comment>
+  </data>
+  <data name="Queues" xml:space="preserve">
+    <value>Kögrupper</value>
+  </data>
+  <data name="ShowWindowWithQueueButtons" xml:space="preserve">
+    <value>Visa fönster med köknappar</value>
+  </data>
+  <data name="NoOneInQueue" xml:space="preserve">
+    <value>Ingen i kö</value>
+  </data>
+  <data name="NumberInQueue" xml:space="preserve">
+    <value>Antal i kö</value>
+  </data>
+  <data name="NumberOfAgents" xml:space="preserve">
+    <value>Antal agenter</value>
+  </data>
+  <data name="inQueueOn" xml:space="preserve">
+    <value>i kö på</value>
+    <comment>as in &apos;There is 2 in queue on TestQueue&apos;</comment>
+  </data>
+  <data name="ThereIs" xml:space="preserve">
+    <value>Det är</value>
+    <comment>as in &apos;There is 2 is queue&apos;   ( &apos;are&apos; if more than one)</comment>
+  </data>
+  <data name="ThereIsNoOneInQueueOn" xml:space="preserve">
+    <value>Det är ingen i kö på</value>
+    <comment>as in &apos;There is no one in queue on TestQueue&apos;</comment>
+  </data>
+  <data name="is_" xml:space="preserve">
+    <value>är</value>
+    <comment>as in &apos;Waitingtime for the queue TestQueue is 3:20&apos;</comment>
+  </data>
+  <data name="NumberOfAgentsSignedInOn" xml:space="preserve">
+    <value>Antal agenter incheckade i</value>
+    <comment>as in &quot;Number of agents signed in on TestQueue: 2&quot;</comment>
+  </data>
+  <data name="ThereIsNoAgentsSignedInOn" xml:space="preserve">
+    <value>Inga agenter är incheckade</value>
+    <comment>as in &quot;There is no agents signed in on TestQueue&quot;</comment>
+  </data>
+  <data name="ThereIsNoWaitingTimeOn" xml:space="preserve">
+    <value>Det är ingen väntetid på</value>
+    <comment>as in &apos;There is no waitingtime on TestQueue&apos;</comment>
+  </data>
+  <data name="WaitingTimeForTheQueue" xml:space="preserve">
+    <value>Väntetid för kögrupp</value>
+    <comment>as in &apos;Waitingtime for the queue TestQueue is 3:20&apos;</comment>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Flytta ned</value>
+  </data>
+  <data name="MoveToBottom" xml:space="preserve">
+    <value>Placera längst ned</value>
+  </data>
+  <data name="MoveToTop" xml:space="preserve">
+    <value>Placera längst upp</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Flytta upp</value>
+  </data>
+  <data name="NumberOfReadyAgents" xml:space="preserve">
+    <value>Antal klara agenter</value>
+  </data>
+  <data name="NumberOfVacantAgents" xml:space="preserve">
+    <value>Antal lediga agenter</value>
+  </data>
+  <data name="Cancel_SelectButton" xml:space="preserve">
+    <value>&amp;Avbryt</value>
+  </data>
+  <data name="Ok_SelectButton" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="SelectDestination" xml:space="preserve">
+    <value>Välj destination</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="IWishToSelectedSeveralContacts" xml:space="preserve">
+    <value>Jag vill välja flera kontakter</value>
+  </data>
+  <data name="RemoveSelectedRows" xml:space="preserve">
+    <value>Ta bort utvalda rader</value>
+    <comment>Remove selected row(s)</comment>
+  </data>
+  <data name="SelectedContacts" xml:space="preserve">
+    <value>Utvalda kontakter</value>
+  </data>
+  <data name="SendDirectMessageTo" xml:space="preserve">
+    <value>Skicka direktmeddelande till</value>
+  </data>
+  <data name="StartVideoSessionWith" xml:space="preserve">
+    <value>Påbörja videosession med</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Kolumn</value>
+  </data>
+  <data name="AddsAllDestinationsFromTheSelectedContacts" xml:space="preserve">
+    <value>Lägger till alla destinationer från valda kontakter</value>
+  </data>
+  <data name="AddSelectedContacts" xml:space="preserve">
+    <value>Lägg till valda kontakter</value>
+  </data>
+  <data name="ERR_NOOUTBOUNDINFOONCONTACT" xml:space="preserve">
+    <value>Kan ej hitta information om vilken kontakt som för tillfället kan användas för utgående ärende.</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>Ej vald</value>
+  </data>
+  <data name="RemoveRow" xml:space="preserve">
+    <value>Ta bort rad</value>
+  </data>
+  <data name="SendSameMessageToAllSelectedContacts" xml:space="preserve">
+    <value>Skicka samma meddelande till alla valda kontakter</value>
+  </data>
+  <data name="ContactSelected" xml:space="preserve">
+    <value>Kontakt vald</value>
+  </data>
+  <data name="ContactSelectedByGivenWay" xml:space="preserve">
+    <value>Kontakt utvald genom angiven metod</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakter</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Avslutade</value>
+  </data>
+  <data name="RemoveContact" xml:space="preserve">
+    <value>Ta bort kontakt</value>
+  </data>
+  <data name="RemoveselectedContacts" xml:space="preserve">
+    <value>Ta bort valda kontakter</value>
+  </data>
+  <data name="AddContacts" xml:space="preserve">
+    <value>Lägg till kontakter</value>
+  </data>
+  <data name="RemoveFinishedContacts" xml:space="preserve">
+    <value>Ta bort avslutade kontakter</value>
+  </data>
+  <data name="HasSent" xml:space="preserve">
+    <value>Har skickat</value>
+  </data>
+  <data name="ERR_SENDINGMESSAGE" xml:space="preserve">
+    <value>Kan ej skicka meddelande till kontakt</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="SendMessageToContactsNotMarkedAsHasSent" xml:space="preserve">
+    <value>Skicka meddelande till kontakter ej markerade som skickade</value>
+  </data>
+  <data name="CannotSendMessagesAtTheMoment" xml:space="preserve">
+    <value>Kan för tillfället ej skicka meddelanden</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Var vänlig vänta</value>
+  </data>
+  <data name="SelectContactsToSendMessageTo" xml:space="preserve">
+    <value>Välj kontakt(er) att skicka meddelande till</value>
+  </data>
+  <data name="CloseWindowWhenMessageHasBeenSentToAllContact" xml:space="preserve">
+    <value>Stäng fönstret när meddelande har skickats till alla kontakter.</value>
+  </data>
+  <data name="Searchtext" xml:space="preserve">
+    <value>Sök text</value>
+  </data>
+  <data name="ERR_CANNOTFINDDESTINATIONONCONTACT" xml:space="preserve">
+    <value>Kan ej hitta kontaktdestination</value>
+  </data>
+  <data name="RemoveAllContacts" xml:space="preserve">
+    <value>Ta bort alla kontakter</value>
+  </data>
+  <data name="inQueue_" xml:space="preserve">
+    <value>i kö </value>
+    <comment>as in: 5 in queue</comment>
+  </data>
+  <data name="MaxWaitingTimeIs" xml:space="preserve">
+    <value>Längsta väntetid är</value>
+    <comment>as in: Maximum waiting time is 4:34</comment>
+  </data>
+  <data name="QueueStatusBar" xml:space="preserve">
+    <value>Köstatusrad</value>
+  </data>
+  <data name="ShowToolbarWithQueueStatus" xml:space="preserve">
+    <value>Visa verktygsrad med köstatus</value>
+  </data>
+  <data name="NotLoggedIn" xml:space="preserve">
+    <value>Ej inloggad</value>
+  </data>
+  <data name="CloseQueueStatusBar" xml:space="preserve">
+    <value>Stäng köstatusrad</value>
+  </data>
+  <data name="ShowOrHideCdsAgent" xml:space="preserve">
+    <value>Visa eller dölj ICC Agent</value>
+  </data>
+  <data name="HideCdsAgent" xml:space="preserve">
+    <value>Dölj ICC Agent</value>
+  </data>
+  <data name="ShowCdsAgent" xml:space="preserve">
+    <value>Visa ICC Agent</value>
+  </data>
+  <data name="Autohide" xml:space="preserve">
+    <value>Dölj automatiskt</value>
+  </data>
+  <data name="HideQueueStatusBarAutomaticlyWhenPorbablyNotInUse" xml:space="preserve">
+    <value>Dölj köstatusrad automatiskt när den inte används</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Placering</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Underst</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Vänster</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Höger</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Överst</value>
+  </data>
+  <data name="SettingsForQueueStatusBar" xml:space="preserve">
+    <value>Inställningar för köstatusrad</value>
+  </data>
+  <data name="ShowsHowLongEnquiryHasBeenActive" xml:space="preserve">
+    <value>Visar hur länge samtal har varit aktivt</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="DoYouReallyWantToCloseWindoWithoutSaving" xml:space="preserve">
+    <value>Vill du verkligen stänga fönstret utan att spara först?</value>
+  </data>
+  <data name="InformationIsNotSaved" xml:space="preserve">
+    <value>Information ej sparad</value>
+  </data>
+  <data name="ERR_CANNOTSENDMESSAGE" xml:space="preserve">
+    <value>Kan ej skicka meddelande</value>
+  </data>
+  <data name="TurnOfSound" xml:space="preserve">
+    <value>Stäng av ljud</value>
+  </data>
+  <data name="SipSetup" xml:space="preserve">
+    <value>SIP-inställningar</value>
+  </data>
+  <data name="ClickToChangeSetup" xml:space="preserve">
+    <value>Klicka för att ändra inställning</value>
+  </data>
+  <data name="Microphone" xml:space="preserve">
+    <value>Mikrofon</value>
+  </data>
+  <data name="Speaker" xml:space="preserve">
+    <value>Högtalare</value>
+  </data>
+  <data name="ChangeSoundLevel" xml:space="preserve">
+    <value>Ändra ljudnivå</value>
+  </data>
+  <data name="ShowsSoundIntensity" xml:space="preserve">
+    <value>Visar ljudnivå</value>
+  </data>
+  <data name="MarkToSetInSilentMode" xml:space="preserve">
+    <value>Visa som inställd på ljudlöst</value>
+  </data>
+  <data name="ChatText" xml:space="preserve">
+    <value>Chatttext</value>
+  </data>
+  <data name="Simulated" xml:space="preserve">
+    <value>Simulerad</value>
+  </data>
+  <data name="Ipaddress" xml:space="preserve">
+    <value>IP-adress</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Servernamn</value>
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>Användaradress</value>
+  </data>
+  <data name="AgentsOnQueues" xml:space="preserve">
+    <value>Agenter fördelade på kögrupper</value>
+  </data>
+  <data name="UpdatingIn" xml:space="preserve">
+    <value>Uppdaterar i</value>
+    <comment>As in: &quot;Updating in 3 seconds&quot;</comment>
+  </data>
+  <data name="FailedToInitiate" xml:space="preserve">
+    <value>Misslyckades med att starta</value>
+  </data>
+  <data name="SignedInQueue" xml:space="preserve">
+    <value>Incheckad i kögrupp</value>
+  </data>
+  <data name="SignedOutOfQueue" xml:space="preserve">
+    <value>Utcheckad ur kögrupp</value>
+  </data>
+  <data name="ERR_CANNOTUSEIP" xml:space="preserve">
+    <value>Arbetsplats är ej inställd för att använda IP.</value>
+  </data>
+  <data name="ERR_IPNOTCONNECTED" xml:space="preserve">
+    <value>IP ej tillgängligt för tillfället.</value>
+  </data>
+  <data name="ERR_IPSESSIONNOTFOUND" xml:space="preserve">
+    <value>Kan ej hitta IP-samtal.</value>
+  </data>
+  <data name="ERR_MISSINGREPLACEPATH" xml:space="preserve">
+    <value>En inställning som krävs för att visa e-post saknas. Sökväg måste ersättas med en nätverkssökväg.</value>
+  </data>
+  <data name="ERR_MAILFILENOTFOUND" xml:space="preserve">
+    <value>Kan ej hitta e-post. Var vänlig kontakta systemadministratören.</value>
+  </data>
+  <data name="ERR_ATTCHMENTREMOVEDANDNOTAVAILABLE" xml:space="preserve">
+    <value>E-post innehöll troligtvis en eller flera bilagor. Dessa kan ej visas.</value>
+  </data>
+  <data name="ERR_ATTCHMENTREMOVEDAVAILABLEININBOX" xml:space="preserve">
+    <value>E-post innehåller en eller flera stora bilagor som ej kan visas här. För att visa bilagorna, använd din inkorg.</value>
+  </data>
+  <data name="ERR_TOOLARGEMAIL" xml:space="preserve">
+    <value>E-post för stort för att visas.</value>
+  </data>
+  <data name="ERR_ERRORSHOWINGMAIL" xml:space="preserve">
+    <value>Kan ej visa e-post. Det kommer ej att placeras åter i kö utan måste behandlas manuellt.</value>
+  </data>
+  <data name="OpeningMail" xml:space="preserve">
+    <value>Öppnar e-post.</value>
+  </data>
+  <data name="ThisMayTakeAWhileBecauseTheMailIsLarge" xml:space="preserve">
+    <value>På grund av e-postens storlek kan detta ta ett tag.</value>
+  </data>
+  <data name="OpenMailFromInbox" xml:space="preserve">
+    <value>Öppnar e-post från inkorg.</value>
+  </data>
+  <data name="FindingMailInInbox" xml:space="preserve">
+    <value>Hittar e-post i din inkorg.</value>
+  </data>
+  <data name="ERR_ANSWERMAILTOOKTOOLONG" xml:space="preserve">
+    <value>Kan ej besvara förfrågan (e-post). Processen tog för lång tid.</value>
+  </data>
+  <data name="ERR_MAPINOTINITIATED" xml:space="preserve">
+    <value>E-poststystem ej startat.</value>
+  </data>
+  <data name="ERR_ERRORINITIATINGMAPI" xml:space="preserve">
+    <value>Kan ej starta e-postsystem.</value>
+  </data>
+  <data name="ERR_MAILOPERATIONTIMEDOUT" xml:space="preserve">
+    <value>E-postprocessen avbröts.</value>
+  </data>
+  <data name="ERR_MAPISIGNINERROR" xml:space="preserve">
+    <value>Kan ej ansluta till e-postsystem.</value>
+  </data>
+  <data name="ERR_FETCHINGMAPIMESSAGES" xml:space="preserve">
+    <value>Kan ej hämta e-post från inkorg.</value>
+  </data>
+  <data name="ERR_GETTINGADDRESSES" xml:space="preserve">
+    <value>Ett fel uppstod under behandling av mottagare.</value>
+  </data>
+  <data name="ERR_REPLYING" xml:space="preserve">
+    <value>Kan ej sätta önskat svarsläge för e-post.</value>
+  </data>
+  <data name="ERR_SETTINGADDRESSES" xml:space="preserve">
+    <value>Kan ej infoga adresser i e-post.</value>
+  </data>
+  <data name="ERR_SHOWDIALOG" xml:space="preserve">
+    <value>Ett fel uppstod vid visning av e-post.</value>
+  </data>
+  <data name="ERR_CANNOTFINDWINDOW" xml:space="preserve">
+    <value>Kan ej hitta e-postfönster. Avsluta samtalet genom att klicka på "Lägg på"</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ERR_MAILANSWEREDBUTNOTSHOWED" xml:space="preserve">
+    <value>E-post markerat som besvarat men kan ej visas.</value>
+  </data>
+  <data name="ERR_MAILCANNOTBESHOWEDISRETRIEVING" xml:space="preserve">
+    <value>Kan ej visa e-post. Det kommer att hämtas och behandlas som ett undantag. Var vänlig vänta.</value>
+  </data>
+  <data name="ShowsOrHidesEjournal" xml:space="preserve">
+    <value>Visar eller döljer Ejournalfönster</value>
+  </data>
+  <data name="ERR_COMPOSEMAIL" xml:space="preserve">
+    <value>Kan ej skapa ny e-post.</value>
+  </data>
+  <data name="ERR_EJOURNALURLMISSING" xml:space="preserve">
+    <value>En konfiguration som behövs för att utföra momentet saknas.</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Inloggad</value>
+  </data>
+  <data name="SignedInAndReady" xml:space="preserve">
+    <value>Incheckad och klar</value>
+  </data>
+  <data name="SignedInAndNotReady" xml:space="preserve">
+    <value>Incheckad men ej klar</value>
+  </data>
+  <data name="Agentstatistics" xml:space="preserve">
+    <value>Agentstatistik</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="SignedIn" xml:space="preserve">
+    <value>Incheckad</value>
+  </data>
+  <data name="SignedOut" xml:space="preserve">
+    <value>Utcheckad</value>
+  </data>
+  <data name="Date_" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Välj datum</value>
+  </data>
+  <data name="Breakcodes" xml:space="preserve">
+    <value>Frånvarokoder</value>
+  </data>
+  <data name="GeneralInformation" xml:space="preserve">
+    <value>Allmän information</value>
+  </data>
+  <data name="TimeSignedInQueue" xml:space="preserve">
+    <value>Tid incheckad i kögrupp</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="NotUpdated" xml:space="preserve">
+    <value>Ej uppdaterad.</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="TransferToService" xml:space="preserve">
+    <value>Överför till tjänst</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Anteckningar</value>
+  </data>
+  <data name="MessageFrom" xml:space="preserve">
+    <value>Meddelande från</value>
+  </data>
+  <data name="SendAnswer" xml:space="preserve">
+    <value>Skicka svar</value>
+  </data>
+  <data name="ERR_WRONGUSERORPASSWORD" xml:space="preserve">
+    <value>Fel användarnamn och/eller lösenord (enligt externa källor).</value>
+  </data>
+  <data name="ERR_PASSWORDISREQUIRED">
+    <value>Användaren måste sätta ett lösenord.</value>
+  </data>
+  <data name="ClickToEdit" xml:space="preserve">
+    <value>Klicka för att ändra</value>
+  </data>
+  <data name="DefaultWindowSettings" xml:space="preserve">
+    <value>Förvalda fönsterinställningar</value>
+  </data>
+  <data name="SaveDefaultWindowSettings" xml:space="preserve">
+    <value>Spara förvalda fönsterinställningar</value>
+  </data>
+  <data name="ERR_CREATINGNEWMAIL" xml:space="preserve">
+    <value>Kan ej skapa ny e-post</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Kommando</value>
+  </data>
+  <data name="RunScript" xml:space="preserve">
+    <value>Kör skript</value>
+  </data>
+  <data name="ERR_AGENTHASNOTSELECTEDDESTINATION" xml:space="preserve">
+    <value>Agenten har inte destination som matchar urvalen.</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="LoginSettings" xml:space="preserve">
+    <value>Inloggningsinställningar</value>
+  </data>
+  <data name="LogIntoCallcenter" xml:space="preserve">
+    <value>Logga in i callcenter</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="LogoutOfCallcenter" xml:space="preserve">
+    <value>Logga ut ur callcenter</value>
+  </data>
+  <data name="DoYouReallyWantToLogout" xml:space="preserve">
+    <value>Vill du logga ut ur callcenter?</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>Återstående tid</value>
+  </data>
+  <data name="InAfterwork" xml:space="preserve">
+    <value>I efterarbete</value>
+  </data>
+  <data name="ERR_TIMEOUTGETTINGLOSTCALLS" xml:space="preserve">
+    <value>Åtgärdstiden för att hitta missade samtal gick ut</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>H&amp;jälp</value>
+  </data>
+  <data name="ERR_LOGGEDOUT" xml:space="preserve">
+    <value>Du loggades ut.</value>
+  </data>
+  <data name="ERR_UPDATEENQUIRYLOGFORMATERROR" xml:space="preserve">
+    <value>Ett fel uppstod under uppdatering av ärendeloggen. ICC Agent uppdateras troligen. Du kommer ej att kunna se tidigare ärenden i ärendeloggen.</value>
+  </data>
+  <data name="AddBuddy" xml:space="preserve">
+    <value>Lägg till vän</value>
+  </data>
+  <data name="Buddies" xml:space="preserve">
+    <value>Vänner</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Upptagen</value>
+  </data>
+  <data name="CdsEnquiry" xml:space="preserve">
+    <value>ICC-ärende</value>
+  </data>
+  <data name="DeselectAll" xml:space="preserve">
+    <value>Avmarkera alla</value>
+  </data>
+  <data name="DoYouReallyWantToRemoveTheseBuddies" xml:space="preserve">
+    <value>Vill du verkligen ta bort dessa vänner?</value>
+  </data>
+  <data name="DoYouReallyWantToRemoveThisBuddy" xml:space="preserve">
+    <value>Vill du verkligen ta bort den här vännen?</value>
+  </data>
+  <data name="EnquiryStatus" xml:space="preserve">
+    <value>Samtalsstatus</value>
+  </data>
+  <data name="ERR_BUDDIESNOTINITIATED" xml:space="preserve">
+    <value>Vänner är ej initialiserade.</value>
+  </data>
+  <data name="ERR_BUDDYALREADYEXIST" xml:space="preserve">
+    <value>Vän finns redan.</value>
+  </data>
+  <data name="ERR_BUDDYDOESNOTEXIST" xml:space="preserve">
+    <value>Vän finns inte.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="EnquiriesInQueue" xml:space="preserve">
+    <value>Ärenden i kö</value>
+  </data>
+  <data name="Keypad" xml:space="preserve">
+    <value>Tangentbord</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="RemoveBuddies" xml:space="preserve">
+    <value>Ta bort vänner</value>
+  </data>
+  <data name="RemoveBuddiesFromList" xml:space="preserve">
+    <value>Ta bort vänner från lista</value>
+  </data>
+  <data name="RemoveBuddy" xml:space="preserve">
+    <value>Ta bort vän</value>
+  </data>
+  <data name="RemoveBuddyFromList" xml:space="preserve">
+    <value>Ta bort vän från lista</value>
+  </data>
+  <data name="Select_" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="SelectUsers" xml:space="preserve">
+    <value>Välj användare</value>
+  </data>
+  <data name="WaitingTime" xml:space="preserve">
+    <value>Väntetid</value>
+  </data>
+  <data name="ERR_VQNOTFOUND" xml:space="preserve">
+    <value>Kan ej hitta kögruppen</value>
+  </data>
+  <data name="YouMustProvideMoreSearchText" xml:space="preserve">
+    <value>För påbörja sökning måste du skriva mer text.</value>
+  </data>
+  <data name="SearchForUser" xml:space="preserve">
+    <value>Sök efter användare</value>
+  </data>
+  <data name="ERR_EXTERNCONTROLISWRONGTYPE" xml:space="preserve">
+    <value>The extern control is not of specified type</value>
+  </data>
+  <data name="ERR_EXTERNCONTROLCANNOTBECREATED" xml:space="preserve">
+    <value>Den externa kontrollen kan ej skapas.</value>
+  </data>
+  <data name="SendSmsToChosen" xml:space="preserve">
+    <value>Skicka SMS till valda</value>
+  </data>
+  <data name="AddToCatalog" xml:space="preserve">
+    <value>Lägg till i katalog</value>
+  </data>
+  <data name="NextScreen" xml:space="preserve">
+    <value>Nästa skärm</value>
+  </data>
+  <data name="ERR_NOAXBRIDGE" xml:space="preserve">
+    <value>ICC AxBridge-komponenten är ej installerad på den här datorn.</value>
+  </data>
+  <data name="ERR_NOJRE" xml:space="preserve">
+    <value>Innan du kan köra detta program måste Java Runtime Environment (JRE) vara installerad på datorn.</value>
+  </data>
+  <data name="ERR_WRONGAXBRIDGE" xml:space="preserve">
+    <value> ICC AxBridge-komponenten som installerats på den här datorn uppfyller inte applikationens krav.</value>
+  </data>
+  <data name="ERR_WRONGJRE" xml:space="preserve">
+    <value>ICC AxBridge-komponenten som installerats på den här datorn uppfyller inte applikationens krav.</value>
+  </data>
+  <data name="Installed" xml:space="preserve">
+    <value>Installerad</value>
+  </data>
+  <data name="Requires" xml:space="preserve">
+    <value>Begär</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Varning</value>
+  </data>
+  <data name="ERR_MAXALLOWEDCALLS" xml:space="preserve">
+    <value>Intern minnesanvändning indikerar att du bör avsluta applikationen och börja om.</value>
+  </data>
+  <data name="ERR_ALREADYRUNNING" xml:space="preserve">
+    <value>ICC Agent har redan startat. Avsluta föregående instans?</value>
+  </data>
+  <data name="ERR_SESSIONLOCKED" xml:space="preserve">
+    <value>Sessionen är låst.</value>
+  </data>
+  <data name="ERR_HTTPSERVERSTART" xml:space="preserve">
+    <value>Kan ej starta HTTP-server.</value>
+  </data>
+  <data name="ShowAsATabInMainWIndow" xml:space="preserve">
+    <value>Visa som flik i huvudfönster</value>
+  </data>
+  <data name="ShowAsDockedInMainWindow" xml:space="preserve">
+    <value>Visa som integrerad i huvudfönster</value>
+  </data>
+  <data name="ShowAsStandaloneWindow" xml:space="preserve">
+    <value>Visa som eget fönster</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Stäng fönster</value>
+  </data>
+  <data name="ChangeSize" xml:space="preserve">
+    <value>Ändra storlek</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="UniqueId" xml:space="preserve">
+    <value>Unikt ID</value>
+  </data>
+  <data name="UniqueIndicationOfTime" xml:space="preserve">
+    <value>Unik tidsangivelse</value>
+  </data>
+  <data name="ApplicationData" xml:space="preserve">
+    <value>Applikationsdata</value>
+  </data>
+  <data name="ArrivaltimeInContactcenter" xml:space="preserve">
+    <value>Ankomsttid till callcenter</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Trafikingång</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="ThisPart" xml:space="preserve">
+    <value>Den här deltagaren</value>
+  </data>
+  <data name="TimeInTransfer" xml:space="preserve">
+    <value>Tid i överföring</value>
+  </data>
+  <data name="OtherPart" xml:space="preserve">
+    <value>Annan deltagare</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Riktning</value>
+  </data>
+  <data name="Identification" xml:space="preserve">
+    <value>Identifikation</value>
+  </data>
+  <data name="Devicename" xml:space="preserve">
+    <value>Destinationens namn</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="ArrivalTimeInQueue" xml:space="preserve">
+    <value>Ankomsttid i kö</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Tjänst</value>
+  </data>
+  <data name="WaitingTimeInQueue" xml:space="preserve">
+    <value>Väntetid i kö</value>
+  </data>
+  <data name="TimeInCallcenter" xml:space="preserve">
+    <value>Tid i callcenter</value>
+  </data>
+  <data name="TimeFromAgentTransfer" xml:space="preserve">
+    <value>Tid från överföring till agent</value>
+  </data>
+  <data name="PriorityOnAgentTranfer" xml:space="preserve">
+    <value>Prioritet vid överföring till agent</value>
+  </data>
+  <data name="AgentsWorkplaceId" xml:space="preserve">
+    <value>Agents arbetsplats-ID</value>
+  </data>
+  <data name="AgentsUserId" xml:space="preserve">
+    <value>Agents användar-ID</value>
+  </data>
+  <data name="AgentsDeviceName" xml:space="preserve">
+    <value>Beskrivning av agents destination</value>
+  </data>
+  <data name="FeedbackFromAgent" xml:space="preserve">
+    <value>Återkoppling från agent (endast missade samtal)</value>
+  </data>
+  <data name="FeedbackDirection" xml:space="preserve">
+    <value>Riktning på feedback (endast missade samtal)</value>
+  </data>
+  <data name="UniqueIdFromFeedback" xml:space="preserve">
+    <value>Återkopplingens unika ID (endast missade samtal)</value>
+  </data>
+  <data name="ResponsibleWorkplace" xml:space="preserve">
+    <value>Ansvarig arbetsplats (endast missade samtal)</value>
+  </data>
+  <data name="TimeForCallback" xml:space="preserve">
+    <value>Tidpunkt för uppringning (endast missade samtal)</value>
+  </data>
+  <data name="TimeForResponsibleAgentRegistration" xml:space="preserve">
+    <value>Tidpunkt för registrering av ansvarig agent (endast missade samtal)</value>
+  </data>
+  <data name="TimeForFeedback" xml:space="preserve">
+    <value>Tidpunkt för återkoppling (endast missade samtal)</value>
+  </data>
+  <data name="TimeForAnswerCall" xml:space="preserve">
+    <value>Tidpunkt när samtal besvarades</value>
+  </data>
+  <data name="TimeForHangupCall" xml:space="preserve">
+    <value>Tidpunkt när samtal avslutades</value>
+  </data>
+  <data name="TimeFromAnswerCall" xml:space="preserve">
+    <value>Tid från besvarande av samtal</value>
+  </data>
+  <data name="TimePeriodForActiveCall" xml:space="preserve">
+    <value>Längd på aktiv samtalstid</value>
+  </data>
+  <data name="SubjectInMail" xml:space="preserve">
+    <value>Ämne för e-post (endast för e-post)</value>
+  </data>
+  <data name="SmsMessageForSmsCalls" xml:space="preserve">
+    <value>Sms-meddelande (endast för Sms-ärenden)</value>
+  </data>
+  <data name="WaitingTimeBeforeLost" xml:space="preserve">
+    <value>Väntetid innan samtal missades</value>
+  </data>
+  <data name="ActivePeriodInSeconds" xml:space="preserve">
+    <value>Aktiv tid i sekunder</value>
+  </data>
+  <data name="TypeOfCall" xml:space="preserve">
+    <value>Ärendetyp</value>
+  </data>
+  <data name="TerminateStatusOnCall" xml:space="preserve">
+    <value>Avslutande ärendestatus</value>
+  </data>
+  <data name="SubjectInMailWithoutPrefix" xml:space="preserve">
+    <value>Rubrik för e-post (utan prefix)</value>
+  </data>
+  <data name="Direct" xml:space="preserve">
+    <value>Direkt</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Inkommande</value>
+  </data>
+  <data name="Outgoing" xml:space="preserve">
+    <value>Utgående</value>
+  </data>
+  <data name="_queue" xml:space="preserve">
+    <value>kö</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Upptagen</value>
+  </data>
+  <data name="Transferred" xml:space="preserve">
+    <value>Överförd</value>
+  </data>
+  <data name="Answered" xml:space="preserve">
+    <value>Besvarade</value>
+  </data>
+  <data name="Unanswered" xml:space="preserve">
+    <value>Obesvarade</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Odefinierade</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="NotReady" xml:space="preserve">
+    <value>Ej klar</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Ledig</value>
+  </data>
+  <data name="ActiveInquiries" xml:space="preserve">
+    <value>Aktiva ärenden</value>
+  </data>
+  <data name="GeneralError" xml:space="preserve">
+    <value>Allmänt fel</value>
+  </data>
+  <data name="LoginInProgress" xml:space="preserve">
+    <value>Inloggning pågår</value>
+  </data>
+  <data name="LogoutInProgress" xml:space="preserve">
+    <value>Utloggning pågår</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Inloggad</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>Utloggad</value>
+  </data>
+  <data name="MissingTool" xml:space="preserve">
+    <value>Saknar verktyg</value>
+  </data>
+  <data name="NotActive" xml:space="preserve">
+    <value>Ej aktiv</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Inloggning misslyckades.</value>
+  </data>
+  <data name="NoStatus" xml:space="preserve">
+    <value>Ingen status</value>
+  </data>
+  <data name="MissingMediaConnection" xml:space="preserve">
+    <value>Trafikingångsanslutning saknas</value>
+  </data>
+  <data name="MissingSkill" xml:space="preserve">
+    <value>Saknar kompetens</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Okänd</value>
+  </data>
+  <data name="DifferentMedia" xml:space="preserve">
+    <value>Annan media</value>
+  </data>
+  <data name="ActiveEnquiry" xml:space="preserve">
+    <value>Aktivt ärende</value>
+  </data>
+  <data name="InternalReason" xml:space="preserve">
+    <value>Intern anledning</value>
+  </data>
+  <data name="NoStatusOnMedia" xml:space="preserve">
+    <value>Ingen trafikingångsstatus</value>
+  </data>
+  <data name="NoDestinationForMedia" xml:space="preserve">
+    <value>Destination för trafikingång saknas</value>
+  </data>
+  <data name="NotConnectedToMedia" xml:space="preserve">
+    <value>Ej ansluten till trafikingång</value>
+  </data>
+  <data name="NoReason" xml:space="preserve">
+    <value>Ingen anledning</value>
+  </data>
+  <data name="IncomingConference" xml:space="preserve">
+    <value>Inkommande konferens</value>
+  </data>
+  <data name="TemporaryBusy" xml:space="preserve">
+    <value>Tillfälligt upptagen</value>
+  </data>
+  <data name="WaitingForCall" xml:space="preserve">
+    <value>Väntar på att ta emot ärende</value>
+  </data>
+  <data name="ThisPartIsOnHold" xml:space="preserve">
+    <value>Den här deltagaren är placerad i kö</value>
+  </data>
+  <data name="Consultation" xml:space="preserve">
+    <value>Konsultation</value>
+  </data>
+  <data name="OtherPartIsOnHold" xml:space="preserve">
+    <value>Annan deltagare är placerad i kö</value>
+  </data>
+  <data name="Ringing" xml:space="preserve">
+    <value>Ringer</value>
+  </data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Ej implementerad</value>
+  </data>
+  <data name="Conference" xml:space="preserve">
+    <value>Konferens</value>
+  </data>
+  <data name="fromConference" xml:space="preserve">
+    <value>från konferens</value>
+  </data>
+  <data name="Transfering" xml:space="preserve">
+    <value>Överför</value>
+  </data>
+  <data name="TotalyUnknown" xml:space="preserve">
+    <value>Helt okänd</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Breakcode" xml:space="preserve">
+    <value>Frånvarokod</value>
+  </data>
+  <data name="Exit1" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="Communication" xml:space="preserve">
+    <value>Kommunikation</value>
+  </data>
+  <data name="SelectSetup" xml:space="preserve">
+    <value>Välj inställningar</value>
+  </data>
+  <data name="JmsInfo" xml:space="preserve">
+    <value>JMS-information</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Servernamn</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Arbetsplats</value>
+  </data>
+  <data name="WorkplaceId" xml:space="preserve">
+    <value>Arbetsplats-ID</value>
+  </data>
+  <data name="JmsInfoNotValid" xml:space="preserve">
+    <value>Ogiltig JMS-information</value>
+  </data>
+  <data name="ServerNameIdNotValid" xml:space="preserve">
+    <value>Ogiltigt servernamn</value>
+  </data>
+  <data name="WorkplaceIdIsNotValid" xml:space="preserve">
+    <value>Ogiltigt arbetsplats-ID</value>
+  </data>
+  <data name="CommunicationProperties" xml:space="preserve">
+    <value>Kommunikationsegenskaper</value>
+  </data>
+  <data name="PasswordFieldIsDifferentFromConfirmPassword" xml:space="preserve">
+    <value>Fältet för lösenord och fältet för bekräfta lösenord är olika.</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekräfta lösenord</value>
+  </data>
+  <data name="PasswordIsBlankDoYouWantToChange" xml:space="preserve">
+    <value>Lösenord är tomt Vill du ändra?</value>
+  </data>
+  <data name="Telephony" xml:space="preserve">
+    <value>Telefoni</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="Callback" xml:space="preserve">
+    <value>Ring upp</value>
+  </data>
+  <data name="Simulated" xml:space="preserve">
+    <value>Simulerad</value>
+  </data>
+  <data name="ScriptIVR" xml:space="preserve">
+    <value>ScriptIVR</value>
+  </data>
+  <data name="Dialer" xml:space="preserve">
+    <value>Dialer</value>
+  </data>
+  <data name="CoBrowser" xml:space="preserve">
+    <value>Webbläsardelning</value>
+  </data>
+  <data name="IPTelephony" xml:space="preserve">
+    <value>IP-telefoni</value>
+  </data>
+  <data name="SIPTelephony" xml:space="preserve">
+    <value>SIP-telefoni</value>
+  </data>
+  <data name="IVR" xml:space="preserve">
+    <value>IVR</value>
+  </data>
+  <data name="AwAlarm" xml:space="preserve">
+    <value>AwAlarm</value>
+  </data>
+  <data name="INType" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Initiated" xml:space="preserve">
+    <value>Påbörjad</value>
+  </data>
+  <data name="_reserved" xml:space="preserve">
+    <value>reserverad</value>
+  </data>
+  <data name="WaitForAccept" xml:space="preserve">
+    <value>Väntar på godkännande</value>
+  </data>
+  <data name="OnHold" xml:space="preserve">
+    <value>Samtal parkerat</value>
+  </data>
+  <data name="RingingOut" xml:space="preserve">
+    <value>Ringer ut</value>
+  </data>
+  <data name="HoldWaitOnAnswer" xml:space="preserve">
+    <value>Parkera/Vänta på svar</value>
+  </data>
+  <data name="Offhook" xml:space="preserve">
+    <value>Upptaget</value>
+  </data>
+  <data name="RingingOnOwnLine" xml:space="preserve">
+    <value>Ringer på egen linje</value>
+  </data>
+  <data name="RingingOnOtherPart" xml:space="preserve">
+    <value>Ringer på annan deltagares linje</value>
+  </data>
+  <data name="UnknownStatus" xml:space="preserve">
+    <value>Status okänd</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>Reserverad</value>
+  </data>
+  <data name="ERR_DIFFERENT_BEAN_VERSIONS" xml:space="preserve">
+    <value>Server och klient har olika versioner av Javakomponenter.</value>
+  </data>
+  <data name="UserNameIsInvalid" xml:space="preserve">
+    <value>Ogiltigt lösenord</value>
+  </data>
+  <data name="InvalidUserOrPassword" xml:space="preserve">
+    <value>Ogiltigt användarnamn eller lösenord</value>
+  </data>
+  <data name="ErrorCheckingUserFields" xml:space="preserve">
+    <value>Ett fel uppstod under kontroll av användarfälten.</value>
+  </data>
+  <data name="ErrorCheckingCommunicationFields" xml:space="preserve">
+    <value>Ett fel uppstod under kontroll av kommunikationsfälten.</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Ingen anslutning</value>
+  </data>
+  <data name="NotLoggedInQueue" xml:space="preserve">
+    <value>Ej inloggad i kögrupp</value>
+  </data>
+  <data name="Arrivaltime" xml:space="preserve">
+    <value>Ankomsttid</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="NumberOfEnquiriesInList" xml:space="preserve">
+    <value>Antal samtal i lista</value>
+  </data>
+  <data name="TotalUsedTime" xml:space="preserve">
+    <value>Totalt använd tid</value>
+  </data>
+  <data name="AverageUsedTime" xml:space="preserve">
+    <value>Genomsnittligt använd tid</value>
+  </data>
+  <data name="IncomingEnquiries" xml:space="preserve">
+    <value>Inkommande ärende</value>
+  </data>
+  <data name="OutgoingEnquiries" xml:space="preserve">
+    <value>Utgående ärende</value>
+  </data>
+  <data name="DirectIncoming" xml:space="preserve">
+    <value>Direkt inkommande</value>
+  </data>
+  <data name="DirectOutgoing" xml:space="preserve">
+    <value>Direkt utgående</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Väntar</value>
+  </data>
+  <data name="ERR_AGENTALREADYLOGGEDIN" xml:space="preserve">
+    <value>Arbetsplats-ID används redan av annan agent.</value>
+  </data>
+  <data name="ERR_SETDEVICENAME" xml:space="preserve">
+    <value>Kan ej sätta "destinationsnamn" (device) för användarmedia (vid setDeviceName).</value>
+  </data>
+  <data name="ERR_GETDEVICENAME" xml:space="preserve">
+    <value>Kan ej hitta "destinationsnamn" (device) för användarmedia (vid getDeviceName).</value>
+  </data>
+  <data name="ERR_CREATEUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej skapa objekt för användarmediaprofil (vid createUSerMediaProfile).</value>
+  </data>
+  <data name="ERR_SETMEDIAPROFILENAME" xml:space="preserve">
+    <value>Kan ej sätta trafikingångsnamnet (vid setMediaProfileName).</value>
+  </data>
+  <data name="ERR_SETTRANSFERDESTINATION" xml:space="preserve">
+    <value>Kan ej sätta mediadestination (vid setMediaProfileName).</value>
+  </data>
+  <data name="ERR_SETUSERMEDIADESCRIPTION" xml:space="preserve">
+    <value>Kan ej sätta trafikingångsbeskrivning (vid setDescription).</value>
+  </data>
+  <data name="ERR_GETTRANSFERDESTINATION" xml:space="preserve">
+    <value>Kan ej hitta överföringsdestination för trafikingång (vid getTransferDestination).</value>
+  </data>
+  <data name="ERR_SETINUSE" xml:space="preserve">
+    <value>Kan ej sätta om användarmedia används (vid setInUse).</value>
+  </data>
+  <data name="ERR_SETWORKPLACEID" xml:space="preserve">
+    <value>Kan ej sätta arbetsplats-ID (vid setWorkplaceId).</value>
+  </data>
+  <data name="ERR_GETINUSE" xml:space="preserve">
+    <value>Kan ej hitta information om standardanvändning av trafikingång (vid getInUse).</value>
+  </data>
+  <data name="ERR_GETWORKPLACEID" xml:space="preserve">
+    <value>Kan ej hitta grupp-ID för agentens arbetsplats (vid getWpId).</value>
+  </data>
+  <data name="ERR_LISTVQNAMES" xml:space="preserve">
+    <value>Kan ej hitta lista över köer (vid listVQNames).</value>
+  </data>
+  <data name="ERR_GETMEDIAPROFILENAME" xml:space="preserve">
+    <value>Kan ej hitta trafikingångsnamnet (vid getMediaProfileName).</value>
+  </data>
+  <data name="ERR_GETMEDIADESCRIPTION" xml:space="preserve">
+    <value>Kan ej hitta trafikingångsbeskrivning (vid getMediaDescription).</value>
+  </data>
+  <data name="ERR_GETDEFAULTUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej hitta standardanvändarmediaprofil (vid getDefaultUserMediaProfile).</value>
+  </data>
+  <data name="ERR_LISTUSERMEDIAPROFILES" xml:space="preserve">
+    <value>Kan ej hitta lista över mediaprofiler (vid listUserMediaProfiles).</value>
+  </data>
+  <data name="ERR_CREATE_OBJECT" xml:space="preserve">
+    <value>Kan ej skapa objekt (vid CreateObject).</value>
+  </data>
+  <data name="ERR_STARTUP" xml:space="preserve">
+    <value>Kommunikation kan ej påbörjas.</value>
+  </data>
+  <data name="ERR_NOSTARTUP" xml:space="preserve">
+    <value>Kan ej kommunicera med server (vid startup).</value>
+  </data>
+  <data name="ERR_LOGINVQ" xml:space="preserve">
+    <value>Kan ej logga in i kögrupp (vid LoginVQ).</value>
+  </data>
+  <data name="ERR_LOGOUTVQ" xml:space="preserve">
+    <value>Kan ej logga ut ur kögrupp (vid LogoutVQ).</value>
+  </data>
+  <data name="ERR_CONNECTMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej ansluta till trafikingång (vid connectMediaProfile).</value>
+  </data>
+  <data name="ERR_DISCONNECTMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej radera anslutning till trafikingång (vid disconnectMediaProfile).</value>
+  </data>
+  <data name="ERR_LISTAGENTS" xml:space="preserve">
+    <value>Kan ej hitta agentlista (vid listAgents).</value>
+  </data>
+  <data name="ERR_LISTAGENTSINQUEUE" xml:space="preserve">
+    <value>Kan ej hitta lista över agenter i kö (vid listAgentsInQueue).</value>
+  </data>
+  <data name="ERR_GETUSERID" xml:space="preserve">
+    <value>Kan ej hitta användar-ID (vid getUserId).</value>
+  </data>
+  <data name="ERR_GETAGENT" xml:space="preserve">
+    <value>Kan ej hitta agent (vid getAgent).</value>
+  </data>
+  <data name="ERR_GETMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej hitta trafikingång (vid getMediaProfile).</value>
+  </data>
+  <data name="ERR_LISTSERVICEPROFILENAMES" xml:space="preserve">
+    <value>Kan ej lista över tjänstprofiler (duringlistServiceProfileNames).</value>
+  </data>
+  <data name="ERR_GETUSERPROFILE" xml:space="preserve">
+    <value>Kan ej hitta användarprofil (vid getUserProfile)</value>
+  </data>
+  <data name="ERR_TERMINATE" xml:space="preserve">
+    <value>Kan ej avbryta kommunikation med server (vid terminate).</value>
+  </data>
+  <data name="ERR_GETOLDESTCALLTIME" xml:space="preserve">
+    <value>Kan ej hitta tidpunkt för äldsta samtal i angiven kö (vid getOldestCallTime).</value>
+  </data>
+  <data name="ERR_GETAPPLICATIONPARAMETER" xml:space="preserve">
+    <value>Kan ej hitta applikationsdataparameter i applikationsdatainformation (vid getParameter).</value>
+  </data>
+  <data name="ERR_GETCALLCENTERARRIVALTIME" xml:space="preserve">
+    <value>Kan ej hitta tid för ärendets ankomst till callcenter (vid getCallcenterArrivalTime).</value>
+  </data>
+  <data name="ERR_GETCALLID" xml:space="preserve">
+    <value>Kan ej hitta identifikationsobjekt för samtal (vid getCallId).</value>
+  </data>
+  <data name="ERR_GETQUEUEARRIVALTIME" xml:space="preserve">
+    <value>Kan ej hitta ärendets ankomsttid till kö (vid getQueueArrivalTime).</value>
+  </data>
+  <data name="ERR_LISTVQSLOGGEDINTOBYAGENT" xml:space="preserve">
+    <value>Kan ej hitta lista över kögrupper som agent är inloggad i (vid listVQsLoggedIntoByAgent).</value>
+  </data>
+  <data name="ERR_GETCALLBYUNIQUEID" xml:space="preserve">
+    <value>Kan ej hitta information om samtal (vid getCall).</value>
+  </data>
+  <data name="ERR_GETFIRSTNAME" xml:space="preserve">
+    <value>Kan ej hitta användarens förnamn (vid getFirstName).</value>
+  </data>
+  <data name="ERR_GETLASTNAME" xml:space="preserve">
+    <value>Kan ej hitta användarens efternamn (vid getLastName).</value>
+  </data>
+  <data name="ERR_GETDEPARTMENT" xml:space="preserve">
+    <value>Kan ej hitta användarens avdelning (vid getDepartment).</value>
+  </data>
+  <data name="ERR_GETMEDIAISENABLED" xml:space="preserve">
+    <value>Kan ej se om trafikingång är tillgänglig (vid getIsEnabled).</value>
+  </data>
+  <data name="ERR_GETMEDIATYPE" xml:space="preserve">
+    <value>Kan ej sätta trafikingångstyp för trafikingång (vid getMediaType).</value>
+  </data>
+  <data name="ERR_LISTALLUSERPROFILENAMES" xml:space="preserve">
+    <value>Kan ej hitta lista över användarprofiler (vid listAllUserProfileNames).</value>
+  </data>
+  <data name="ERR_LISTCALLS" xml:space="preserve">
+    <value>Kan ej hitta samtalslista (vid listCalls).</value>
+  </data>
+  <data name="ERR_PICKUPCALL" xml:space="preserve">
+    <value>Kan ej svara på samtal (vid pickupCall)</value>
+  </data>
+  <data name="ERR_GETWORKPLACEPROFILE" xml:space="preserve">
+    <value>Kan ej hitta arbetsplatsprofil (vid getWorkplaceProfile).</value>
+  </data>
+  <data name="ERR_LISTACTIVESERVICENAMES" xml:space="preserve">
+    <value>Kan ej lista aktiva tjänster (vid listActiveServiceNames).</value>
+  </data>
+  <data name="ERR_SETMODE" xml:space="preserve">
+    <value>Kan ej sätta agentstatus (vid setMode).</value>
+  </data>
+  <data name="ERR_GETNUMBEROFBUSYAGENTS" xml:space="preserve">
+    <value>Kan ej hitta statistik över antal agenter upptagna i kö (vid getNumberOfBusyAgents).</value>
+  </data>
+  <data name="ERR_GETNUMBEROFVACANTAGENTS" xml:space="preserve">
+    <value>Kan ej hitta statistik över antal lediga agenter i kö (vid getNumberOfVacantAgents).</value>
+  </data>
+  <data name="ERR_GETNUMBEROFAGENTS" xml:space="preserve">
+    <value>Kan ej hitta statistik över antal agenter i kö (vid getNumberOfAgents).</value>
+  </data>
+  <data name="ERR_GETSTATUS" xml:space="preserve">
+    <value>Kan ej hämta tjänststatus för agent (vid getStatus).</value>
+  </data>
+  <data name="ERR_GETSITEID" xml:space="preserve">
+    <value>Kan ej hitta platsnamn (vid getSiteId).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMES" xml:space="preserve">
+    <value>Kan ej lista arbetsplats-ID:n (vid listWorkplaceProfileNames).</value>
+  </data>
+  <data name="ERR_LOADDEFAULTS" xml:space="preserve">
+    <value>Kan ej göra standardinställning (vid loadDefeaults).</value>
+  </data>
+  <data name="ERR_GETBREAKCODENAME" xml:space="preserve">
+    <value>Kan ej hitta frånvarokodsnamn (vid getBreakcodeName).</value>
+  </data>
+  <data name="ERR_GETBREAKCODE" xml:space="preserve">
+    <value>Kan ej hitta frånvarokod(vid getBreakCode).</value>
+  </data>
+  <data name="ERR_LISTBREAKCODES" xml:space="preserve">
+    <value>Kan ej lista frånvarokoder (vid listBreakCodes).</value>
+  </data>
+  <data name="ERR_LISTACTIVECALLS" xml:space="preserve">
+    <value>Kan ej lista aktiva samtal för kö (vid listActiveCalls).</value>
+  </data>
+  <data name="ERR_GETAGENTMODE" xml:space="preserve">
+    <value>Kan ej hitta agentstatus (vid getAgentMode).</value>
+  </data>
+  <data name="ERR_LISTACTIVEAGENTSONSERVICE" xml:space="preserve">
+    <value>Kan ej lista aktiva agenter för angiven tjänst (vid listActiveAgentsOnService).</value>
+  </data>
+  <data name="ERR_LISTAGENTSCONNECTEDTOSERVICE" xml:space="preserve">
+    <value>Kan ej lista agenter kopplade till angiven tjänst (vid listActiveAgentsConnectedToService).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMESATSITE" xml:space="preserve">
+    <value>Kan ej lista arbetsplatser kopplade till en plats (vid listWorkplaceProfileNamesAtSite).</value>
+  </data>
+  <data name="ERR_LISTALLUSERPROFILES" xml:space="preserve">
+    <value>Kan ej lista användare (vid listAllUserProfiles).</value>
+  </data>
+  <data name="ERR_SENDTRANSFERINFORMATION" xml:space="preserve">
+    <value>Kan ej skicka överföringsinformation till system (vid sendTransferinformation).</value>
+  </data>
+  <data name="ERR_SETAPPLICATIONPARAMETER" xml:space="preserve">
+    <value>Kan ej sätta applikationsdata (vid setParameter).</value>
+  </data>
+  <data name="ERR_SETAPPLICATIONDATA" xml:space="preserve">
+    <value>Kan ej sätta applikationsdata för ärende (vid setApplicationData).</value>
+  </data>
+  <data name="ERR_GETPARAMETER" xml:space="preserve">
+    <value>Kan ej hitta parametervärde (vid getParameter).</value>
+  </data>
+  <data name="ERR_SETPARAMETER" xml:space="preserve">
+    <value>Kan ej sätta parametervärde (vid setParameter).</value>
+  </data>
+  <data name="ERR_CLONE" xml:space="preserve">
+    <value>Kan ej kopiera objekt (vid clone).</value>
+  </data>
+  <data name="ERR_LISTAGENTSONSITE" xml:space="preserve">
+    <value>Kan ej lista agenter länkade till angiven plats (vid listAgentsOnSite).</value>
+  </data>
+  <data name="ERR_LISTSERVICEPROFILES" xml:space="preserve">
+    <value>Kan ej lista tjänster (vid listServiceProfiles).</value>
+  </data>
+  <data name="ERR_GETLASTALARMLEVEL" xml:space="preserve">
+    <value>Kan ej hitta senaste larmnivå (vid getLastAlarmLevel).</value>
+  </data>
+  <data name="ERR_GETACTIVEMEDIA" xml:space="preserve">
+    <value>Kan ej hitta angiven aktiv "trafikingång" (vid getActiveMedia).</value>
+  </data>
+  <data name="ERR_GETAGENTFROMUSERID" xml:space="preserve">
+    <value>Kan ej hitta agent från användar-ID (vid getAgentFromUserId)</value>
+  </data>
+  <data name="ERR_GETVACANTSTATUS" xml:space="preserve">
+    <value>Kan ej hitta klar/ej klar-status för tjänst (vid getVacantStatus).</value>
+  </data>
+  <data name="ERR_GETREASONFORNOTVACANT" xml:space="preserve">
+    <value>Kan ej hitta anledning till att agent inte är klar (vid getReasonForNotVacant). </value>
+  </data>
+  <data name="ERR_LISTSERVICESTATUS" xml:space="preserve">
+    <value>Kan ej lista tjänststatus för agent (vid listServiceStatus).</value>
+  </data>
+  <data name="ERR_GETTRANSFERTIME" xml:space="preserve">
+    <value>Kan ej hitta överföringstid för ärenden (vid getTransferTime).</value>
+  </data>
+  <data name="ERR_SETJMSBROKER" xml:space="preserve">
+    <value>Kan ej sätta JMSBroker för objekt (vid setJmsBroker).</value>
+  </data>
+  <data name="ERR_SETCDSHOSTNAME" xml:space="preserve">
+    <value>Kan ej sätta servernamn för objekt (vid setCDSHostName).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILESATSITE" xml:space="preserve">
+    <value>Kan ej hitta arbetsplatser länkade till angiven plats (vid listWorkplaceProfilesAtSite).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILES" xml:space="preserve">
+    <value>Kan ej lista arbetsplatser (vid listWorkplaceProfiles).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEGROUPNAMES" xml:space="preserve">
+    <value>Kan ej lista arbetsplatsgruppnamn (vid listWorkplaceGroupNames).</value>
+  </data>
+  <data name="ERR_GETWORKPLACEGROUP" xml:space="preserve">
+    <value>Kan ej hitta arbetsplatsgrupp (vid getWorkplaceGroup).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEGROUPS" xml:space="preserve">
+    <value>Kan ej lista arbetsplatsgrupper (vid listWorkplaceGroups).</value>
+  </data>
+  <data name="ERR_LOGINSERVICEFAILURE" xml:space="preserve">
+    <value>Ett fel uppstod under inloggningen i angiven tjänst.</value>
+  </data>
+  <data name="ERR_LOGOUTSERVICEFAILURE" xml:space="preserve">
+    <value>Ett fel uppstod under utloggningen från angiven tjänst.</value>
+  </data>
+  <data name="ERR_LOSTEVENTS" xml:space="preserve">
+    <value>Händelser har förlorats på grund av överbelastning. Detta kan påverka visad information. Stäng fönster som kräver stora resurser.</value>
+  </data>
+  <data name="ERR_ADDAPPLDATA" xml:space="preserve">
+    <value>Kan ej lägga till applikationsdata till samtal (vid addApplData).</value>
+    <comment>(I considered putting &apos;for&apos; enquiry, - could you see which is more correct?)</comment>
+  </data>
+  <data name="ERR_LISTACTIVEMEDIANAMES" xml:space="preserve">
+    <value>Kan ej lista aktiv trafikingång (vid listActiveMediaNames).</value>
+  </data>
+  <data name="ERR_GETANYCALLBYUNIQUEID" xml:space="preserve">
+    <value>Kan ej hitta samtal med angivet ID (vid getAnyCallByUniqueId).</value>
+  </data>
+  <data name="ERR_GETCALLTYPE" xml:space="preserve">
+    <value>Kan ej hittasamtalstyp från samtalsidentifikationsobjekt (vid getCallType).</value>
+  </data>
+  <data name="ERR_GETBEANTRACE" xml:space="preserve">
+    <value>Kan ej hämta Java-klienttrace (vid getBeanTrace).</value>
+  </data>
+  <data name="ERR_GETUSERMEDIAPROFILE" xml:space="preserve">
+    <value>Kan ej hämta mediaanvändarprofil (vid getUserMediProfile)</value>
+  </data>
+  <data name="ERR_GETOTHERPARTY" xml:space="preserve">
+    <value>Kan ej hitta kund/skapare av ärende (vid getOtherParty).</value>
+  </data>
+  <data name="ERR_GETSERVERTIME" xml:space="preserve">
+    <value>Kan ej hitta servertid (vid getServerTime).</value>
+  </data>
+  <data name="ERR_ADDMEDIAPARAMETER" xml:space="preserve">
+    <value>Kan ej lägga till extra parameter för trafikingång (vid addMediaParameter).</value>
+  </data>
+  <data name="ERR_LISTUSERPROFILES" xml:space="preserve">
+    <value>Kan ej lista användare i angiven användargrupp (vid listUserProfiles).</value>
+  </data>
+  <data name="ERR_LISTDEVICESTATUS" xml:space="preserve">
+    <value>Kan ej lista status på destinationer från "trafikingångs"-informationen (vid listDeviceStatus).</value>
+  </data>
+  <data name="ERR_GETCALLDIRECTION" xml:space="preserve">
+    <value>Kan ej hitta samtalsdirektion (vid getCallDirection).</value>
+  </data>
+  <data name="ERR_GETARRIVALTIME" xml:space="preserve">
+    <value>Kan ej hitta ankomsttid för samtal (vid getArrivalTime).</value>
+  </data>
+  <data name="ERR_GETTEMPORARYCALLID" xml:space="preserve">
+    <value>Kan ej hitta samtals-ID för direktsamtal (vid getTemporaryCallID).</value>
+  </data>
+  <data name="ERR_LISTMEDIASTATUS" xml:space="preserve">
+    <value>Kan ej hitta lista över trafikingångsstatus (vid listMediaStatus).</value>
+  </data>
+  <data name="ERR_SETUSERID" xml:space="preserve">
+    <value>Kan ej sätta användarinformation för EJB-system (vid setUSerId).</value>
+  </data>
+  <data name="ERR_SETPASSWORD" xml:space="preserve">
+    <value>Kan ej sätta lösenord (vid setPassword).</value>
+  </data>
+  <data name="ERR_LISTAGENTSINUSERGROUP" xml:space="preserve">
+    <value>Kan ej hämta agenter i användargrupp (vid listAgentsInUserGroup).</value>
+  </data>
+  <data name="ERR_SETALIVETIMEOUT" xml:space="preserve">
+    <value>Kan ej sätta agenten-lever-timeout (vid set AliveTimeout).</value>
+    <comment>(kan ikke sette timeout på å si i fra at applikasjonen er i live) I wasn&apos;t sure how you wanted this to be worded and there wasn&apos;t time to ask. I have put the English as in the column to the far left. Can you let me know if you want another suggestion)</comment>
+  </data>
+  <data name="ERR_LISTUSERPROFILENAMES" xml:space="preserve">
+    <value>Kan ej lista användarnamn i angiven användargrupp (vid listUserProfileNames).</value>
+  </data>
+  <data name="ERR_GETANSWERCALLTIME" xml:space="preserve">
+    <value>Kan ej hitta tidpunkt för samtalssvar (vid getAnswerCallTime).</value>
+  </data>
+  <data name="ERR_GETDISCONNECTCALLTIME" xml:space="preserve">
+    <value>Kan ej hitta tidpunkt för samtalsavbrott (vid getDisconnectCallTime).</value>
+  </data>
+  <data name="ERR_SETINCLUDEHOSTNAMEINTOPIC" xml:space="preserve">
+    <value>Kan ej sätta om servernamn ska vara inkluderad i ämne (vid setIncludeHostNameInTopic).</value>
+  </data>
+  <data name="ERR_GETMEDIASTATUS" xml:space="preserve">
+    <value>Kan ej hitta "mediastatus" för agent på den angivna trafikingången (vid getMediaStatus).</value>
+  </data>
+  <data name="ERR_TRANSFERCALL" xml:space="preserve">
+    <value>Kan ej överföra samtal (vid transferCall).</value>
+  </data>
+  <data name="ERR_GETCONNECTIONSTATUS" xml:space="preserve">
+    <value>Can’t find connection status for device status (during getConnectionStatus)</value>
+  </data>
+  <data name="ERR_GETMEDIASTATE" xml:space="preserve">
+    <value>Kan ej hitta trafikingångsstatus (vid getMediaState).</value>
+  </data>
+  <data name="ERR_SETTRACE" xml:space="preserve">
+    <value>Kan inte initiera trace i javabönan (vid setTrace).</value>
+  </data>
+  <data name="ERR_GETISAGENTDEVICE" xml:space="preserve">
+    <value>Kan ej hitta information om funktionsstatus är agents (vid getIsAgentDevice).</value>
+  </data>
+  <data name="ERR_GETMEDIASTATUSWITHDEVICENAME" xml:space="preserve">
+    <value>Kan ej hitta trafikingångsstatus (vid getMediaStatusWithDeviceName).</value>
+  </data>
+  <data name="ERR_GETLOGINSTATUS" xml:space="preserve">
+    <value>Kan ej hitta inloggningsstatus för trafikingång (vid getLoginStatus).</value>
+  </data>
+  <data name="ERR_GETBREAKCODETYPE" xml:space="preserve">
+    <value>Kan ej hitta frånvarodkodtyp (vid getBreakcodeType).</value>
+  </data>
+  <data name="ERR_GETWORKPLACEPROFILEWITHALIAS" xml:space="preserve">
+    <value>Kan ej hitta arbetsplats med angivet alias (vid getWorkplaceProfileWithAlias).</value>
+  </data>
+  <data name="ERR_LISTACTIVECALLSATAGENT" xml:space="preserve">
+    <value>Kan ej hitta lista över agentens aktiva samtal (vid listActiveCallsAtAgent).</value>
+  </data>
+  <data name="ERR_SETDOCOMPLETEUPDATES" xml:space="preserve">
+    <value>Kan ej sätta om statistik kommer att bli helt uppdaterad (vid setDoCompleteUpdates).</value>
+  </data>
+  <data name="ERR_GETDOCOMPLETEUPDATES" xml:space="preserve">
+    <value>Kan ikke finne ut om statistikken skal oppdateres fullstendig (ved getDoCompleteUpdates)</value>
+  </data>
+  <data name="ERR_SENDCOMMANDTOAGENT" xml:space="preserve">
+    <value>Kan ej skicka kommando till agent (during sendCommandToAgentAbout).</value>
+  </data>
+  <data name="ERR_LISTAGENTSINWORKPLACEGROUP" xml:space="preserve">
+    <value>Kan ej lista agenter i arbetsplatsgrupp (vid listAgentsInWorkplaceGroup).</value>
+  </data>
+  <data name="ERR_GETCONNECTTOVQ" xml:space="preserve">
+    <value>Kan inte hitta kögrupp som kö är kopplad till (vid getConnectToVq).</value>
+  </data>
+  <data name="ERR_LISTWORKPLACEPROFILENAMESINWORKPLACEGROUP" xml:space="preserve">
+    <value>Kan ej lista arbetsplats-ID:n i angiven arbetsplatsgrupp (vid listWorkplaceProfileNamesInWorkplaceGroup).</value>
+  </data>
+  <data name="ERR_GETAGENTLOGINSTATS" xml:space="preserve">
+    <value>Kan ej hämta intern statistik över agent (vid getAgentLoginStats).</value>
+  </data>
+  <data name="ERR_GETLASTAGENTAFTERWORKTIME" xml:space="preserve">
+    <value>Kan ej hämta tidpunkt för senaste statusförändring för efterarbete (vid getLastAgentAfterWorkTime).</value>
+  </data>
+  <data name="ERR_GETLASTAGENTNOTREADYTIME" xml:space="preserve">
+    <value>Kan ej hämta tidpunkt för senaste statusförändring för ej klar (vid getLastAgentNotReadyTime).</value>
+  </data>
+  <data name="ERR_GETLASTAGENTREADYTIME" xml:space="preserve">
+    <value>Kan ej hämta tidpunkt för senaste statusförändring för klar (vid getLastAgentReadyTime).</value>
+  </data>
+  <data name="ERR_GETTYPEFROMMEDIATYPE" xml:space="preserve">
+    <value>Kan ej hämta trafikingångstyp (vid getMediaType).</value>
+  </data>
+  <data name="ERR_GETENTERPRISENAME" xml:space="preserve">
+    <value>Kan ej hämta företagsnamn (vid getEnterpriseName).</value>
+  </data>
+  <data name="ERR_GETAGENTSTATUS" xml:space="preserve">
+    <value>Can’t get information on agent’s monitored DN (vid getAgentStatus)</value>
+  </data>
+  <data name="ERR_BEANNOTSET" xml:space="preserve">
+    <value>Javakommunikation felaktigt installerad.</value>
+  </data>
+  <data name="ERR_EXECUTETOSTRING" xml:space="preserve">
+    <value>Kan ej hämta objektsbeskrivning (vid executeToString).</value>
+  </data>
+  <data name="ERR_LISTVQS" xml:space="preserve">
+    <value>Kan ej skapa objektslista (vid ListVQS).</value>
+  </data>
+  <data name="ERR_LISTMP" xml:space="preserve">
+    <value>Kan ej skapa objektslista (vid ListMediaProfileNames).</value>
+  </data>
+  <data name="ERR_NOSUCHAGENT" xml:space="preserve">
+    <value>Ett fel uppstod (kan ej hitta agent).</value>
+  </data>
+  <data name="ERR_NOSUCHCALL" xml:space="preserve">
+    <value>Ärende kan ej hittas. Detta kan bero på att ärendestatusen har ändrats, t.ex genom ett försök att överföra till agent.</value>
+  </data>
+  <data name="ERR_TIMEOUT" xml:space="preserve">
+    <value>Kan ej utföra processen inom angiven tidsperiod.</value>
+  </data>
+  <data name="ERR_SECURITY" xml:space="preserve">
+    <value>Ett rättighetsproblem har uppstått.</value>
+  </data>
+  <data name="ERR_SERVICEDISABLED" xml:space="preserve">
+    <value>Tjänst</value>
+  </data>
+  <data name="ERR_IVRERROR" xml:space="preserve">
+    <value>Ett fel uppstod.</value>
+  </data>
+  <data name="ERR_IVRDESTBUSYERROR" xml:space="preserve">
+    <value>Destination upptagen.</value>
+  </data>
+  <data name="ERR_DESTINVALID" xml:space="preserve">
+    <value>Destination ogiltig.</value>
+  </data>
+  <data name="ERR_DISABLEDMEDIA" xml:space="preserve">
+    <value>Media ej tillgänglig.</value>
+  </data>
+  <data name="ERR_LINEBUSY" xml:space="preserve">
+    <value>Linje upptagen.</value>
+  </data>
+  <data name="ERR_MISSINGSKILL" xml:space="preserve">
+    <value>Saknar kompetens</value>
+  </data>
+  <data name="ERR_NOANSWER" xml:space="preserve">
+    <value>Inget svar.</value>
+  </data>
+  <data name="ERR_NOCONNECTION" xml:space="preserve">
+    <value>Ett fel uppstod (ingen kontakt).</value>
+  </data>
+  <data name="ERR_NOTACTIVE" xml:space="preserve">
+    <value>Ett fel uppstod (ej aktiv).</value>
+  </data>
+  <data name="ERR_NOTATTACHED" xml:space="preserve">
+    <value>Session (användare) måste vara uppkopplad (vid bifogande).</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="ERR_GETACTIVEHISTORYELMFORAGENT" xml:space="preserve">
+    <value>Kan ej hämta aktiv ärendehistorik för agent.</value>
+  </data>
+  <data name="ERR_GETACTIVEHISTORYELMWITHOUTAGENT" xml:space="preserve">
+    <value>Kan ej hämta aktiv ärendehistorik - utan agent.</value>
+  </data>
+  <data name="ERR_GETCALLHISTORY" xml:space="preserve">
+    <value>Kan ej hämta ärendehistorik.</value>
+  </data>
+  <data name="ERR_GETLASTHISTORYELM" xml:space="preserve">
+    <value>Kan ej hämta senaste historikkomponent för ärende.</value>
+  </data>
+  <data name="ERR_GETTOTALAGENTTALKTIME" xml:space="preserve">
+    <value>Kan ej hämta total tid som ärende har varit aktivt med agenter.</value>
+  </data>
+  <data name="Enterprise" xml:space="preserve">
+    <value>Företag</value>
+  </data>
+  <data name="EnterpriseName" xml:space="preserve">
+    <value>Företagsnamn</value>
+  </data>
+  <data name="ERR_CDSCALLFIELDNOTVALID" xml:space="preserve">
+    <value>Ogiltigt informationsfält</value>
+  </data>
+  <data name="In1" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="Out1" xml:space="preserve">
+    <value>Ut</value>
+  </data>
+  <data name="ActiveConferenceConsultation" xml:space="preserve">
+    <value>Aktiv konferenskonsultation</value>
+  </data>
+  <data name="ActiveConsultation" xml:space="preserve">
+    <value>Aktiv konsultation</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Active_" xml:space="preserve">
+    <value>Aktiv</value>
+    <comment>More than one activ</comment>
+  </data>
+  <data name="ActivePeriod" xml:space="preserve">
+    <value>Aktiv period</value>
+  </data>
+  <data name="EnquiryType" xml:space="preserve">
+    <value>Samtalstyp</value>
+    <comment>Like calltype ?</comment>
+  </data>
+  <data name="Finished_" xml:space="preserve">
+    <value>Avslutad</value>
+    <comment>L</comment>
+  </data>
+  <data name="StatusOnEnquiry" xml:space="preserve">
+    <value>Ärendestatus</value>
+  </data>
+  <data name="ConsultationOnConference" xml:space="preserve">
+    <value>Konsultation om konferens</value>
+  </data>
+  <data name="DirectTransfer" xml:space="preserve">
+    <value>Direktöverföring</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Avslutad</value>
+  </data>
+  <data name="InQueue" xml:space="preserve">
+    <value>I kö</value>
+  </data>
+  <data name="Lost" xml:space="preserve">
+    <value>Missat</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Ej ansluten</value>
+  </data>
+  <data name="WaitingToBeAnswered" xml:space="preserve">
+    <value>Väntar på svar</value>
+  </data>
+  <data name="Mediatype" xml:space="preserve">
+    <value>Typ av trafikingång</value>
+  </data>
+  <data name="IfEnquiryIsDirectOrThruCds" xml:space="preserve">
+    <value>Om samtal är direkt eller via ICC</value>
+  </data>
+  <data name="QueueEnquiry" xml:space="preserve">
+    <value>Kö-ärende</value>
+    <comment>Opposite to &quot;Direct&quot;</comment>
+  </data>
+  <data name="Agents" xml:space="preserve">
+    <value>Agenter</value>
+  </data>
+  <data name="CallRejectBecauseOfAbuse" xml:space="preserve">
+    <value>Samtal avvisat på grund av missbruk.</value>
+  </data>
+  <data name="CallRejected" xml:space="preserve">
+    <value>Samtal avvisat.</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+    <comment>(Or &apos;no&apos;?)</comment>
+  </data>
+  <data name="RedirectedToCallback" xml:space="preserve">
+    <value>Vidareskickat till återuppringning.</value>
+  </data>
+  <data name="RedirectedToFallbackSolution" xml:space="preserve">
+    <value>Vidareskickat till reservlösning.</value>
+  </data>
+  <data name="HideFilter" xml:space="preserve">
+    <value>Dölj filter</value>
+  </data>
+  <data name="ShowFilter" xml:space="preserve">
+    <value>Visa filter</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Dölj</value>
+  </data>
+  <data name="ShowOrHideFilter" xml:space="preserve">
+    <value>Visa/dölj filter</value>
+  </data>
+  <data name="_of" xml:space="preserve">
+    <value>av</value>
+    <comment>In english: of</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="Select_" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="ERR_CONNECTINGTOSERVER" xml:space="preserve">
+    <value>ICC-system kan ej kontaktas (nätverksproblem?).</value>
+  </data>
+  <data name="ERR_ATTACHAGENT" xml:space="preserve">
+    <value>Kan ej koppla agent till angivet arbetsplats-ID och användar-ID (vid attachAgent).</value>
+  </data>
+  <data name="ERR_DETACHAGENT" xml:space="preserve">
+    <value>Kan ej ta bort agent från uppkoppling (vid detachAgent).</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Gammalt lösenord </value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="Medias" xml:space="preserve">
+    <value>Trafikingång</value>
+    <comment>as in more media (plural is same)</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Usergroup" xml:space="preserve">
+    <value>Användargrupp</value>
+  </data>
+  <data name="Answering" xml:space="preserve">
+    <value>Svarar</value>
+  </data>
+  <data name="StatusIsWaitingActiveOrFinished" xml:space="preserve">
+    <value>Ärendestatus är väntande, aktiv eller avslutat.</value>
+  </data>
+  <data name="ExtraFields" xml:space="preserve">
+    <value>Extrafält</value>
+  </data>
+  <data name="Lost_" xml:space="preserve">
+    <value>Missat</value>
+    <comment>More than one lost enquiry</comment>
+  </data>
+  <data name="WaitingTime" xml:space="preserve">
+    <value>Väntetid</value>
+  </data>
+  <data name="ERR_NODEVICES" xml:space="preserve">
+    <value>Kan ej hitta rätt direktion</value>
+  </data>
+  <data name="ERR_SETTINGCOLOR" xml:space="preserve">
+    <value>Kan ej sätta färg</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Uppdaterar</value>
+  </data>
+  <data name="UpdatingFailed" xml:space="preserve">
+    <value>Uppdatering misslyckades.</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Använd</value>
+  </data>
+  <data name="InUse" xml:space="preserve">
+    <value>Används</value>
+  </data>
+  <data name="SelectMedia" xml:space="preserve">
+    <value>Välj trafikingång</value>
+  </data>
+  <data name="CountFound" xml:space="preserve">
+    <value>Nummer hittat</value>
+  </data>
+  <data name="SelectService" xml:space="preserve">
+    <value>Välj tjänst</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="StatusOnMediaAndServicesFor" xml:space="preserve">
+    <value>Status på trafikingång och (och tjänster) för</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="EnquiryStatus" xml:space="preserve">
+    <value>Ärendestatus</value>
+  </data>
+  <data name="ERR_AGENTNOTALLOWED" xml:space="preserve">
+    <value>Agent inloggad med ogiltig information? Fel vid skapande av lista.</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Plats</value>
+  </data>
+  <data name="Role">
+    <value>Roll</value>
+  </data>
+  <data name="StatusInCallcenter" xml:space="preserve">
+    <value>Callcenterstatus</value>
+  </data>
+  <data name="StatusOnMedia" xml:space="preserve">
+    <value>Trafikingångsstatus</value>
+  </data>
+  <data name="BusyWithEnquiry" xml:space="preserve">
+    <value>Upptagen med ärende</value>
+  </data>
+  <data name="MissingConfiguration" xml:space="preserve">
+    <value>Saknad konfiguration</value>
+  </data>
+  <data name="ERR_GETENQUIRYVALUE" xml:space="preserve">
+    <value>Kan ej hämta ärendevärde.</value>
+  </data>
+  <data name="RingANewCall" xml:space="preserve">
+    <value>Gör ett nytt samtal</value>
+  </data>
+  <data name="SendANewMail" xml:space="preserve">
+    <value>Skicka ny e-post</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+    <comment>As in IP-telephony</comment>
+  </data>
+  <data name="ERR_GETMEDIASTATEEXTENDED" xml:space="preserve">
+    <value>Kan ej hämta utökad status.</value>
+  </data>
+  <data name="InstantMessaging" xml:space="preserve">
+    <value>Snabbmeddelanden</value>
+  </data>
+  <data name="TellsIfEnquiryIsConsultation" xml:space="preserve">
+    <value>Visar om samtal är en konsultation</value>
+  </data>
+  <data name="TimeWhenTransferredToAgent" xml:space="preserve">
+    <value>Tid för överföring till agent</value>
+  </data>
+  <data name="TimeFromTransferredToAnswered" xml:space="preserve">
+    <value>Tid från överföring till svar</value>
+  </data>
+  <data name="ChatHistory" xml:space="preserve">
+    <value>Chatthistorik</value>
+  </data>
+  <data name="ERR_CDSNOTCONFIGURED" xml:space="preserve">
+    <value>Kan ej koppla till ICC samtidigt som den startas upp.</value>
+  </data>
+  <data name="ERR_GETACTIVEUSERFROMWPID" xml:space="preserve">
+    <value>Kan ej hämta användarinformation från arbetsplats-ID (vid GetActiveUserFromWpId).</value>
+  </data>
+  <data name="AgentChat" xml:space="preserve">
+    <value>Agentchatt</value>
+  </data>
+  <data name="ChatWithAgent" xml:space="preserve">
+    <value>Chatta med annan agent</value>
+  </data>
+  <data name="ERR_GETSPECIALSPTRING2" xml:space="preserve">
+    <value>Kan ej hämta information om händelse (vid getSpecialString2).</value>
+  </data>
+  <data name="IdConnectedToChatSession" xml:space="preserve">
+    <value>Identifierare för chattsession.</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chatta</value>
+  </data>
+  <data name="ERR_SENDCOMMANDTOGROUPOFAGENTS" xml:space="preserve">
+    <value>Kan ej skicka meddelande/information till agentgrupp (vid sendCommandToGroupOfAgents).</value>
+  </data>
+  <data name="ERR_CREATEMOVEMENTINFOOBJECT" xml:space="preserve">
+    <value>Kan ej skapa överföringsinformation (vid CreateCallMovementInfo).</value>
+  </data>
+  <data name="ERR_SETCDSCALL" xml:space="preserve">
+    <value>Kan ej sätta information om samtal (vid getCdsCall).</value>
+  </data>
+  <data name="ERR_SETMOVEMENTTYPE" xml:space="preserve">
+    <value>Kan ej sätta typ av överföring (vid setMovementType).</value>
+  </data>
+  <data name="ERR_ADDOTHERPARTY" xml:space="preserve">
+    <value>Kan ej lägga till information om annan deltagare (durinAddOtherParty).</value>
+  </data>
+  <data name="ERR_CREATEMOVEMENTINFOOTHERPARTY" xml:space="preserve">
+    <value>Kan ej skapa överföringsinformation om annan deltagare (vid createlMovementInfoOther Part).</value>
+  </data>
+  <data name="ERR_SETAGENTCALLMOVEMENTINFORMATION" xml:space="preserve">
+    <value>Kan ej skicka överföringsinformation (vid SetAgentCallMovementInformation).</value>
+  </data>
+  <data name="ERR_SETSERVICENAME" xml:space="preserve">
+    <value>Kan ej sätta tjänstnamn (vid SetServiceName).</value>
+  </data>
+  <data name="ERR_SETTASKID" xml:space="preserve">
+    <value>Kan ej sätta uppgiftsID (vid SetTaskId).</value>
+  </data>
+  <data name="WhoEnquiryMayBeIsTransferedTo" xml:space="preserve">
+    <value>Vem samtal kan ha överförts till</value>
+  </data>
+  <data name="ERR_HOLD" xml:space="preserve">
+    <value>Kan ej placera samtal i kö</value>
+  </data>
+  <data name="ERR_SETACCEPTOUTGOINGCALL" xml:space="preserve">
+    <value>Kan ej ta emot eller avvisa samtal (vid setAcceptOutgoingCall).</value>
+  </data>
+  <data name="TimeFromArrivalToAgentTransfer" xml:space="preserve">
+    <value>Tid från ankomst till överföring till agent</value>
+  </data>
+  <data name="ERR_LOGOUTALLVQS" xml:space="preserve">
+    <value>Kan ej logga ut ur kögrupper (vid logoutAllVqs).</value>
+  </data>
+  <data name="InformationAboutLostEnquiryThatIsHandled" xml:space="preserve">
+    <value>Information om missat samtal som har blivit behandlat.</value>
+  </data>
+  <data name="InformationAboutResponsibleAgentForLostEnquiry" xml:space="preserve">
+    <value>Information om agent ansvarig för missat samtal.</value>
+  </data>
+  <data name="ERR_GETISCONFERENCEDRESERVED" xml:space="preserve">
+    <value>Kan ej hitta om funktion är i konferens.</value>
+    <comment>(&apos;on&apos; -Englis h&apos;on&apos; - or is something missing? Can&apos;t find out  if call is in conference?)</comment>
+  </data>
+  <data name="Handled" xml:space="preserve">
+    <value>Behandlat</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Ansvarig</value>
+  </data>
+  <data name="ERR_GETNUMBEROFREADYAGENTS" xml:space="preserve">
+    <value>Kan ej hämta antal klara agenter (vid getNumberOfReadyAgents).</value>
+  </data>
+  <data name="AgentMessage" xml:space="preserve">
+    <value>Agentmeddelande</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="SendWebCamera" xml:space="preserve">
+    <value>Skicka webbkamera</value>
+  </data>
+  <data name="StartChat" xml:space="preserve">
+    <value>Starta chatt</value>
+  </data>
+  <data name="StartVideoSession" xml:space="preserve">
+    <value>Starta videosession</value>
+  </data>
+  <data name="WebCamera" xml:space="preserve">
+    <value>Webbkamera</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>Power</value>
+    <comment>as in Dialer (Power)</comment>
+  </data>
+  <data name="Predictive" xml:space="preserve">
+    <value>Predictive</value>
+    <comment>as in Dialer (Predictive)</comment>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Förhandsvisning</value>
+    <comment>as in Dialer (Preview)</comment>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Virtual" xml:space="preserve">
+    <value>Virtuell</value>
+    <comment>as in Dialer (Virtual)</comment>
+  </data>
+  <data name="Call_" xml:space="preserve">
+    <value>Ring upp</value>
+  </data>
+  <data name="ChatWith" xml:space="preserve">
+    <value>Chatta med</value>
+  </data>
+  <data name="SendDirectMessageTo" xml:space="preserve">
+    <value>Skicka direktmeddelande till</value>
+  </data>
+  <data name="SendMailTo" xml:space="preserve">
+    <value>Skicka e-post till</value>
+  </data>
+  <data name="ShowMyWebCameraTo" xml:space="preserve">
+    <value>Visa min webbkamera för</value>
+  </data>
+  <data name="SimulateCallTo" xml:space="preserve">
+    <value>Simulera ärende till</value>
+  </data>
+  <data name="StartVideoSessionWith" xml:space="preserve">
+    <value>Starta videosession med</value>
+  </data>
+  <data name="SendADirectMessage" xml:space="preserve">
+    <value>Skicka direktmeddelande </value>
+  </data>
+  <data name="StartSimulatedCall" xml:space="preserve">
+    <value>Påbörja simulerat ärende</value>
+  </data>
+  <data name="LocalDestination" xml:space="preserve">
+    <value>Lokal destination</value>
+  </data>
+  <data name="Stop_" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ActiveOtherPart" xml:space="preserve">
+    <value>Aktiva deltagare</value>
+  </data>
+  <data name="NamesAndIdsOnOtherParts" xml:space="preserve">
+    <value>Andra deltagares namn och ID</value>
+  </data>
+  <data name="Error_" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Avvisat</value>
+  </data>
+  <data name="TerminatingEnquiry" xml:space="preserve">
+    <value>Avslutar ärende</value>
+  </data>
+  <data name="TimeFromFinished" xml:space="preserve">
+    <value>Tid från avslutat ärende</value>
+  </data>
+  <data name="HasBeenConsultation" xml:space="preserve">
+    <value>Har varit konsultation</value>
+  </data>
+  <data name="TimeFromArrivalToFinished" xml:space="preserve">
+    <value>Tid mellan ankomst och avslut</value>
+  </data>
+  <data name="InformationAboutTransfering" xml:space="preserve">
+    <value>Information om överföring</value>
+  </data>
+  <data name="ERR_LISTWPIDSINQUEUE" xml:space="preserve">
+    <value>Kan ej lista agenter incheckade i kögrupper</value>
+  </data>
+  <data name="ERR_ADDAPPLDATAONUNIQUEID" xml:space="preserve">
+    <value>Kan ej lägga till applikationsdata till specifikt ID.</value>
+    <comment>(ditto)</comment>
+  </data>
+  <data name="Pob" xml:space="preserve">
+    <value>POB</value>
+  </data>
+  <data name="Crm" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="ERR_ADDPRESENCEBUDDY" xml:space="preserve">
+    <value>Kan ej lägga till vän (by AddPresenceBuddy).</value>
+  </data>
+  <data name="ERR_ATTACHALLPRESENCEUSERS" xml:space="preserve">
+    <value>Kan ej lyssna till information om vänner (by attachAllPresenceUsers).</value>
+  </data>
+  <data name="ERR_GETISBUSYONCDSCALL" xml:space="preserve">
+    <value>Kan ej se om agent är upptagen med ICC-samtal (by isBusyOncdsCall).</value>
+  </data>
+  <data name="ERR_LISTPRESENCEBUDDYLIST" xml:space="preserve">
+    <value>Kan ej lista vänner (by ListPresenceBuddyList).</value>
+  </data>
+  <data name="ERR_REMOVEPRESENCEBUDDY" xml:space="preserve">
+    <value>Kan ej ta bort vän (by RemovePresenceBuddy).</value>
+  </data>
+  <data name="ERR_SETPRESENCEUSERBUSYONCALL" xml:space="preserve">
+    <value>Kan ej informera om att agent är ledig/upptagen (by SetPresenceUserBusyOnCall).</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="ERR_LISTUSERPROFILESELECTION" xml:space="preserve">
+    <value>Kan ej lista användare genom söktext (using ListUserProfileSelection).</value>
+  </data>
+  <data name="GlobalId" xml:space="preserve">
+    <value>Globalt ID</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Återstående tid</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Skickat</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="NewContact" xml:space="preserve">
+    <value>Ny kontakt</value>
+  </data>
+  <data name="DeleteContact" xml:space="preserve">
+    <value>Radera kontakt</value>
+  </data>
+  <data name="CardDisplay" xml:space="preserve">
+    <value>Visar visitkort</value>
+  </data>
+  <data name="ShowFilter" xml:space="preserve">
+    <value>Visa filter</value>
+  </data>
+  <data name="NoContacts" xml:space="preserve">
+    <value>Inga kontakter</value>
+  </data>
+  <data name="DropColumnHereToGroup" xml:space="preserve">
+    <value>Dra och släpp kolumn här för att gruppera</value>
+  </data>
+  <data name="NoHit" xml:space="preserve">
+    <value>Ingen träff</value>
+  </data>
+  <data name="PassedBeginning" xml:space="preserve">
+    <value>Början passerad</value>
+  </data>
+  <data name="PassedEnd" xml:space="preserve">
+    <value>Slutet passerat</value>
+  </data>
+  <data name="SearchingColumn" xml:space="preserve">
+    <value>Sök i kolumn</value>
+    <comment>Searching column .....</comment>
+  </data>
+  <data name="SearchFor" xml:space="preserve">
+    <value>Sök efter</value>
+  </data>
+  <data name="DoYouReallyWantToDeleteSelectedRow" xml:space="preserve">
+    <value>Vill du verkligen radera den valda/aktiva raden?</value>
+  </data>
+  <data name="DoYouWantToPrintThisList" xml:space="preserve">
+    <value>Vill du skriva ut den här listan?</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Fråga</value>
+  </data>
+  <data name="WriteTextAndSearchUseSpecialSign" xml:space="preserve">
+    <value>Skriv in text och klicka på sök. Använd * framför text för att söka efter innehåll (inte "börjar med").</value>
+  </data>
+  <data name="contact_" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="contacts_" xml:space="preserve">
+    <value>kontakter</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="ChangeSize" xml:space="preserve">
+    <value>Ändra storlek</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Dölj</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Flytta ned</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Flytta upp</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="ShowAsATabInMainWIndow" xml:space="preserve">
+    <value>Visa som flik i huvudfönster</value>
+  </data>
+  <data name="ShowAsDockedInMainWindow" xml:space="preserve">
+    <value>Visa som integrerad i huvudfönster</value>
+  </data>
+  <data name="ShowAsStandaloneWindow" xml:space="preserve">
+    <value>Visa som eget fönster</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Stäng fönster</value>
+  </data>
+  <data name="FindContact" xml:space="preserve">
+    <value>Hitta kontakt</value>
+  </data>
+  <data name="DataGridClearButtonText" xml:space="preserve">
+    <value>&amp;Rensa</value>
+  </data>
+  <data name="DataGridSearchButtonText" xml:space="preserve">
+    <value>&amp;Sök</value>
+  </data>
+  <data name="DeleteContacts" xml:space="preserve">
+    <value>Radera kontakter</value>
+  </data>
+  <data name="EditValue" xml:space="preserve">
+    <value>Ändra värde</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resurser</value>
+  </data>
+  <data name="Skype4Business" xml:space="preserve">
+    <value>Skype for Business</value>
+  </data>
+  <data name="ClickToViewMoore" xml:space="preserve">
+    <value>Klicka för att se mer information.</value>
+  </data>
+  <data name="HereIsAllPreviousMessagesDisplayed" xml:space="preserve">
+    <value>Här visas alla tidigare meddelanden.</value>
+  </data>
+  <data name="S4BAndUserIdMismatch" xml:space="preserve">
+    <value>Skype for business sign-in-adress är inte samma som ICC användar-ID.</value>
+  </data>
+  <data name="S4BNotSignedIn" xml:space="preserve">
+    <value>Användaren är inte inloggad i Skype for business.</value>
+  </data>
+  <data name="S4BSkypeForBusinessCredentials" xml:space="preserve">
+    <value>Skype for business-inloggning</value>
+  </data>
+  <data name="S4BDomainAndUsername" xml:space="preserve">
+    <value>Domän och användarnamn</value>
+  </data>
+  <data name="S4BSavePassword" xml:space="preserve">
+    <value>Spara lösenord</value>
+  </data>
+  <data name="S4BCouldNotBeFound" xml:space="preserve">
+    <value>Skype för företag kunde inte hittas. Du måste start Skype för företag.</value>
+  </data>
+  <data name="S4BNotFound" xml:space="preserve">
+    <value>Skype för företag kunde inte hittas</value>
+  </data>
+  <data name="ERR_GETSIPURI" xml:space="preserve">
+    <value>Kan inte hämta SIP URI</value>
+  </data>
+  <data name="ERR_GETSTREAMOBJECT" xml:space="preserve">
+    <value>Kan inte hämta strömobjekt</value>
+  </data>
+  <data name="ERR_NOSUCHCOMMAND" xml:space="preserve">
+    <value>Serverkommandot finns inte</value>
+  </data>
+  <data name="ERR_NOTIFYERROR" xml:space="preserve">
+    <value>Internt serverfel</value>
+  </data>
+  <data name="ERR_ISSUEREQUESTTIMEOUT" xml:space="preserve">
+    <value>Kommando mot servern tog för lång tid</value>
+  </data>
+  <data name="ERR_CUSTOMERHUNGUP" xml:space="preserve">
+    <value>Kunden la på</value>
+  </data>
+  <data name="ConferenceToServiceNotSupported" xml:space="preserve">
+    <value>Konferans med tjänst är inte möjlig</value>
+  </data>
+  <data name="TransferDirectCallToServiceNotSupported" xml:space="preserve">
+    <value>Overföra direktsamtal till tjänst stöds inte.</value>
+  </data>
+  <data name="ERR_SAVELOGGEDENQUIRY" xml:space="preserve">
+    <value>Kunde inte spara ärende.</value>
+  </data>
+  <data name="ERR_LISTLOGGEDENQUIRIES" xml:space="preserve">
+    <value>Kunde inte ladda loggade ärenden.</value>
+  </data>
+  <data name="ERR_DELETELOGGEDENQUIRIES" xml:space="preserve">
+    <value>Kunde inte ta bort loggade ärenden.</value>
+  </data>
+  <data name="ERR_GETSHORTLIST" xml:space="preserve">
+    <value>Kunde inte ladda snabbvalslista.</value>
+  </data>
+  <data name="ERR_ICCLOGIN" xml:space="preserve">
+    <value>Kunde inte logga in i ICC. Fel användarnamn eller lösenord.</value>
+  </data>
+  <data name="ERR_SSHCONNECTION" xml:space="preserve">
+    <value>Kunde inte skapa en säkert anslutning.</value>
+  </data>
+  <data name="ERR_USERALREADYLOGGEDIN" xml:space="preserve">
+    <value>Användaren är redan inloggad som en (annan) agent.</value>
+  </data>
+  <data name="ERR_GETCONSTANTS" xml:space="preserve">
+    <value>Kan inte hämta systemkonstanter</value>
+  </data>
+  <data name="SIP_ERR_MEDIA_FAILED" xml:space="preserve">
+    <value>Kan inte sätta mediatillstånd.</value>
+  </data>
+  <data name="SIP_ERR_MISSING_INFO" xml:space="preserve">
+    <value>Information saknas för att starta IP</value>
+  </data>
+  <data name="SIP_ERR_REGISTRATION_ERROR" xml:space="preserve">
+    <value>IP-registreringsfel</value>
+  </data>
+  <data name="SIP_ERR_REGISTRATION_REJECTED" xml:space="preserve">
+    <value>IP-registrering godtogs ej.</value>
+  </data>
+  <data name="SIP_ERR_CREATE_SESSION" xml:space="preserve">
+    <value>Kan inte skapa ny session.</value>
+  </data>
+  <data name="SIP_ERR_ANSWER" xml:space="preserve">
+    <value>Kan inte besvara samtal</value>
+  </data>
+  <data name="SIP_ERR_TERMINATE" xml:space="preserve">
+    <value>Kan inte avsluta samtal</value>
+  </data>
+  <data name="SIP_ERR_FORWARD_CALL" xml:space="preserve">
+    <value>Kan inte överföra samtal</value>
+  </data>
+  <data name="SIP_ERR_HOLD" xml:space="preserve">
+    <value>Kan inte sätta samtal på paus</value>
+  </data>
+  <data name="SIP_ERR_SEND_DTMF" xml:space="preserve">
+    <value>Kan inte skicka tonvalssignaler.</value>
+  </data>
+  <data name="SIP_ERR_CANNOT_FING_SESSION" xml:space="preserve">
+    <value>Kan inte hitta samtalssession (SipCall).</value>
+  </data>
+  <data name="SIP_ERR_ILLEGAL_STATE_OPERATION" xml:space="preserve">
+    <value>Ogiltig operation för samtal i detta tillstånd.</value>
+  </data>
+  <data name="SIP_ERR_NOT_IMPLEMENTED" xml:space="preserve">
+    <value>Inte implementerat.</value>
+  </data>
+  <data name="SIP_ERR_TIMEOUT" xml:space="preserve">
+    <value>Tidsavbrott – en händelse tog för lång tid.</value>
+  </data>
+  <data name="ERR_CTCSTARTMONITORING" xml:space="preserve">
+    <value>Kan inte monitorera linjen.</value>
+  </data>
+  <data name="ERR_CTCHOLDCALL" xml:space="preserve">
+    <value>Kan inte parkera samtalet.</value>
+  </data>
+  <data name="ERR_CTCRECONNECTHELDCALL" xml:space="preserve">
+    <value>Kan inte hämta tillbaka ett parkerat samtal.</value>
+  </data>
+  <data name="ERR_CTCMAKECALL" xml:space="preserve">
+    <value>Kan inte ringa ut.</value>
+  </data>
+  <data name="ERR_CTCHANGUPCALL" xml:space="preserve">
+    <value>Kan inte lägga på aktivt samtal.</value>
+  </data>
+  <data name="ERR_CTCCONSULTATIONCALL" xml:space="preserve">
+    <value>Kan inte skapa konsultationssamtal.</value>
+  </data>
+  <data name="ERR_CTCTRANSFERCALL" xml:space="preserve">
+    <value>Kan inte overföre samtal.</value>
+  </data>
+  <data name="ERR_CTCMONITOROFF" xml:space="preserve">
+    <value>Linjen är inte monitorerad.</value>
+  </data>
+  <data name="ERR_CTCANSWERCALL" xml:space="preserve">
+    <value>Kan inte besvara samtalet.</value>
+  </data>
+  <data name="ERR_CTCCONFERENCEJOIN" xml:space="preserve">
+    <value>Kan inte sätta samtalet i konferansläge.</value>
+  </data>
+  <data name="ERR_CTCRETRIEVEHELDCALL" xml:space="preserve">
+    <value>Kan inte hämta tillbaka parkerat samtal</value>
+  </data>
+  <data name="ERR_CTCDESTBUSY" xml:space="preserve">
+    <value>Destinationen är upptagen.</value>
+  </data>
+  <data name="ERR_CTCDESTNOTOBTAINABLE" xml:space="preserve">
+    <value>Destinationen är inte tillgänglig.</value>
+  </data>
+  <data name="ERR_CTCERROR" xml:space="preserve">
+    <value>Det har uppstått ett okänt fel med telefonlinjen.</value>
+  </data>
+  <data name="ERR_CTCGENERALERROR" xml:space="preserve">
+    <value>Det har uppstått ett okänt fel med telefonin.</value>
+  </data>
+  <data name="ERR_CTCDESTINVALID" xml:space="preserve">
+    <value>Ogiltig destination.</value>
+  </data>
+  <data name="ERR_CTCGENERALTIMEOUT" xml:space="preserve">
+    <value>Det har uppstått ett fel. Kan inte utföra kommandot pga. tidsavbrott.</value>
+  </data>
+  <data name="ERR_CTCCALLNOTFOUND" xml:space="preserve">
+    <value>Kan inte hitta samtalet.</value>
+  </data>
+  <data name="ERR_CTCLINENOTFOUND" xml:space="preserve">
+    <value>Kan inte hitta telefonilinjen.</value>
+  </data>
+  <data name="ERR_CTCEVENTNOTFOUND" xml:space="preserve">
+    <value>Hittar inte händelsen.</value>
+  </data>
+  <data name="ERR_CUSTOMMENUFORMAT">
+    <value>Fel format på meny.</value>
+  </data>
+  <data name="ERR_CANNOTSEARCHCOLUMN">
+    <value>Kan inte söka i denna kolumnen. Okänt format.</value>
+  </data>
+  <data name="ERR_WORKINGONDATABASE">
+    <value>Det har uppstått ett fel med hanteringen av databasen.</value>
+  </data>
+  <data name="SIP_ERR_NOT_ALLOWED_WHEN_CONNECTED">
+    <value>Ej tillåtet efter uppkoppling.</value>
+  </data>
+  <data name="SIP_ERR_ALREADY_STARTED">
+    <value>Redan startad.</value>
+  </data>
+  <data name="SIP_ERR_REFER_FAIL">
+    <value>Fel på "SIP-referer".</value>
+  </data>
+  <data name="ERR_BREAKCODENOTLEGAL">
+    <value>Ogiltig pauskod. Ej definierad i ICC.</value>
+  </data>
+  <data name="ERR_LISTDEFAULTUSERMEDIAPROFILES">
+    <value>Fel vid listning av användarens mediaprofiler.</value>
+  </data>
+  <data name="ERR_GETVQSTATISTICS">
+    <value>Kunde inte hämta köstatistik.</value>
+  </data>
+  <data name="ERR_GETAPPLICATIONDATAOBJECT">
+    <value>Kunde inte hämta applikationsdata.</value>
+  </data>
+  <data name="ERR_IVR_TRANSFER_ONE_STEP">
+    <value>Ett fel inträffade under överföring av ett samtal.</value>
+  </data>
+  <data name="ERR_IVR_CONSULTATION">
+    <value>Ett fel inträffade under konsultation.</value>
+  </data>
+  <data name="ERR_IVR_CONSULTATIONCONFERENCE">
+    <value>Ett fel inträffade under konferanskonsultation.</value>
+  </data>
+  <data name="ERR_IVR_CONFERENCE">
+    <value>Ett fel inträffade under konferans.</value>
+  </data>
+  <data name="ERR_IVR_MAKECALL">
+    <value>Något gick fel när ett samtal skulle ringas ut.</value>
+  </data>
+  <data name="ERR_IVR_HOLD">
+    <value>Ett fel inträffade med ett parkerat samtal.</value>
+  </data>
+  <data name="ERR_IVR_ACTIVE">
+    <value>Något gick fel med ett telefonsamtal.</value>
+  </data>
+  <data name="DialPad">
+    <value>Tonvalsknappar</value>
+  </data>
+  <data name="SelectRole">
+    <value>Välj roll</value>
+  </data>
+  <data name="SelectARole">
+    <value>Välj en roll från listan</value>
+  </data>
+  <data name="Continue">
+    <value>Fortsätt</value>
+  </data>
+  <data name="ERR_GETICCOBJECT">
+    <value>Kunde inte hämta ett object från ICC.</value>
+  </data>
+  <data name="InAPhoneCall">
+    <value>I ett telefonsamtal</value>
+  </data>
+  <data name="Working">
+    <value>Arbetar</value>
+  </data>
+  <data name="Disabled">
+    <value>Ej tillgänglig</value>
+  </data>
+  <data name="ERR_INVALIDHOTKEY">
+    <value>Ogiltigt kortkommando. Måste innehålla minst en av ALT, CTRL or LWIN, eller vara en F-tangent.</value>
+  </data>
+  <data name="ChooseRole_">
+    <value>Välj en roll...</value>
+  </data>
+  <data name="ChooseARoleFromTheList_">
+    <value>Välj en roll från listan...</value>
+  </data>
+  <data name="Asupervisoriscurrentlylisteningtoyourcalls">
+    <value>En handledare ({0}) lyssnar på dina samtal.</value>
+  </data>
+  <data name="Asupervisorislisteningtothiscall">
+    <value>En handledare lyssnar på detta samtalet ({0}).</value>
+  </data>
+  <data name="Youarenolongerbeingmonitoredbyasupervisor">
+    <value>Du är inte längre övervakad av handledaren.</value>
+  </data>
+  <data name="Asupervisorrequeststolistentoyourcalls">
+    <value>En handledare ({0}) vill lyssna på dina samtal.
+Vill du acceptera?</value>
+  </data>
+  <data name="WebSocketInfoNotValid">
+    <value>Ogiltig WebSocket-info.</value>
+  </data>
+  <data name="ERR_DECODECONSTANTS">
+    <value>Kunde inte avkoda systemkonstanterna. 
+Det kan hända att din version av ICC Agent inte är kompatibel med servern du försöker logga in på.</value>
+  </data>
+</root>
