@@ -2,22 +2,27 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+
 .middle {
   margin-left: -10px;
   overflow-y: hidden;
   overflow-x: hidden;
 }
+
 header {
   font-family: "Oswald", sans-serif;
 }
+
 .table1 {
   display: flex;
   overflow-y: hidden;
   overflow-x: auto;
 }
+
 .cont {
   display: flex;
 }
+
 .enable {
   /* color: green; */
   margin: 10px;
@@ -26,6 +31,7 @@ header {
   border-radius: 10px; */
   list-style-image: url(img/SignedInVq.png);
 }
+
 .disabled {
   /* color: red; */
   margin: 10px;
@@ -34,6 +40,7 @@ header {
   border-radius: 10px; */
   list-style-image: url(img/SignedoutVq.png);
 }
+
 li:hover {
   padding: 0px 9px 9px 9px;
   border: 1px solid blue;
@@ -46,6 +53,7 @@ ul {
   font-size: 20px;
   height: 20px;
 }
+
 .tr1 {
   background-color: rgb(241, 241, 241);
   margin: -10px;
@@ -55,14 +63,17 @@ ul {
   padding-top: 6px;
   padding-right: 800px;
 }
+
 .td {
   padding: 2px;
   text-decoration: none;
   color: black;
 }
+
 .td:hover {
   background-color: rgb(131, 131, 255);
 }
+
 .tr2 {
   margin: -10px;
   margin-top: 10px;
@@ -80,15 +91,18 @@ td {
   text-align: center;
   color: rgb(155, 154, 154);
 }
+
 .border {
   border-right: 1px solid black;
   padding-right: 5px;
   padding-top: 0px;
   padding-left: 2px;
 }
+
 .nob {
   padding-left: 5px;
 }
+
 #myList {
   display: inline-block;
   width: 200px;
@@ -98,10 +112,12 @@ td {
   border-bottom: 30px rgb(0, 0, 255) solid;
   line-height: 20px;
 }
+
 img {
   position: relative;
   top: 3px;
 }
+
 .contqg {
   padding: 7px;
   position: relative;
@@ -114,7 +130,20 @@ img {
 
 .login {
   margin-top: 100px;
+  margin-bottom: 50px;
+  display: inline-block;
+  padding: 40px 0px;
+  border-bottom: 1px solid gray;
+
 }
+
+.microsoft {
+  width: 305px;
+  height: 35px;
+  background-color: white;
+  border-radius: 6px;
+}
+
 .btn {
   height: 40px;
   background-color: blue;
@@ -127,9 +156,11 @@ img {
 }
 
 .center {
-  position: relative;
   top: 100px;
+  position: relative;
+
 }
+
 .text {
   margin: 5px;
   height: 30px;
@@ -140,6 +171,11 @@ img {
 .red {
   color: red;
 }
+
 .hidden {
   display: none;
+}
+
+.forgot {
+  color: black;
 }
