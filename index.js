@@ -1,4 +1,5 @@
 //var
+var microsoft = document.getElementById("microsoft")
 var btn = document.getElementById("btn");
 var h = document.getElementById("h");
 var m = document.getElementById("m");

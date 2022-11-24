@@ -144,6 +144,10 @@ img {
   border-radius: 6px;
 }
 
+.microsoft:hover {
+  cursor: pointer;
+}
+
 .btn {
   height: 40px;
   background-color: blue;
@@ -178,4 +182,11 @@ img {
 
 .forgot {
   color: black;
+  font-size: 20px;
+  font-style:inherit;
+}
+.img{
+  position: relative;
+  top: 25px;
+  right:90px;
 }
