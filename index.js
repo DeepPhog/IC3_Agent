@@ -51,3 +51,7 @@ btn.onclick = function myfunc() {
     }
   }
 };
+// login with microsoft
+microsoft.onclick = function microsoft() {
+
+}
