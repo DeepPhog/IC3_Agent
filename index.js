@@ -53,5 +53,15 @@ btn.onclick = function myfunc() {
 };
 // login with microsoft
 microsoft.onclick = function microsoft() {
-
-}
+  //temp
+  const userAction = async () => {
+    const response = await fetch('http://example.com/movies.json', {
+      method: 'POST',
+      body: myBody, // string or object
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    const myJson = await response.json(); //extract JSON from the http response
+    // do something with myJson
+  }

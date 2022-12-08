@@ -24,6 +24,9 @@
                     <td id="td">
                         <a href="login.html" class="td"> Login</a>
                     </td>
+                    <td id="td">
+                        <input type="button" value="Test" id="test">
+                    </td>
                 </tr>
 
                 <tr class="tr2">
@@ -57,7 +60,9 @@
                     <td class="gray">
                         <div class="cont">
                             <img src="img/Phone.png" alt="#" height="20px">
-                            <div class="nob"> Answer</div>
+                            <div class="nob">
+                                <div id="answar">Answer</div>
+                            </div>
                     </td>
                     <td class="gray">
                         <div class="cont">
@@ -100,12 +105,8 @@
                     li.innerText = item;
                     list.appendChild(li);
                     li.setAttribute("class", "disabled")
-
-
                     li.onclick = function myfunc() {
                         cl = li.getAttributeNode("class").value
-                        console.log(li.innerText);
-                        console.log(cl)
                         if (cl == 'disabled') {
                             li.removeAttribute("class", "disabled")
                             li.setAttribute("class", "enable");
@@ -113,16 +114,43 @@
                             li.removeAttribute("class", "enable")
                             li.setAttribute("class", "disabled");
                         }
-
-
-
-
                     }
-
-
                 });
-
-
+                // Test answar blinking
+                var i
+                var click = false
+                var color = "black"
+                var test = document.getElementById("test")
+                var answar = document.getElementById("answar")
+                test.onclick = function test() {
+                    i = 0
+                    repeat()
+                }
+                //repeat function
+                function repeat() {
+                    var answ_class = answar.getAttribute("class")
+                    answar.onclick = function clicked() {
+                        click = true
+                    }
+                    if (click) {
+                        //Makes button gray
+                        answar.removeAttribute("class")
+                        click = false
+                    } else {
+                        if (answ_class == "green") {
+                            color = "black"
+                        } else {
+                            color = "green"
+                        }
+                        answar.setAttribute("class", color)
+                        if (++i == 6) {
+                            //Makes button gray
+                            answar.removeAttribute("class")
+                        } else {
+                            setTimeout(repeat, 1000)
+                        }
+                    }
+                }
             </script>
         </div>
         <div class="contqg"><img src="img/Vq.png" alt="#" height="15px">
